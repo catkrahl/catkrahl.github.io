@@ -13,7 +13,7 @@
 --color-6: #4a154b;
 --bg-color: #ffffff;
 --bg-color-1: #f4f4f4;
---bg-color-2: #FCF3E3;
+--bg-color-2: var(--color-2);
 --bg-color-dark: #444;
 --bg-dark-blue: #1A1D2D;
 --text-color: #333333;
@@ -795,8 +795,16 @@ ul::marker {
   background: rgb(245,245,245);
 }
 
+.bg.darkgray {
+  background-color: var(--bg-color-darkgray);
+}
+
 .bg.blue {
   background: var(--color-1);
+}
+
+.bg.green {
+  background-color: var(--color-2);
 }
 
 /* --- BG COLOR ANIMATION --- */
