@@ -14,11 +14,10 @@
 --bg-color: #ffffff;
 --bg-color-1: #f4f4f4;
 --bg-color-2: var(--color-2);
---bg-color-dark: #444;
 --bg-dark-blue: #1A1D2D;
---text-color: #333333;
+--text-color: var(--darkgray);
 --text-color-invert: #ffffff;
---dark-gray: #333333;
+--darkgray: #444;
 --border-radius-xs: 4px;
 --border-radius-sm: 8px;
 --border-radius-md: 15px;
@@ -279,7 +278,7 @@ p span.hl {
 }
 
 .font-bg.gray {
-  background-color: var(--bg-color-dark);
+  background-color: var(--darkgray);
   color: var(--text-color-invert);
 }
 
@@ -830,7 +829,7 @@ ul::marker {
 }
 
 .bg.darkgray {
-  background-color: var(--bg-color-darkgray);
+  background-color: var(--darkgray);
 }
 
 .bg.blue {
@@ -1445,7 +1444,7 @@ li.variantentext {
   padding: 55px 0;
   color: var(--text-color-invert);
   font-weight: 300;
-  background: var(--bg-color-dark);
+  background: var(--darkgray);
   font-size: 15px;
 }
 
