@@ -684,6 +684,12 @@ img.icon {
   color: var(--text-color-invert);
 }
 
+/* 
+****************************************
+--- Links
+****************************************
+*/
+
 a {
   color: var(--color-1);
 }
@@ -741,6 +747,19 @@ a:hover {
   height: 0px !important; 
   position: absolute; 
   margin: -100px;
+}
+
+/* links with icons */
+
+.link {
+  display: flex;
+}
+
+.link:before {
+  content: "\e922";
+  font-family: 'cat-icons'; 
+  font-size: 2rem;
+  padding-right: 5px;
 }
 
 /* 
