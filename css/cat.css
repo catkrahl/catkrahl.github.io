@@ -256,7 +256,7 @@ p span.hl {
 }
 
 .hero p {
-  font-size: 1.4em;
+  font-size: 1.3em;
   line-height: 1.5em;
   font-weight: 200;
 }
@@ -271,19 +271,25 @@ p span.hl {
   font-weight: 200;
 }
 
-.invert {
-  color: var(--text-color-invert);
-}
-
 .font-bg {
   background-color: var(--color-1);
+  color: var(--text-color-invert);
   padding: 5px 10px;
   margin-bottom: 1px;
 }
 
-.invert-ci {
+.font-bg.gray {
+  background-color: var(--bg-color-dark);
+  color: var(--text-color-invert);
+}
+
+.font-bg.white {
   background-color: #fff;
   color: var(--color-1);
+}
+
+.invert {
+  color: var(--text-color-invert);
 }
 
 h1 {
@@ -442,11 +448,11 @@ header {
 
 header:hover,
 .header.active {
-  background: rgba(70, 70, 70, .95);
+  background: rgba(70, 70, 70, .55);
 }
 
 .header.active {
-  top: -80px;
+  top: -105px;
 }
 
 header.sticky, .header.sticky {
@@ -458,8 +464,17 @@ header.sticky, .header.sticky {
 }
 
 .logo img {
-  height: 85px;
+  height: 105px;
   padding: 10px 0;
+}
+
+.header .nav-collapse {
+  opacity: 0;
+}
+
+.header:hover .nav-collapse {
+  opacity: 1;
+  transition: all 3s;
 }
 
 .nav-collapse a:active,
