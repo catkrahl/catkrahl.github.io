@@ -71,7 +71,7 @@
 
 .box-image {
   background-color: var(--color-1);
-  border: 2px solid #fff;
+  border: 0 solid #fff;
   box-shadow: inset 0 0 100px rgba(0,0,0,.2);
   display: flex;
   flex-direction: column;
@@ -94,7 +94,7 @@
   top: 0;
   left: 0;
   opacity: 0;
-  background-color: var(--dark-gray);
+  background-color: var(--darkgray);
 }
 
 /* hover opacity image-overlay */

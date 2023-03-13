@@ -273,6 +273,7 @@ p span.hl {
 .font-bg {
   background-color: var(--color-1);
   color: var(--text-color-invert);
+  display: table; /* important for line wrapping */
   padding: 5px 10px;
   margin-bottom: 1px;
 }
@@ -399,8 +400,13 @@ h5 {
 .bg-2 {
   background: var(--bg-color-2);
 }
+
 .bg-3 {
   background: var(--bg-color-3);
+}
+
+.bg-offset-darkgray {
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(68,68,68,1) 0%, rgba(68,68,68,1) 80%, rgba(255,255,255,1) 80%);
 }
 
 .bg.overlay {
@@ -904,33 +910,6 @@ ul::marker {
   margin-bottom: 1em;
 }
 
-/* 
-****************************************
- --- Modul- Alle
-****************************************
-*/
-
-span.line {
-  height: 0;
-  margin: 0;
-}
-
-[data-anchorjs-icon]::after {
-  content:none;
-}
-
-/* 
-****************************************
- --- MODUL-Info
-****************************************
-*/
-
-.info {
-  background-image: url('../images/banner-bg-logo.png');
-  background-position: bottom right;
-  background-size: 40%;
-  background-repeat: no-repeat;
-}
 
 /* 
 ****************************************
@@ -943,200 +922,12 @@ span.line {
   height: auto !important;
 }
 
-/* 
-****************************************
- --- MODUL-Workflow
-****************************************
-*/
-
-.workflow {
-  /* background-image: url("../images/caterundum-service-61efc736.png"); */
-  background-size: 26%;
-  background-repeat: no-repeat;
-  background-position: 1em 2em;
-}
-
-
-/* 
-****************************************
- --- MODUL-Contact
-****************************************
-*/
-
-.cat-logo {
-  max-height: 50px;
-  margin-bottom: 1em;
-}
-
-.contact-link {
-  color: var(--color-1);
-}
-
-.contact-icon {
-  margin-right: 0.5em;
-}
-
-/* 
-****************************************
- --- MODUL-Testimonials
-****************************************
-*/
-
-.testimonials {
-  background-image: url("../images/home-banner-bg-screens.png");
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-.testimonial-text {
-  font-style: italic;
-}
-
-.testimonial-user {
-  font-weight: 600;
-}
-
-/* 
-****************************************
- --- Modul- Services
-****************************************
-*/
-
-.feature-image img {
-  width: 100%;
-}
-
-.featuring .row-1,
-.featuring .row-3,
-.featuring .row-5,
-.featuring .row-7,
-.featuring .row-9,
-.featuring .row-11,
-.featuring .row-13,
-.featuring .row-15 {
-  flex-direction: row-reverse;
-}
-
-.feature-image-1 {
-  text-align: center;
-}
-
-.feature-image-1 img {
-  width: auto;
-  max-height: 450px;
-}
-
-/* 
-****************************************
- --- Modul- Services
-****************************************
-*/
-
-.services {
-  background: var(--bg-color-2);
-  color: var(--text-color);
-}
-.services h3 {
-  font-size: 15px;
-  color: var(--text-color);
-  line-height: 1.5;
-}
-
-.divbutton {
-  text-align: center;
-  display: block;
-}
-.services-button {
-  width: 200px;
-  height: 50px;
-  line-height: 50px;
-  border-radius: var(--border-radius-xl);
-  background: var(--color-1);
-  display:inline-block;
-  font-size: 1px;
-  color: var(--text-color-invert);
-  margin:  auto 0px;
-  margin-top: 20px ;
-  font-weight: 300;
-  font-size: 13px;
-  text-transform: none;
-  text-align: center;
-}
-
-.services a:hover{
-  background:#fff; 
-  color: var(--text-color);
-  transition:all 0.4s;}
-
-
-/* 
-****************************************
- --- Modul- CTA 2, 3 & About
-****************************************
-*/
-
-.cta2 a , .cta3 a, .button {
-  visibility: hidden;
-}
-
-video {
-  cursor: pointer;
-  width:100%;
-}
-
-.video p {
-  visibility: hidden;
-}
-
-
-/* 
-****************************************
- --- Modul- cta1
-****************************************
-*/
-
-.joinnow {
-  background: var(--bg-color-2);
-  text-align: center;
-}
-
-.joinnow h2 {
-  color: var(--color-1);
-  text-transform: none;
-}
-
-.joinnow a {
-  width: auto;
-  height: 50px;
-  padding: 0 2.5em;
-  line-height: 50px;
-  border-radius: var(--border-radius-xl);
-  background: var(--color-1);
-  display: inline-block;
-  color: var(--text-color-invert);
-  margin: auto;
-  font-weight: 300;
-  font-size: var(--font-size-base);
-  text-transform: none;
-  text-align: center;
-}
-
-.joinnow a:hover{
-  background: var(--color-1); 
-  transition:all 0.4s;}
 
 /* 
 ****************************************
  ---- INTERVIEWS
 ****************************************
 */
-
-.card-wrapper {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: row;
-}
 
 .card {
   background-color: var(--bg-color);
@@ -1145,7 +936,22 @@ video {
   height: 490px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   overflow: hidden;
+  position: relative;
+}
+
+.card-bg {
+  background-color: var(--bg-color);
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.card.shadow {
+  box-shadow: 0 0 3px rgba(50,50,50,.2);
 }
 
 .card-dim {
@@ -1153,14 +959,12 @@ video {
   opacity: .5;
 }
 
-.card-inner {
+.card-content {
   display: flex;
   flex-grow: 1;
   flex-direction: column;
-}
-
-.card-info {
-
+  justify-content: center;
+  z-index: 2;
 }
 
 .card-img {
@@ -1178,7 +982,29 @@ video {
   color: var(--text-color);
   padding: 40px;
   margin: 5px;
+}
 
+.card .font-bg {
+  padding: 0 10px;
+}
+
+/* card-slider demo nav */
+.card-slider {
+  position: relative;
+}
+
+.card-slider .page-nav {
+  position: absolute;
+  top: 50%;
+  z-index: 3;
+}
+
+.card-slider .page-nav.back {
+  left: 20px;
+}
+
+.card-slider .page-nav.forward {
+  right: 20px;
 }
 
 /* 
