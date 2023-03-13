@@ -117,30 +117,36 @@
 .fill-box:hover span,
 .fill-box:focus span {
   transform: scale(1);
-  opacity: 1;
+  opacity: .9;
   transition: all .6s;
 }
 
 .box-image span.title,
 .box-image span.text {
-  color: var(--text-color-invert);
+  color: var(--color-1);
   padding: 5px 20px;
 }
 
 .box-image span.title.bg,
 .box-image span.text.bg { 
-  background-color: var(--color-4);
+  background-color: var(--color-1);
 }
 
-
-
-.box-image span.title {
-  font-size: 1.5rem;
-  font-weight: 700;
+.box-image span.title.bg { 
+  background-color: var(--bg-color);
 }
 
 .box-image span.text {
-  font-size: 1rem;
+  color: var(--text-color-invert);
+}
+
+.box-image span.title {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.box-image span.text {
+  font-size: .9rem;
   font-weight: 300;
   margin-top: 2px;
 }
