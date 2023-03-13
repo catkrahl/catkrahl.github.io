@@ -929,6 +929,11 @@ ul::marker {
 ****************************************
 */
 
+.card-wrapper:hover .card-bg {
+  transform: scale(1.03);
+  transition: all .3s;
+}
+
 .card {
   background-color: var(--bg-color);
   background-size: cover;
