@@ -925,13 +925,14 @@ ul::marker {
 
 /* 
 ****************************************
- ---- INTERVIEWS
+ ---- cards
 ****************************************
 */
 
 .card-wrapper:hover .card-bg {
   transform: scale(1.03);
   transition: all .3s;
+  filter: saturate(1);
 }
 
 .card {
@@ -949,14 +950,16 @@ ul::marker {
 .card-bg {
   background-color: var(--bg-color);
   background-size: cover;
+  box-shadow: inset 0 0 100px rgba(0,0,0,.2);
   height: 100%;
   position: absolute;
+  filter: saturate(0.85);
   width: 100%;
   z-index: 1;
 }
 
 .card.shadow {
-  box-shadow: 0 0 3px rgba(50,50,50,.2);
+  box-shadow: 0 0 3px rgba(50,50,50,0);
 }
 
 .card-dim {
