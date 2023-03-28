@@ -175,6 +175,10 @@
   position: relative;
 }
 
+.full_screen.small {
+  max-height: 50vh;
+}
+
 .full_screen_video {
   position: absolute;
   top: 0px;
@@ -278,6 +282,16 @@ p span.hl {
   margin-bottom: 1px;
 }
 
+.font-bg.color-2 {
+  background-color: var(--color-2);
+  color: var(--text-color-invert);
+}
+
+.font-bg.color-4 {
+  background-color: var(--color-4);
+  color: var(--text-color-invert);
+}
+
 .font-bg.gray {
   background-color: var(--darkgray);
   color: var(--text-color-invert);
@@ -285,7 +299,7 @@ p span.hl {
 
 .font-bg.white {
   background-color: #fff;
-  color: var(--color-1);
+  color: var(--text-color);
 }
 
 .invert {
@@ -403,6 +417,14 @@ h5 {
 
 .bg-3 {
   background: var(--bg-color-3);
+}
+
+.bg-4 {
+  background: var(--color-4);
+}
+
+.color-4 {
+  color: var(--color-4);
 }
 
 .bg-offset-darkgray {
@@ -946,6 +968,12 @@ ul::marker {
   justify-content: center;
   overflow: hidden;
   position: relative;
+}
+
+.card.circle {
+  border-radius: 50%;
+  height: 360px;
+  width: 360px;
 }
 
 .card-bg {
