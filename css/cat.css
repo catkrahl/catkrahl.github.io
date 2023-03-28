@@ -96,6 +96,92 @@
   font-style:normal;
 }
 
+
+/* 
+****************************************
+  COLOR SETUP
+****************************************
+*/
+
+h1,
+h2 {
+  color: var(--color-1);
+}
+
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-color);
+}
+
+.bg {
+  background: #ffffff;
+}
+
+.bg-color-1 {
+  background: var(--bg-color-1);
+}
+
+.bg-color-2 {
+  background: var(--bg-color-2);
+}
+
+.bg-color-3 {
+  background: var(--bg-color-3);
+}
+
+.bg-color-4 {
+  background: var(--color-4);
+}
+
+.color-1 {
+  color: var(--color-1);
+}
+
+.color-2 {
+  color: var(--color-2);
+}
+
+.color-4 {
+  color: var(--color-4);
+}
+
+.bg-offset-darkgray {
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(68,68,68,1) 0%, rgba(68,68,68,1) 80%, rgba(255,255,255,1) 80%);
+  padding-bottom: 30px;
+}
+
+.font-bg {
+  background-color: var(--color-1);
+  color: var(--text-color-invert);
+}
+
+.font-bg.color-2 {
+  background-color: var(--color-2);
+}
+
+.font-bg.color-3 {
+  background-color: var(--color-2);
+}
+
+.font-bg.color-4 {
+  background-color: var(--color-4);
+}
+
+.font-bg.gray {
+  background-color: var(--darkgray);
+}
+
+.font-bg.white {
+  background-color: #fff;
+  color: var(--text-color);
+}
+
+.invert {
+  color: var(--text-color-invert);
+}
+
 /* 
 ****************************************
 --- ENABLE ANIMATIONS
@@ -242,7 +328,6 @@ h4,
 h5,
 h6 {
   font-weight: 200;
-  color: var(--color-1);
   margin: 0;
   margin-bottom: .4em;
 }
@@ -275,35 +360,10 @@ p span.hl {
 }
 
 .font-bg {
-  background-color: var(--color-1);
   color: var(--text-color-invert);
   display: table; /* important for line wrapping */
   padding: 5px 10px;
   margin-bottom: 1px;
-}
-
-.font-bg.color-2 {
-  background-color: var(--color-2);
-  color: var(--text-color-invert);
-}
-
-.font-bg.color-4 {
-  background-color: var(--color-4);
-  color: var(--text-color-invert);
-}
-
-.font-bg.gray {
-  background-color: var(--darkgray);
-  color: var(--text-color-invert);
-}
-
-.font-bg.white {
-  background-color: #fff;
-  color: var(--text-color);
-}
-
-.invert {
-  color: var(--text-color-invert);
 }
 
 h1 {
@@ -403,35 +463,6 @@ h5 {
 ****************************************
 */
 
-.bg {
-  background: #ffffff;
-}
-
-.bg-1 {
-  background: var(--bg-color-1);
-}
-
-.bg-2 {
-  background: var(--bg-color-2);
-}
-
-.bg-3 {
-  background: var(--bg-color-3);
-}
-
-.bg-4 {
-  background: var(--color-4);
-}
-
-.color-4 {
-  color: var(--color-4);
-}
-
-.bg-offset-darkgray {
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(68,68,68,1) 0%, rgba(68,68,68,1) 80%, rgba(255,255,255,1) 80%);
-  padding-bottom: 30px;
-}
-
 .bg.overlay {
   background-color: transparent;
   position: relative;
@@ -474,10 +505,13 @@ header {
 	box-shadow: 3px 1px 0.99px 0.01px rgba(0, 0, 0, 0);
 }
 
-header:hover,
+/* deactivated header-hover */
+/*
+header:hover-color,
 .header.active {
   background: rgba(70, 70, 70, .55);
 }
+*/
 
 .header.active {
   top: -105px;
