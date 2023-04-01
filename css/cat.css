@@ -979,6 +979,49 @@ ul::marker {
   height: auto !important;
 }
 
+/* 
+****************************************
+ ---- SWIPER
+****************************************
+*/
+
+.swiper-slide{
+  padding: 40px 0;
+}
+
+/* nav btns */
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: rgba(50,50,50,.6);
+  border-radius: var(--border-radius-sm);
+  color: #fff;
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3px;
+  height: 60px;
+  width: 60px;
+  transition: all .5s;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: rgba(50,50,50,.9);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after{
+  content: "\e928";
+  font-family: 'cat-icons'; 
+  font-size: 2rem;
+  transform: rotate(270deg);
+}
+
+.swiper-button-prev:after{
+  transform: rotate(90deg);
+}
 
 /* 
 ****************************************
