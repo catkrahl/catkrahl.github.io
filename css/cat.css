@@ -514,20 +514,38 @@ header:hover-color,
 */
 
 .header.active {
-  top: -105px;
+  top: -155px;
 }
 
 header.sticky, .header.sticky {
-  background: rgba(255, 255, 255, .95);
+  background: rgba(255, 255, 255, 0);
 }
 
 .logo {
-  padding: 0;
+  background-color: rgba(255,255,255,0);
+  box-shadow: 0 0 150px rgba(0,0,0.9);
+  border-radius: 100%;
+  float: none;
+  position: absolute;
+  top: -380px;
+  right: -280px;
+  height: 500px;
+  width: 500px;
+}
+
+.logo a {
+  top: 390px;
+  position: absolute;
+  left: 80px;
 }
 
 .logo img {
   height: 105px;
   padding: 10px 0;
+}
+
+.logo a:after {
+  background: rgba(255, 255, 255, .3);
 }
 
 .header .nav-collapse {

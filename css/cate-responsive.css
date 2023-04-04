@@ -36,12 +36,6 @@
     }
 
     /* navigation */
-    .logo {
-        height: 55px;
-    }
-    .logo a img {
-        height: 30px;
-    }
     .metabar.flex {
         display: block;
     }
