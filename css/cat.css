@@ -1072,6 +1072,7 @@ ul::marker {
   padding: 10px 50px;
 }
 
+/* cat logo background
 .bubble-content::after {
   content:"";
   background-image: url(../images/logo-weiss-typo.svg);
@@ -1084,9 +1085,32 @@ ul::marker {
   height: 100%;
   width: 100%;
 }
+*/
+
+.bubble-content:after {
+  background-image: url(../images/icons/ico_management.svg);
+  background-position: 50% 27%;
+  background-repeat: no-repeat;
+  background-size: 47%;
+  content:"";
+  display: block;
+  opacity: .5;
+  filter: invert(1);
+  height: 100%;
+  width: 100%;
+}
+
+.bubble-content.col-2::after {
+  background-image: url(../images/icons/ico_content.svg);
+}
+
+.bubble-content.col-3::after {
+  background-image: url(../images/icons/ico_beratung.svg);
+}
 
 .bubble-info {
-  margin-top: 110px;
+  top: 56%;
+  position: absolute;
 }
 
 .bubble-bg-1 {
