@@ -527,16 +527,16 @@ header.sticky, .header.sticky {
   border-radius: 100%;
   float: none;
   position: absolute;
-  top: -380px;
-  right: -280px;
-  height: 500px;
-  width: 500px;
+  top: -1410px;
+  right: -820px;
+  height: 1500px;
+  width: 1500px;
 }
 
 .logo a {
-  top: 390px;
+  top: 1430px;
   position: absolute;
-  left: 80px;
+  left: 550px;
 }
 
 .logo img {
