@@ -342,13 +342,19 @@
                         </ul>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h4 class="invert">Kontakt</h3>
+                        <h4 class="invert">{{ columns[1].title }}</h3>
                         <ul style="list-style-type:none;padding:0px;">
-                            <li><a href="http://www.concepts-and-training.de" target="_blank">CaT Concepts and Training GmbH</a></li>
-                            <li>Vorgebirgstraße 338</li>
-                            <li>50969 Köln</li>
-                            <li><img class="contact-icon" title="cate_kontakt_telefon" alt="cate_kontakt_telefon" src="images/cate_kontakt_telefon.png" /> <a href="tel:{{contact_settings.generic_telno}}" class="contact-link">+49 221 46 75 76 0</a></li>
-                            <li><a href="mailto:{{contact_settings.generic_recipient}}"><img class="contact-icon" title="cate_kontakt_mail" alt="cate_kontakt_mail" src="images/cate_kontakt_mail.png" />info@concept-and-training.de</a></li>
+                            <li><a href="http://www.concepts-and-training.de" target="_blank">{{ columns[1].labels.cat }}</a></li>
+                            <li>{{ columns[1].labels.street }}</li>
+                            <li>{{ columns[1].labels.city }}</li>
+                            <li>{{ columns[1].labels.country }}</li>
+                            <li><img class="contact-icon" title="cate_kontakt_telefon" alt="cate_kontakt_telefon" src="{{ folder }}images/cate_kontakt_telefon.png" /> <a href="tel:{{contact_settings.generic_telno}}" class="contact-link">{{contact_settings.generic_telno}}</a></li>
+                            <li><a href="mailto:{{contact_settings.generic_recipient}}"><img class="contact-icon" title="cate_kontakt_mail" alt="cate_kontakt_mail" src="{{ folder }}images/cate_kontakt_mail.png" />{{contact_settings.generic_recipient}}</a></li>
+                            <li class="social-icon">
+                                <a href="http://www.concepts-and-training.de"><img title="Concepts and Training GmbH" alt="Concepts and Training GmbH" src="{{ folder }}images/social/sphere.svg" /></a>
+                                <a href="https://www.linkedin.com/company/cat-concepts-and-training-gmbh/"><img title="LinkedIn" alt="LinkedIn" src="{{ folder }}images/social/linkedin.svg" /></a>
+                                <a href="https://www.xing.com/pages/catconceptsandtraininggmbh"><img title="Xing" alt="Xing" src="{{ folder }}images/social/xing.svg" /></a>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4">
