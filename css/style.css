@@ -82,11 +82,7 @@ header.sticky,
 header a.logo img {
 	display: block;
 }
-.logo {
-	width: 30%;
-	float: left;
-	padding: 25px 0;
-}
+
 nav {
 	width: 70%;
 	float: left;

@@ -522,21 +522,17 @@ header.sticky, .header.sticky {
 }
 
 .logo {
-  background-color: rgba(255,255,255,0);
-  box-shadow: 0 0 150px rgba(0,0,0.3);
-  border-radius: 100%;
-  float: none;
   position: absolute;
-  top: -1410px;
-  right: -820px;
-  height: 1500px;
-  width: 1500px;
+  right: 40px;
+  top: 20px;
 }
 
 .logo a {
-  top: 1430px;
-  position: absolute;
-  left: 550px;
+
+}
+
+.logo a:after {
+  background: rgba(255, 255, 255, .3);
 }
 
 .logo img {
@@ -544,8 +540,16 @@ header.sticky, .header.sticky {
   padding: 10px 0;
 }
 
-.logo a:after {
-  background: rgba(255, 255, 255, .3);
+.logo-bg {
+  background-color: rgba(255,255,255,.8);
+  box-shadow: 0 0 150px rgba(0,0,0,.5);
+  border-radius: 100%;
+  float: none;
+  position: absolute;
+  top: -1418px;
+  right: -790px;
+  height: 1500px;
+  width: 1500px;
 }
 
 .header .nav-collapse {
@@ -1107,12 +1111,12 @@ ul::marker {
 
 .bubble-content:after {
   background-image: url(../images/icons/ico_management.svg);
-  background-position: 50% 27%;
+  background-position: 50% 21%;
   background-repeat: no-repeat;
-  background-size: 47%;
+  background-size: 35%;
   content:"";
   display: block;
-  opacity: .5;
+  opacity: .3;
   filter: invert(1);
   height: 100%;
   width: 100%;
