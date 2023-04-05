@@ -1544,6 +1544,24 @@ footer a:hover {
   color: var(--color-2);
 }
 
+
+/* ------------------------------------------
+ --- social icons
+--------------------------------------------- */
+.social-icon {
+  margin-top: 5px;
+}
+
+.social-icon a{
+  margin-right: 10px;
+}
+
+.social-icon img {
+  filter: invert(1);
+  height: 22px;
+}
+
+
 /* 
 ****************************************
  --- Buttons unsichtbar machen
