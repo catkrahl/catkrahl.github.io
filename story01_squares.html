@@ -106,41 +106,53 @@
         </div>
     </div>
 
-    <div id="images" class="bg bg-offset-darkgray">
+    <div id="images" class="bg lightgray">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-offset-2 col-lg-8">
+                <div class="col-sm-12 col-md-12 col-lg-12">
                 
-                    <!-- project collection demo-->
-                    <div class="swiper imageSwiper">
-                            
-                        <div class="swiper-wrapper">
+                <!-- project collection demo-->
+                <div class="media-collection">
+                    <!--  col 1 -->
+                    <div class="media-square">
+                        <div class="media-inner">
 
-                            <!-- card 1-->
-                            <div class="swiper-slide">
-                                <a href="story01-1.html">
-                                    <div class="swiper-image" style="background-image: url('./images/studio001.jpg');"></div>
-                                </a>
-                            </div>
-                            
-                            <div class="swiper-slide">
-                                <a href="story01-2.html">
-                                    <div class="swiper-image" style="background-image: url('./images/studio003.jpg');"></div>
-                                </a>
+                            <div class="media-oblong">
+                                <div class="fill-box box-over-trigger case_study">
+                                    <div class="box-image center" style="background-image: url('./images/studio001.jpg')">
+                                        <span class="text">mehr Informationen</span>
+                                    </div>
+                                    <div class="box-dim"></div>
+                                    <a class="box-link enlarge" href="story01-2.html"></a>
+                                </div>
                             </div>
 
-                            <div class="swiper-slide">
-                                <a href="story01-3.html">
-                                    <div class="swiper-image" style="background-image: url('./images/studio002.jpg');"></div>
-                                </a>
+                            <div class="media-oblong">
+                                <div class="fill-box box-over-trigger case_study">
+                                    <div class="box-image center" style="background-image: url('./images/studio003.jpg')">
+                                        <span class="text">mehr Informationen</span>
+                                    </div>
+                                    <div class="box-dim"></div>
+                                    <a class="box-link enlarge" href="story01-3.html"></a>
+                                </div>
                             </div>
+
                         </div>
+                    </div>
 
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-pagination"></div>
+                    <!-- col 2-->
+                    <div class="media-square">
+                        <div class="fill-box box-over-trigger case_study"> 
+                            <div class="box-image center" style="background-image: url('./images/studio002.jpg')">
+                                <span class="text">mehr Infomationen</span>
+                            </div>
+                            <div class="box-dim"></div>
+                            <a class="box-link enlarge" href="story01-1.html" target="_self"></a>
+                        </div>
                     </div>
                 </div>
+
+                <div class="clear-float"></div>
             </div>
         </div>
     </div>
@@ -199,47 +211,10 @@
             </div>
         </div>
     </footer>
-
+    
     <script src="jquery/jquery-2.x.min.js"></script>
     <script src="js/fixed-responsive-nav.js"></script>
-    <!-- swiper JS-->
-    <script src="js/swiper-bundle.min.js"></script>
-
-    <!-- swiper config -->
-    <script>
-        var swiper = new Swiper(".imageSwiper", {
-            slidesPerView: 1,
-            centeredSlides: true,
-            spaceBetween: 10,
-            slidesPerGroupSkip: 1,
-            keyboard: {
-                enabled: true,
-            },
-            breakpoints: {
-                769: {
-                slidesPerView: 1,
-                slidesPerGroup: 1,
-                },
-                990: {
-                slidesPerView: 1,
-                slidesPerGroup: 1,
-                },
-            },
-            scrollbar: {
-                el: ".swiper-scrollbar",
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-                dynamicBullets: "true",
-            },
-        });
-
-    </script>
+    <script src="js/jquery.bxslider.js"></script>
 
     <script>
         $(function() {
@@ -253,6 +228,7 @@
             });
         });
     </script>
+    <!-- <script src="https://player.vimeo.com/api/player.js"></script> -->
     
 </body>
 </html>

@@ -1009,6 +1009,12 @@ ul::marker {
   padding: 40px 0;
 }
 
+.swiper-image{
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  height: 450px;
+}
 /* nav btns */
 
 .swiper-button-next,
@@ -1021,8 +1027,8 @@ ul::marker {
   align-items: center;
   justify-content: center;
   margin-bottom: 3px;
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   transition: all .5s;
 }
 
@@ -1035,12 +1041,24 @@ ul::marker {
 .swiper-button-prev:after{
   content: "\e928";
   font-family: 'cat-icons'; 
-  font-size: 2rem;
+  font-size: 1.5rem;
   transform: rotate(270deg);
 }
 
 .swiper-button-prev:after{
   transform: rotate(90deg);
+}
+
+.swiper-pagination-bullet {
+  background: var(--bg-color);
+  opacity: .5;
+  height: 12px;
+  width: 12px;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--bg-color);
+  opacity: 1;
 }
 
 /* 

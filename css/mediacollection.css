@@ -131,17 +131,18 @@
 .box-image span.title.bg,
 .box-image span.text.bg { 
   background-color: var(--bg-color);
+  box-shadow: 0 0 35px rgba(0,0,0,.2);
 }
 
 .box-image span.title {
-  font-size: 1.5rem;
-  font-weight: 200;
+  font-size: 1.1rem;
+  font-weight: 700;
 }
 
 .box-image span.text {
   font-size: .9rem;
   font-weight: 300;
-  margin-top: 2px;
+  margin-top: 0;
 }
 
 /* end image zoom */
