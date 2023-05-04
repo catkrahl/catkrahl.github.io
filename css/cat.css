@@ -532,7 +532,21 @@ header.sticky, .header.sticky {
 }
 
 .logo a:after {
-  background: rgba(255, 255, 255, .3);
+  background: var(--color-1);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  content: "\e93d";
+  font-family: 'cat-icons';
+  font-size: 21px;
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 106vh;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4px;
 }
 
 .logo img {
@@ -1127,7 +1141,7 @@ ul::marker {
 */
 
 .bubble-content:after {
-  background-image: url(../images/icons/ico_management.svg);
+  background-image: url();
   background-position: 50% 21%;
   background-repeat: no-repeat;
   background-size: 35%;
@@ -1140,11 +1154,11 @@ ul::marker {
 }
 
 .bubble-content.col-2::after {
-  background-image: url(../images/icons/ico_content.svg);
+  background-image: url();
 }
 
 .bubble-content.col-3::after {
-  background-image: url(../images/icons/ico_beratung.svg);
+  background-image: url();
 }
 
 .bubble-info {
