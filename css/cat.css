@@ -1034,9 +1034,18 @@ ul::marker {
 }
 /* nav btns */
 
+/* position outside swiper container */
+.swiper-button-prev {
+  left: -50px;
+}
+
+.swiper-button-next {
+  right: -50px;
+}
+
 .swiper-button-next,
 .swiper-button-prev {
-  background-color: rgba(50,50,50,.6);
+  background-color: rgba(150,150,150,.3);
   border-radius: var(--border-radius-sm);
   color: #fff;
   display: flex;
