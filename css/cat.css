@@ -558,7 +558,7 @@ header.sticky, .header.sticky {
 }
 
 .logo-bg {
-  background-color: rgba(255,255,255,.8);
+  background-color: rgba(255,255,255,.5);
   box-shadow: 0 0 150px rgba(0,0,0,.5);
   border-radius: 100%;
   float: none;
