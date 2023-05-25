@@ -1,0 +1,127 @@
+.grid {
+
+}
+
+.grid01 {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "col1 col1 col2-sq1 col2-sq2"
+      "col1 col1 col2-rect col2-rect";
+  }
+  
+  .col {
+    position: relative;
+  }
+
+  .col1 { grid-area: col1; height: 50vw}
+  
+  .col2-sq1 { grid-area: col2-sq1; }
+  
+  .col2-sq2 { grid-area: col2-sq2; }
+  
+  .col2-rect { grid-area: col2-rect; }
+
+
+  .fill-box {
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .box-image {
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    border: 0px solid #fff;
+  }
+  
+  /* 
+  * https://css-tricks.com/zooming-background-images/ 
+  */
+  
+  .fill-box:hover .box-image {
+    transform: scale(1.05);
+    transition: all .7s;
+  }
+  
+  .box-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box-image::before {
+    content: "";
+    /* display: none; */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: var(--color-1);
+  }
+  
+  .fill-box:hover .box-image:before,
+  .fill-box:focus .box-image:before {
+    /* display: block; */
+    opacity: .85;
+    transition: all .7s;
+  }
+  
+  .box-image span {
+    color: white;
+    opacity: 0;
+    font-family: inherit;
+    padding-bottom: 5px;
+    transform: scale(1.3);
+    z-index: 1;
+  }
+  
+  .fill-box:hover span,
+  .fill-box:focus span {
+    transform: scale(1);
+    opacity: .85;
+    transition: all .6s;
+  }
+  
+   .box-image span.title {
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 900;
+  }
+  
+   .box-image span.text {
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
+  
+  
+  
+  /* end image zoom */
+  
+   .box-dim {
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: .1;
+  }
+  
+  
+   .box-link {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
