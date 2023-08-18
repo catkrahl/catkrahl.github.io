@@ -1,0 +1,12 @@
+@use './color' as *;
+
+// type settings
+$text-color: $darkgray;
+$text-color-invert: #ffffff;
+
+$font-size: 16px;
+$line-height: 1.5rem;
+
+$font-weight-headline: 200;
+$font-weight-text: 300;
+$font-weight-hl: 400;

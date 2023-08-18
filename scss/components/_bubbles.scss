@@ -1,0 +1,93 @@
+@use '../abstracts/' as *;
+
+// bubbles
+
+.bubble-wrapper:hover .bubble {
+  transform: scale(1.03);
+  transition: all .3s;
+  filter: saturate(1);
+}
+
+.bubble {
+  background-color: $bg-color;
+  background-size: cover;
+  border-radius: $border-radius-sm;
+  height: 490px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.bubble {
+  border-radius: 50%;
+  box-shadow: 20px 20px 50px rgba(0,0,0,.5);
+  height: 360px;
+  width: 360px;
+}
+
+.bubble .font-bg {
+  box-shadow: 10px 10px 50px rgba(0,0,0,0);
+  padding: 10px 50px;
+}
+
+.bubble-content:after {
+  background-image: url();
+  background-position: 50% 21%;
+  background-repeat: no-repeat;
+  background-size: 35%;
+  content:"";
+  display: block;
+  opacity: .3;
+  filter: invert(1);
+  height: 100%;
+  width: 100%;
+}
+
+.bubble-content.col-2::after {
+  background-image: url();
+}
+
+.bubble-content.col-3::after {
+  background-image: url();
+}
+
+.bubble-info {
+  top: 50%;
+  position: absolute;
+}
+
+.bubble-info .font-bg {
+  background-color: rgba(255,255,255,.8);
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.bubble-bg-1 {
+  background-color: $color-1;
+}
+
+.bubble-bg-2 {
+  background-color: $color-2;
+}
+
+.bubble-bg-4 {
+  background-color: $color-4;
+}
+
+.bubble.shadow {
+  box-shadow: 0 0 3px rgba(50,50,50,0);
+}
+
+.bubble-content {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+}
+
+.bubble-content {
+  box-shadow: inset 0 0 100px rgba(0,0,0,0.2);
+}

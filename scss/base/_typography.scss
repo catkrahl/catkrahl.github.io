@@ -1,0 +1,128 @@
+@use '../abstracts/' as *;
+
+html,
+body {
+	font-family: 'Nunito', sans-serif;
+	font-size: $font-size;
+	line-height: $line-height;
+	color: $text-color;
+	font-weight: $font-weight-text;
+	letter-spacing: 0.25px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $font-weight-headline;
+  margin: 0;
+  margin-bottom: .4em;
+}
+
+p {
+  font-size: $font-size;
+  line-height: $line-height;
+  margin: 0 0 1rem 0;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: $font-weight-headline;
+}
+
+
+h1 {
+  font-size: 3.3rem;
+  line-height: 3.3rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+  line-height: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h4,
+.tab-label {
+  font-size: 1.31rem;
+  line-height: 27px;
+  margin-bottom: .7em
+}
+
+h5 {
+  font-size: 1.125rem;
+  line-height: 24px;
+}
+
+.textbreite {
+  width: 85%;
+}
+
+// typo colors
+
+h1,
+h2 {
+  color: $color-1;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  color: $text-color;
+}
+
+.font-bg {
+  line-height: 1.4; 
+  width: 500px;
+
+  span {
+    background-color: $color-1;
+    color: $text-color-invert;
+    padding: 0 0.5rem;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+  
+  &.color-2 span {
+    background-color: $color-2;
+  }
+  
+  &.color-3 span{
+    background-color: $color-3;
+  }
+  
+  &.color-4 span {
+    background-color: $color-4;
+  }
+  
+  &.gray span {
+    background-color: $darkgray;
+  }
+  
+  &.white span {
+    background-color: $bg-color;
+    color: $text-color;
+  }
+  
+  &.invert span {
+    color: $text-color-invert;
+  }
+}
+
+.card .font-bg {
+  width: 300px;
+}
+
+.bubble .font-bg {
+  width: auto;
+}
+ 
+ 
