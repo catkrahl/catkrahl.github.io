@@ -724,7 +724,7 @@ a:hover {
 .swiper-button-next,
 .swiper-button-prev {
   background-color: rgba(150, 150, 150, 0.3);
-  border-radius: var(--border-radius-sm);
+  border-radius: 8px;
   color: #fff;
   display: flex;
   font-size: 1.5rem;
@@ -754,14 +754,14 @@ a:hover {
 }
 
 .swiper-pagination-bullet {
-  background: var(--bg-color);
+  background: #ffffff;
   opacity: 0.5;
   height: 12px;
   width: 12px;
 }
 
 .swiper-pagination-bullet-active {
-  background: var(--bg-color);
+  background: #ffffff;
   opacity: 1;
 }
 
@@ -772,7 +772,7 @@ a:hover {
   padding: 50px 20px;
   box-shadow: 0 0px 10px rgba(140, 140, 140, 0.1);
   background: #fff;
-  border-radius: var(--border-radius-sm);
+  border-radius: 8px;
 }
 
 .ref-logo a {

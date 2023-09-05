@@ -1,3 +1,5 @@
+@use '../abstracts/' as *;
+
 // swiper
 
 .swiper-slide {
@@ -24,7 +26,7 @@
 .swiper-button-next,
 .swiper-button-prev {
   background-color: rgba(150,150,150,.3);
-  border-radius: var(--border-radius-sm);
+  border-radius: $border-radius-sm;
   color: #fff;
   display: flex;
   font-size: 1.5rem;
@@ -54,14 +56,14 @@
 }
 
 .swiper-pagination-bullet {
-  background: var(--bg-color);
+  background: $bg-color;
   opacity: .5;
   height: 12px;
   width: 12px;
 }
 
 .swiper-pagination-bullet-active {
-  background: var(--bg-color);
+  background: $bg-color;
   opacity: 1;
 }
 
@@ -74,7 +76,7 @@
     padding: 50px 20px;
     box-shadow: 0 0px 10px rgba(140,140,140,.1);
     background: #fff;
-    border-radius: var(--border-radius-sm);
+    border-radius: $border-radius-sm;
 }
 
 .ref-logo a {
