@@ -27,7 +27,7 @@
   }
 }
 
-.full_screen {
+.fullscreen {
   height: 100vh;
   min-height: 100%;
   display: flex;
@@ -36,11 +36,11 @@
   position: relative;
 }
 
-.full_screen.small {
-  max-height: 35vh;
+.fullscreen.small {
+  height: 50vh;
 }
 
-.full_screen_video {
+.fullscreen-video {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -48,7 +48,8 @@
   right: 0px;
 }
 
-.video_wrapper{
+.video-wrapper,
+.media-wrapper {
   position: absolute;
   top: 0;
   left: 0;
@@ -58,7 +59,9 @@
   overflow: hidden;
 }
 
-.video_wrapper iframe {
+
+
+.video-wrapper iframe {
   width: 100vw;
   height: 56.25vw;
   min-height: 100vh;
@@ -71,7 +74,13 @@
 
 // fullscreen img-head
 
-.video_wrapper img {
+.video-wrapper img {
   filter: blur(0px); /* brightness(.8); */
   width: 100%;
+}
+
+.media-bg {
+  background-repeat:no-repeat; 
+  background-size: contain; 
+  background-position: center;
 }

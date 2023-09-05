@@ -20,3 +20,7 @@ git push --tags
 * "folder"-variable does not exist
 * "contact_settings"
 * 
+
+# SCSS (auto-)kompilieren and watch
+* sass --watch ./scss/main.scss ./css/main.css
+* Zielverzeichnis für css-Ausgabe ist variabel! 
