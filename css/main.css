@@ -477,14 +477,6 @@ h5.font-bg span {
   box-shadow: 50px 50px 100px black;
 }
 
-a {
-  color: #009bea;
-}
-
-a:hover {
-  color: #c1d31c;
-}
-
 .anchor {
   margin-bottom: 50px;
 }

@@ -23,4 +23,5 @@ git push --tags
 
 # SCSS (auto-)kompilieren and watch
 * sass --watch ./scss/main.scss ./css/main.css
-* Zielverzeichnis für css-Ausgabe ist variabel! 
+* Zielverzeichnis für css-Ausgabe ist variabel!
+
