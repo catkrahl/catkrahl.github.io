@@ -6,8 +6,11 @@ footer {
     padding: 55px 0;
     color: $text-color-invert;
     font-weight: 300;
-    background: $darkgray;
+    background: $bg-footer;
     font-size: 15px;
+    h4 {
+      color: $text-color-invert;
+    }
 }
 
 .footerblock {
@@ -17,6 +20,8 @@ footer {
 .footerblock .contact-icon {
     filter: brightness(100);
 }
+
+
 
 footer a,
 footer .contact-link {

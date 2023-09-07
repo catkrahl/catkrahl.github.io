@@ -1,5 +1,8 @@
 @use '../abstracts/' as *;
 
+$font-bg-padding-horizontal: 2rem;
+$font-bg-padding-vertical: 0.3rem;
+
 html,
 body {
 	font-family: 'Nunito', sans-serif;
@@ -79,14 +82,39 @@ h6 {
   color: $text-color;
 }
 
+.color-2 {
+  color: $color-2;
+}
+
+.color-4 {
+  color: $color-4;
+}
+
+a {
+  color: $color-1;
+}
+
+a:hover {
+  color: $color-2;
+}
+
+/* typo with bg-color */
+
+h4.font-bg span {
+  display: inline-block;
+  padding: $font-bg-padding-vertical $font-bg-padding-horizontal;
+}
+
 .font-bg {
-  line-height: 1.4; 
-  width: 500px;
+  line-height: 1.4;
+  margin: 0;
+  width: 600px;
 
   span {
     background-color: $color-1;
     color: $text-color-invert;
-    padding: 0 0.5rem;
+    margin-bottom: .1rem;
+    padding: 0 $font-bg-padding-horizontal;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
   }
@@ -95,7 +123,7 @@ h6 {
     background-color: $color-2;
   }
   
-  &.color-3 span{
+  &.color-3 span {
     background-color: $color-3;
   }
   

@@ -129,14 +129,38 @@ h6 {
   color: #444;
 }
 
+.color-2 {
+  color: #c1d31c;
+}
+
+.color-4 {
+  color: #ce1970;
+}
+
+a {
+  color: #009bea;
+}
+
+a:hover {
+  color: #c1d31c;
+}
+
+/* typo with bg-color */
+h4.font-bg span {
+  display: inline-block;
+  padding: 0.3rem 2rem;
+}
+
 .font-bg {
   line-height: 1.4;
-  width: 500px;
+  margin: 0;
+  width: 600px;
 }
 .font-bg span {
   background-color: #009bea;
   color: #ffffff;
-  padding: 0 0.5rem;
+  margin-bottom: 0.1rem;
+  padding: 0 2rem;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
 }
@@ -392,10 +416,11 @@ h6 {
   background-color: #ffffff;
   background-position-x: center;
   background-size: cover;
-  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 100px 70px rgba(0, 0, 0, 0.3);
   height: 100%;
   position: absolute;
-  filter: saturate(0.85);
+  filter: saturate(0.7) blur(2px);
+  transform: scale(1.2);
   width: 100%;
   z-index: 1;
 }
@@ -446,6 +471,10 @@ h6 {
 
 .card-slider .page-nav.forward {
   right: 20px;
+}
+
+h5.font-bg span {
+  box-shadow: 50px 50px 100px black;
 }
 
 a {
@@ -791,8 +820,11 @@ footer {
   padding: 55px 0;
   color: #ffffff;
   font-weight: 300;
-  background: #444;
+  background: #555;
   font-size: 15px;
+}
+footer h4 {
+  color: #ffffff;
 }
 
 .footerblock {
@@ -826,7 +858,7 @@ footer a:hover {
 }
 
 .dim,
-.video-overlay {
+.media-overlay {
   width: 100%;
   height: 100%;
   background-color: #1A1D2D;
@@ -839,19 +871,19 @@ footer a:hover {
   z-index: 997;
 }
 
-.video-overlay {
+.media-overlay {
   background-color: transparent;
   opacity: 1;
-  z-index: 997;
+  z-index: 998;
 }
-.video-overlay.col {
+.media-overlay.col {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
 
 .fullscreen {
-  height: 100vh;
+  height: 76vh;
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -863,7 +895,7 @@ footer a:hover {
   height: 50vh;
 }
 
-.fullscreen-video {
+.fullscreen-media {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -900,8 +932,12 @@ footer a:hover {
 
 .media-bg {
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
+}
+
+.media-bg.right {
+  background-position: right;
 }
 
 header, .header {
@@ -913,7 +949,7 @@ header, .header {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   top: 0;
-  z-index: 998;
+  z-index: 999;
 }
 
 header {
@@ -1049,7 +1085,7 @@ nav.nav-collapse ul li:last-child:hover a {
   position: fixed;
   top: 0;
   right: 20px;
-  z-index: 999;
+  z-index: 1000;
 }
 
 .page-nav {

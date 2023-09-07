@@ -11,7 +11,7 @@ header, .header {
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
     top: 0;
-    z-index: 998;
+    z-index: 999;
 }
 
 header {
@@ -149,7 +149,7 @@ nav.nav-collapse ul li:last-child:hover a {
     position: fixed;
     top: 0;
     right: 20px;
-    z-index: 999;
+    z-index: 1000;
 }
 
 .page-nav {

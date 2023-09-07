@@ -5,22 +5,22 @@
 }
 
 .bg.lightgray {
-    background: rgb(245,245,245);
-  }
-  
-  .bg.darkgray {
-    background-color: $darkgray;
-  }
-  
-  .bg.blue {
-    background: $color-1;
-  }
-  
-  .bg.green {
-    background-color: $color-2;
-  }
-  
+  background: rgb(245,245,245);
+}
+
+.bg.darkgray {
+  background-color: $darkgray;
+}
+
+.bg.blue {
+  background: $color-1;
+}
+
+.bg.green {
+  background-color: $color-2;
+}
+
 .bg-offset-darkgray {
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(68,68,68,1) 0%, rgba(68,68,68,1) 80%, rgba(255,255,255,1) 80%);
-    padding-bottom: 30px;
-  }
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(68,68,68,1) 0%, rgba(68,68,68,1) 80%, rgba(255,255,255,1) 80%);
+  padding-bottom: 30px;
+}
