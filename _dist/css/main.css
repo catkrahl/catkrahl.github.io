@@ -477,14 +477,6 @@ h5.font-bg span {
   box-shadow: 50px 50px 100px black;
 }
 
-a {
-  color: #009bea;
-}
-
-a:hover {
-  color: #c1d31c;
-}
-
 .anchor {
   margin-bottom: 50px;
 }
@@ -893,14 +885,6 @@ footer a:hover {
 
 .fullscreen.small {
   height: 50vh;
-}
-
-.fullscreen-media {
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
 }
 
 .video-wrapper,
