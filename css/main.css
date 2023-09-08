@@ -329,7 +329,7 @@ h4.font-bg span {
 }
 
 .floating-container:hover .floating-button {
-  box-shadow: 0 10px 25px rgba(44, 179, 240, 0.6);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
   -webkit-transform: translatey(5px);
   transform: translatey(5px);
   -webkit-transition: all 0.3s;
@@ -366,13 +366,20 @@ h4.font-bg span {
   text-align: center;
   font-size: 23px;
   z-index: 100;
-  box-shadow: 0 10px 25px -5px rgba(44, 179, 240, 0.6);
+  box-shadow: 20px 20px -10px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
+.floating-container .floating-button:after {
+  content: "\e93d";
+  font-family: "cat-icons";
+  font-size: 1.8rem;
+  color: #fff;
+}
 
 .floating-container .float-element {
+  box-shadow: 0 20px 20px -10px rgba(0, 0, 0, 0.2);
   position: relative;
   display: block;
   border-radius: 50%;
@@ -388,25 +395,32 @@ h4.font-bg span {
   -webkit-transform: translateY(100px);
   transform: translateY(100px);
 }
+.floating-container .float-element:hover {
+  transform: scale(1.1);
+}
 
-.floating-container .float-element .material-icons {
+.floating-container .float-element span {
+  text-shadow: 1px 1px 1px #fff;
   vertical-align: middle;
-  font-size: 16px;
+  font-size: 12px;
+  position: absolute;
+  right: 60px;
+  color: #444;
 }
 
 .floating-container .float-element:nth-child(1) {
   background: #ce1970;
-  box-shadow: 0 20px 20px -10px rgba(66, 165, 245, 0.5);
+  margin-right: 60px;
 }
 
 .floating-container .float-element:nth-child(2) {
   background: #009bea;
-  box-shadow: 0 20px 20px -10px rgba(76, 175, 80, 0.5);
+  margin-right: 90px;
 }
 
 .floating-container .float-element:nth-child(3) {
   background: #c1d31c;
-  box-shadow: 0 20px 20px -10px rgba(255, 152, 0, 0.5);
+  margin-right: 30px;
 }
 
 .innerspace {
@@ -562,30 +576,31 @@ header.sticky, .header.sticky {
   top: 20px;
 }
 
+/*
 .logo a:after {
-  background: #009bea;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 50%;
-  width: 45px;
-  height: 45px;
-  content: "\e93d";
-  font-family: "cat-icons";
-  font-size: 21px;
-  display: flex;
-  position: absolute;
-  right: 0;
-  top: 106vh;
-  color: #fff;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 0;
-  transition: all 0.3s;
+    background: $color-1;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    content: "\e93d";
+    font-family: 'cat-icons';
+    font-size: 21px;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 106vh;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+    transition: all .3s;
 }
 
 .logo a:hover:after {
-  transform: scale(1.2);
+    transform: scale(1.2);
 }
-
+*/
 .logo img {
   height: 105px;
   padding: 10px 0;

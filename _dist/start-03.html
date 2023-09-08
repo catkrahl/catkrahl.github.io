@@ -22,29 +22,31 @@
 
 <body>
     <header class="header">
-        <!-- absolute positioned logo-->
+        <!-- absolute positioned logo bg-->
         <div class="logo-bg"></div>
+
+        <!-- logo -->
         <div class="logo flex align-center"> 
             <a href="index.html"><img src="images/logo-kreis-blau.svg" alt="CaT"/></a> 
         </div>
+
         <!-- floating action nav -->
         <div class="floating-container">
-            <div class="floating-button">+</div>
-                <div class="element-container">
-                    <a href="#"> 
-                        <span class="float-element tooltip-left">
-                        <i class="material-icons">phone</i>
-                    </a>
-                    </span>
-                    <span class="float-element">
-                        <i class="material-icons">email</i>
-                    </span>
+            <a href="index.html"><div class="floating-button"></div></a>    
+            <div class="element-container">
+                <a class="float-element" href="start-01.html">
+                    <i class="material-icons"><span>Lernmanagement</span></i>
+                </a>
 
-                    <span class="float-element">
-                        <i class="material-icons">chat</i>
-                    </span>
-                </div>
-          </div>
+                <a class="float-element" href="start-02.html">
+                    <i class="material-icons"><span>E-Learning</span></i>
+                </a>
+
+                <a class="float-element" href="start-03.html">
+                    <i class="material-icons"><span>Beratung</span></i>
+                </a>
+            </div>
+        </div>
     </header>
 
     <section id="media-head">
@@ -292,12 +294,18 @@
 
 <script src="jquery/jquery-2.x.min.js"></script>
 <script src="js/fixed-responsive-nav.js"></script>
+
+<!-- 
+library for onscroll css animations
+https://michalsnik.github.io/aos/
+-->
 <script src="../dist/aos.js"></script>
 <script>
   AOS.init({
     easing: 'ease-in-out-sine'
   });
 </script>
+<!-- end AOS-->
 
 <script>
     $(function() {
