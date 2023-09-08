@@ -20,7 +20,7 @@
     <script src="js/swiper-bundle.min.js"></script>
 </head>
 
-<body>
+<body data-aos-easing="ease-out-back" data-aos-duration="1000" data-aos-delay="0">
     <header class="header">
         <!-- absolute positioned logo bg-->
         <div class="logo-bg"></div>
@@ -301,18 +301,6 @@
 <script src="jquery/jquery-2.x.min.js"></script>
 <script src="js/fixed-responsive-nav.js"></script>
 
-<!-- 
-library for onscroll css animations
-https://michalsnik.github.io/aos/
--->
-<script src="../dist/aos.js"></script>
-<script>
-  AOS.init({
-    easing: 'ease-in-out-sine'
-  });
-</script>
-<!-- end AOS-->
-
 <script>
     $(function() {
         $(window).on("scroll", function() {
@@ -325,6 +313,18 @@ https://michalsnik.github.io/aos/
         });
     });
 </script>
+
+<!-- 
+library for onscroll css animations
+https://michalsnik.github.io/aos/
+-->
+<script src="js/aos.js"></script>
+<script>
+  AOS.init({
+    easing: 'ease-in-out-sine'
+  });
+</script>
+<!-- end AOS-->
 
 </body>
 </html>
