@@ -1,8 +1,9 @@
 // main file to import styles 
 // and render the final css
 
-@use 'abstracts/' as *;
-@use 'base/' as *;
-@use 'components/' as *;
-@use 'layout/' as *;
+@use '01_abstracts/' as *;
+@use '02_base/' as *;
+@use '03_tools/' as *;
+@use '04_layout/' as *;
+@use '05_components/' as *;
 
