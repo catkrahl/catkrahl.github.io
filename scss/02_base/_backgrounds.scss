@@ -1,0 +1,39 @@
+@use '../01_abstracts' as *;
+
+
+// bg-colors
+
+.bg,
+.bg-main {
+  background: $bg-main;
+
+  &.lightgray,
+  &.secondary {
+    background: $bg-secondary;
+  }
+
+  &.darkgray {
+    background-color: $darkgray;
+  }
+
+  &.offset-darkgray {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(68,68,68,1) 0%, rgba(68,68,68,1) 80%, rgba(255,255,255,1) 80%);
+    padding-bottom: 30px;
+  }
+
+  &.color-1 {
+    background-color: $color-1;
+  }
+
+  &.color-2 {
+    background-color: $color-2;
+  }
+
+  &.color-3 {
+    background-color: $color-3;
+  }
+
+  &.color-4 {
+    background-color: $color-4;
+  }
+}

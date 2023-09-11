@@ -129,7 +129,7 @@
   
   .box-image span.title.bg,
   .box-image span.text.bg { 
-    background-color: $bg-color;
+    background-color: $bg-main;
     box-shadow: 0 0 35px rgba(0,0,0,.2);
   }
   
@@ -164,7 +164,7 @@
   }
   
   .box-link.enlarge:before {
-    background-color: $bg-color;
+    background-color: $bg-main;
     content: " \e98b";
     font-family: "cat-icons";
     font-size: 1.3rem;
