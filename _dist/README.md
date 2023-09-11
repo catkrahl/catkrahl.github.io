@@ -25,3 +25,7 @@ git push --tags
 * sass --watch ./scss/main.scss ./css/main.css
 * Zielverzeichnis für css-Ausgabe ist variabel!
 
+### third party 
+#### AOS - onscroll animation lib
+* https://github.com/michalsnik/aos/blob/next/README.md
+

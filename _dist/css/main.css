@@ -388,8 +388,8 @@ h4.font-bg span {
 
 .floating-container .floating-button {
   position: absolute;
-  width: 65px;
-  height: 65px;
+  width: 60px;
+  height: 60px;
   background: #009bea;
   bottom: 0;
   border-radius: 50%;
@@ -397,7 +397,7 @@ h4.font-bg span {
   right: 0;
   margin: auto;
   color: white;
-  line-height: 65px;
+  line-height: 60px;
   text-align: center;
   font-size: 23px;
   z-index: 100;
@@ -409,7 +409,7 @@ h4.font-bg span {
 .floating-container .floating-button:after {
   content: "\e93d";
   font-family: "cat-icons";
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   color: #fff;
 }
 
