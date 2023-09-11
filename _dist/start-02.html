@@ -20,14 +20,36 @@
     <script src="js/swiper-bundle.min.js"></script>
 </head>
 
-<body data-aos-easing="ease-out-back" data-aos-duration="1000" data-aos-delay="0">
+<body data-aos-easing="ease-out-back" data-aos-duration="700" data-aos-delay="0">
     <header class="header">
-        <!-- absolute positioned logo bg-->
+        <!-- absolute positioned logo bg
         <div class="logo-bg"></div>
-
-        <!-- logo -->
+        -->
+        <!-- logo --
         <div class="logo flex align-center"> 
             <a href="index.html"><img src="images/logo-kreis-blau.svg" alt="CaT"/></a> 
+        </div>
+        -->
+
+        <div class="floating-container top">
+            <a href="index.html">
+                <div class="floating-button">
+                    <img src="images/logo-kreis-blau.svg" alt="CaT"/>
+                </div>
+            </a>    
+            <div class="element-container">
+                <a class="float-element" href="start-01.html">
+                    <i class="material-icons"><span>Lernmanagement</span></i>
+                </a>
+
+                <a class="float-element" href="start-02.html">
+                    <i class="material-icons"><span>E-Learning</span></i>
+                </a>
+
+                <a class="float-element" href="start-03.html">
+                    <i class="material-icons"><span>Beratung</span></i>
+                </a>
+            </div>
         </div>
 
         <!-- floating action nav -->
@@ -316,7 +338,7 @@ https://michalsnik.github.io/aos/
 <script src="js/aos.js"></script>
 <script>
   AOS.init({
-    easing: 'ease-in-out-sine'
+    easing: 'ease-out-back'
   });
 </script>
 <!-- end AOS-->
