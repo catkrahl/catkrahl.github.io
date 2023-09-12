@@ -1,0 +1,18 @@
+template: sections/story/story-slide.html
+---
+storys:
+  - image: images/cate001.png
+    subline: Pflichtschulungen
+    headline: Die besondere Gabe von cate
+  - image: images/code002.png
+    subline: Der Aufräumer
+    headline: Über Chaos und Struktur im Code
+  - image:
+    subline:
+    headline:
+  - image:
+    subline:
+    headline:
+  - image:
+    subline:
+    headline: 
