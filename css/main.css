@@ -310,6 +310,10 @@ h4.font-bg span {
   height: 34px;
 }
 
+.bannerSwiper {
+  width: 100%;
+}
+
 @-webkit-keyframes come-in {
   0% {
     -webkit-transform: translatey(100px);
