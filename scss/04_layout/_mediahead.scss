@@ -1,6 +1,6 @@
 @use '../01_abstracts' as *;
 
-// fullscreen videohead
+// cinescope mediahead
 
 .dim,
 .media-overlay {
@@ -27,7 +27,7 @@
   }
 }
 
-.fullscreen {
+.cinescope {
   height: 76vh;
   min-height: 100%;
   display: flex;
@@ -36,8 +36,8 @@
   position: relative;
 }
 
-.fullscreen.small {
-  height: 50vh;
+.cinescope.narrow {
+  height: 35vh;
 }
 
 .video-wrapper,
@@ -64,7 +64,7 @@
 
 // fullscreen img-head
 
-.video-wrapper img {
+.mediahead img {
   filter: blur(0px); /* brightness(.8); */
   width: 100%;
 }

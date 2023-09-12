@@ -1518,7 +1518,7 @@ footer a:hover {
   align-items: flex-start;
 }
 
-.fullscreen {
+.cinescope {
   height: 76vh;
   min-height: 100%;
   display: flex;
@@ -1527,8 +1527,8 @@ footer a:hover {
   position: relative;
 }
 
-.fullscreen.small {
-  height: 50vh;
+.cinescope.narrow {
+  height: 35vh;
 }
 
 .video-wrapper,
@@ -1553,7 +1553,7 @@ footer a:hover {
   transform: translate(-50%, -50%);
 }
 
-.video-wrapper img {
+.mediahead img {
   filter: blur(0px); /* brightness(.8); */
   width: 100%;
 }
