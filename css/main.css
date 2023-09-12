@@ -1604,7 +1604,7 @@ header.sticky, .header.sticky {
 .logo img {
   height: 135px;
   padding: 15px 5px;
-  transition: all 0.5s;
+  transition: all 0.5s ease-out;
 }
 
 .header.active .logo img {
