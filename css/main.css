@@ -1587,18 +1587,28 @@ header {
   box-shadow: 3px 1px 0.99px 0.01px rgba(0, 0, 0, 0);
 }
 
-.header.active {
-  top: -155px;
-}
-
 header.sticky, .header.sticky {
   background: rgba(255, 255, 255, 0);
 }
 
+/*
+.header.active {
+    top: -155px;
+}
+*/
 .logo {
   position: absolute;
   right: 40px;
   top: 20px;
+}
+.logo img {
+  height: 135px;
+  padding: 15px 5px;
+  transition: all 0.5s;
+}
+
+.header.active .logo img {
+  height: 105px;
 }
 
 /*
@@ -1626,11 +1636,6 @@ header.sticky, .header.sticky {
     transform: scale(1.2);
 }
 */
-.logo img {
-  height: 105px;
-  padding: 10px 0;
-}
-
 .logo-bg {
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0 0 150px rgba(0, 0, 0, 0.5);

@@ -21,18 +21,33 @@ header {
 	box-shadow: 3px 1px 0.99px 0.01px rgba(0, 0, 0, 0);
 }
 
-.header.active {
-    top: -155px;
-}
-
 header.sticky, .header.sticky {
     background: rgba(255, 255, 255, 0);
 }
+
+
+// movin active header offsceen
+/*
+.header.active {
+    top: -155px;
+}
+*/
 
 .logo {
     position: absolute;
     right: 40px;
     top: 20px;
+
+    img {
+        height: 135px;
+        padding: 15px 5px;
+        transition: all .5s;
+    }
+}
+
+// resizes logo onscroll
+.header.active .logo img {
+    height: 105px;
 }
 
 // outdated floating action btn at the bottom movin in/out
@@ -63,10 +78,7 @@ header.sticky, .header.sticky {
 */
 
 
-.logo img {
-    height: 105px;
-    padding: 10px 0;
-}
+
 
 .logo-bg {
     background-color: rgba(255,255,255,.5);
