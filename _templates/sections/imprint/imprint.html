@@ -1,0 +1,25 @@
+<section id="01_header">
+    <div class="banner imprint">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 left">
+
+                    <h2>{{ title }}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="content" class="innerspace">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 left">
+
+            {{ text|markdown_to_html }}
+
+            </div>
+        </div>
+    </div>
+</section>

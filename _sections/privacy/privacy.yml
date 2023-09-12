@@ -1,0 +1,78 @@
+template: sections/privacy/privacy.html
+---
+title: Datenschutz
+text: |
+  #### Im Folgenden unterrichten wir Sie über Art, Umfang und <br>Zweck der Erhebung und Verarbeitung personenbezogener Daten
+  
+  ##### Allgemeines
+  
+  Wenn Sie unserer Webseiten abrufen, so werden automatisch einige Daten erhoben
+  und verwendet. Bedingt durch die Natur des Internets werden diese Daten zwangsläufig
+  auf einer Vielzahl von Servern verarbeitet, bis Ihre Anfrage auf unserem Webserver
+  ankommt; daher ist eine Erhebung und Nutzung auch in "Drittstaaten" (z.B. den USA)
+  möglich. Auf diesen Vorgang hat unser Unternehmen keinerlei Einfluss. Abgesehen
+  von diesen technischen Zwangläufigkeiten übermittelt der Anbieter dieser
+  Internetpräsenz keine personenbezogenen Daten an Staaten außerhalb der
+  EU-Datenschutzrichtlinie.
+  
+  Sollten Sie Fragen zum Datenschutz an uns haben können Sie sich jederzeit an
+  datenschutz@concepts-and-training.de wenden. Weitere Kontaktmöglichkeiten finden
+  Sie in unserem <a class="linkdatenschutz" href="imprint.html">Impressum.
+  
+  ##### Sie können diese Kontaktdaten jederzeit nutzen um folgende Rechte wahrzunehmen:
+  
+  * <a class="linkdatenschutz" href="https://dsgvo-gesetz.de/art-15-dsgvo/">Auskunftsrecht</a>
+  * <a class="linkdatenschutz" href="https://dsgvo-gesetz.de/art-16-dsgvo/">Recht auf Berichtigung von Daten</a>
+  * <a class="linkdatenschutz" href="https://dsgvo-gesetz.de/art-17-dsgvo/">Recht auf Löschung von Daten</a>
+  * <a class="linkdatenschutz" href="https://dsgvo-gesetz.de/art-18-dsgvo/">Recht auf Einschränkung der Verarbeitung von Daten</a>
+  * <a class="linkdatenschutz" href="https://dsgvo-gesetz.de/art-21-dsgvo/">Widerspruchsrecht gegen unsere "berechtigten Interessen"</a>
+  * <a class="linkdatenschutz" href="https://dsgvo-gesetz.de/art-20-dsgvo/">Recht auf Datenübertragbarkeit</a>
+  * <a class="linkdatenschutz" href="imprint.html#aufsicht">Recht auf Beschwerde bei der Datenschutz-Aufsichtsbehörde</a>
+  
+  ##### Abruf von Informationen der Website
+  
+  Die folgenden Daten werden erhoben und in Ihrem Sinne zur Auslieferung von Webseiten
+  verwendet und in Form von Logfiles für eine begrenzte Zeit gespeichert, um eventuelle
+  technische Probleme analysieren zu können:
+
+  * **Datum und Uhrzeit:**  Hieran können wir eine zeitliche Zuordnung machen und dies
+    nutzen, um z.B. eine technische Probleme zu lokalisieren.
+  * **IP-Adresse:** Die Erhebung der IP-Adresse ist notwendig, damit der Webserver
+    Ihnen die gewünschten Daten schicken kann.
+  * **Die angeforderten Daten:** Welche Datei fordern Sie an? In welchem
+    Unterverzeichnis liegt sie?
+  * **Der Port, über den Sie die Daten anfordern:** Diese Information wird durch Ihren
+    Browser automatisch verschickt. über diesen Port werden Sie die gewünschte Webseite erhalten.
+  * **Die verweisende Webseite:** Einige Browser senden bei jedem Aufruf auch die URL
+    der zuvor genutzten Webseite.
+  * **Name des Browsers, mit dem Sie im Internet surfen:** Diese Information wird durch
+    Ihren Browser automatisch verschickt. Eventuell send Ihr Browser auch andere
+    Informationen, z.B. über installierte Programme. Wir haben hierauf keinerlei
+    Einfluss.
+  * **Der Status des Abrufes:** Hieran können wir erkennen, ob die gewünschte Webseite
+    existiert und erfolgreich an Sie ausgeliefert werden konnte.
+  * **Diverses:** Der Vollständigkeit halber sei erwähnt, dass Ihr Browser möglicherweise
+    noch zusätzliche Daten an unseren Webserver schickt (Bildschirmauflösung, Plugins, etc.).
+    Hierauf haben wir naturgemäß keinen Einfluss. </li></ul>
+
+  Die oben beschriebenen Daten werden für Bruchteile einer Sekunde im Arbeitsspeicher
+  unserer Webserver gespeichert. Dieser Vorgang ist technisch erforderlich, um eine
+  Website verfügbar zu machen, daher haben wir hierfür ein "berechtigtes Interesse"
+  im Sinne des Artikel 6 (1f) DS-GVO. Zusätzlich werden die oben genannten Daten, in
+  Form von Logfiles, für eine begrenzte Zeit gespeichert, um eventuelle technische
+  Probleme analysieren zu können. Je nach Art des Logfiles bewahren wir diese zwischen
+  7 und 30 Tage auf. Diese Logfiles sind auch wichtig um Strafverfolgungsbehörden
+  strafbare Verhalten zu beweisen; insofern haben wir auch hier ein "berechtigtes
+  Interesse" im Sinne des Artikel 6 (1f) DS-GVO.
+
+  Die Webserver befinden sich in Deutschland.
+
+  ##### Angabe von Kontaktdaten
+ 
+  Auf der <a href="contact.html">Kontaktseite</a> haben Sie die Möglichkeit, Ihren
+  Namen, den Namen Ihres Unternehmens, Ihre E-Mailadresse, Ihre Telefonnummer und
+  einen Wunschtermin anzugeben um uns zu bitten, mit Ihnen Kontakt aufzunehmen.
+  Diese Daten werden auf unseren Webservern nicht dauerhaft gespeichert, sondern
+  unterliegen den gleichen Vorgängen wie oben beschrieben. Die Daten werden genutzt,
+  um eine E-Mail an uns zu generieren.
+
