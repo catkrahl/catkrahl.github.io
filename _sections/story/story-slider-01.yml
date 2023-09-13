@@ -1,6 +1,6 @@
 template: sections/story/story-slide.html
 ---
-storys:
+stories:
   - image: images/cate001.png
     subline: Pflichtschulungen
     headline: Die besondere Gabe von cate
