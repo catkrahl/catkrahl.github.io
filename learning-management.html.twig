@@ -57,7 +57,8 @@
                         <div class="card-slider swiper cardSwiper">
                             <div class="swiper-wrapper">
 
-                                <!-- card 1-->
+{{ attribute(_context.sections.story, "story-slider-01.html")|raw }}
+                                <!-- card 1
                                 <a class="card-wrapper swiper-slide" href="#">
                                     <div class="card shadow">
                                         <div class="card-bg" style="background-image:url('images/cate001.png')"></div>
@@ -71,7 +72,7 @@
                                     </div>
                                 </a>
 
-                                <!-- card 2 -->
+                                <!-- card 2 
                                 <a class="card-wrapper swiper-slide" href="#">
                                     <div class="card shadow">
                                         
@@ -86,7 +87,7 @@
                                     </div>
                                 </a>
 
-                                <!-- card 3 -->
+                                <!-- card 3 
                                 <a class="card-wrapper swiper-slide" href="#">
                                     <div class="card shadow">
 
@@ -102,7 +103,7 @@
                                     </div>
                                 </a>
 
-                                <!-- card 4 -->
+                                <!-- card 4 
                                 <a class="card-wrapper swiper-slide" href="#">
                                     <div class="card shadow">
                                         <div class="card-bg" style="background-image:url('images/release001.jpg')"></div>
@@ -116,7 +117,7 @@
                                     </div>
                                 </a>
 
-                                <!-- card 5 -->
+                                <!-- card 5 
                                 <a class="card-wrapper swiper-slide" href="#">
                                     <div class="card shadow">
                                         
@@ -131,7 +132,7 @@
                                     </div>
                                 </a>
                                 
-                                <!-- card 6 -->
+                                <!-- card 6 
                                 <a class="card-wrapper swiper-slide" href="#">
                                     <div class="card shadow">
 
@@ -146,7 +147,7 @@
 
                                     </div>
                                 </a>
-
+                                -->
                             </div>
 
                             <!-- <div class="swiper-scrollbar"></div> -->
@@ -172,6 +173,7 @@
             centeredSlides: false,
             spaceBetween: 20,
             slidesPerGroupSkip: 1,
+            loop: true,
             grabCursor: true,
             keyboard: {
                 enabled: true,
