@@ -124,24 +124,26 @@
     }
 }
 .floating-container .float-element span {
-    text-shadow: 1px 1px 1px #fff;
+    background-color: rgba(255,255,255,.9);
+    padding: 0 20px 0 20px;
+    border-radius: 25px;text-shadow: 1px 1px 1px #fff;
     vertical-align: middle;
     font-size: 12px;
     position: absolute;
-    right: 60px;
+    right: 50px;
     color: $text-color;
 }
 .floating-container .float-element:nth-child(1) {
     background: $color-4;
-    margin-right: 60px;
+    right: 20px;
 }
 .floating-container .float-element:nth-child(2) {
     background: $color-1;
-    margin-right: 90px;
+    right: 30px;
 }
 .floating-container .float-element:nth-child(3) {
     background: $color-2;
-    margin-right: 30px;
+    right: 10px;
 }
 
 // ********************************

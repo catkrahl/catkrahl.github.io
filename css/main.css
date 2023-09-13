@@ -435,27 +435,30 @@ h4.font-bg span {
 }
 
 .floating-container .float-element span {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0 20px 0 20px;
+  border-radius: 25px;
   text-shadow: 1px 1px 1px #fff;
   vertical-align: middle;
   font-size: 12px;
   position: absolute;
-  right: 60px;
+  right: 50px;
   color: #444444;
 }
 
 .floating-container .float-element:nth-child(1) {
   background: #ce1970;
-  margin-right: 60px;
+  right: 20px;
 }
 
 .floating-container .float-element:nth-child(2) {
   background: #009bea;
-  margin-right: 90px;
+  right: 30px;
 }
 
 .floating-container .float-element:nth-child(3) {
   background: #c1d31c;
-  margin-right: 30px;
+  right: 10px;
 }
 
 .floating-container.top {
