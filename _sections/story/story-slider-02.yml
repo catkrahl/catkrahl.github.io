@@ -1,0 +1,18 @@
+template: sections/story/story-slide.html
+---
+stories:
+  - image: images/studio001.jpg
+    subline: Das Studioformat
+    headline: Digitale Trainings als Fernsehshow
+  - image: images/content002.png
+    subline: Story 2
+    headline: Die Headline
+  - image: images/content003.png
+    subline: Story 3
+    headline: Die Headline
+  - image: images/content004.png
+    subline: Story 4
+    headline: Die Headline
+  - image: images/content005.png
+    subline: Story 5
+    headline: Die Headline

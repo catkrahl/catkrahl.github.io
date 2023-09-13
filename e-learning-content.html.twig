@@ -22,19 +22,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <div class="col-sm-12">
-                            <div id="company" class="anchor-target"></div>
+                        <div class="col-sm-12"  data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
                             <h4>CaT Concepts and Training GmbH</h4>
                             <h2>Digitale Trainingslösungen aller Formate</h2>
                         </div>
                         <!-- col 1 -->
-                        <div class="col-sm-12 col-md-6">
+                        <div class="col-sm-12 col-md-6" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
                             <p>Wir sind ein Team aus Konzeptionisten, Illustrator*innen, Storyboardschreiber*innen, Filmproduzent*innen und Gestalter*innen und geben unser Bestes, um Ihre Inhalte zielgruppenkonform und packend für alle Mitarbeitenden aufzubereiten.</p>
                             <p>So, wie Unternehmen nun verstärkt auf Blended-Learning-Strategien und damit auf einen guten Mix aus allen Lernformaten setzen, so sehen auch wir unseren Beitrag darin, Formate zu kreieren, die flexibel und vielseitig einsetzbar sind.</p>
                         </div>
         
                         <!-- col 2 -->
-                        <div class="col-sm-12 col-md-6">
+                        <div class="col-sm-12 col-md-6" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
                             <p>Wir unterstützen alle Formen der Zusammenarbeit – vom maximal interaktiven Hochglanz-Training bis zur umgewandelten PowerPoint-Präsentation, von einer "Auftragsarbeit" bis hin zum gemeinsamen Projekt, bei dem sich kundeninterne Schulungsabteilungen und unsere Kreativen gegenseitig zuarbeiten.</p>
                         </div>
                     </div>
@@ -49,93 +48,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <div class="card-slider swiper cardSwiper">
+                        <div class="card-slider swiper cardSwiper" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
                             <div class="swiper-wrapper">
-                                <!-- card 1-->
-                                <a class="card-wrapper swiper-slide" href="story-02-001.html">
-                                    <div class="card shadow">
-                                        <div class="card-bg" style="background-image:url('images/studio001.jpg')"></div>
 
-                                        <div class="card-content">
-                                            <div class="card-info">
-                                                <h5 class="font-bg white"><span>Das Studioformat</span></h5>
-                                                <h3 class="font-bg"><span>Digitale Trainings als Fernsehshow</span></h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <!-- card 2 -->
-                                <a class="card-wrapper swiper-slide" href="#">
-                                    <div class="card shadow">
-                                        
-                                        <div class="card-bg" style="background-image:url('images/content002.png')"></div>
-
-                                        <div class="card-content">
-                                            <div class="card-info">
-                                                <h5 class="font-bg white"><span>Der Aufräumer</span></h5>
-                                                <h3 class="font-bg"><span>Über Chaos und Struktur im Code</span></h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <!-- card 3 -->
-                                <a class="card-wrapper swiper-slide" href="#">
-                                    <div class="card shadow">
-
-                                        <div class="card-bg" style="background-image:url('images/content003.png')"></div>
-                                        
-                                        <div class="card-content">
-                                            <div class="card-info">
-                                                <h5 class="font-bg white"><span>IT-Security</span></h5>
-                                                <h3 class="font-bg"><span>Maximale Tranparenz – und viel Arbeit!</span></h3>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </a>
-                                <!-- card 4 -->
-                                <a class="card-wrapper swiper-slide" href="#">
-                                    <div class="card shadow">
-                                        <div class="card-bg" style="background-image:url('images/content004.png')"></div>
-
-                                        <div class="card-content">
-                                            <div class="card-info">
-                                                <h5 class="font-bg white"><span>Releases</span></h5>
-                                                <h3 class="font-bg"><span>Eine Frage des Managements</span></h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <!-- card 5 -->
-                                <a class="card-wrapper swiper-slide" href="#">
-                                    <div class="card shadow">
-                                        
-                                        <div class="card-bg" style="background-image:url('images/images/content005.png')"></div>
-
-                                        <div class="card-content">
-                                            <div class="card-info">
-                                                <h5 class="font-bg white"><span>Die Implementierung von cate</span></h5>
-                                                <h3 class="font-bg"><span>Wenn das System wirklich kommt</span></h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <!-- card 6 -->
-                                <a class="card-wrapper swiper-slide" href="#">
-                                    <div class="card shadow">
-
-                                        <div class="card-bg" style="background-image:url('images/itsecurity001.jpg')"></div>
-                                        
-                                        <div class="card-content">
-                                            <div class="card-info">
-                                                <h5 class="font-bg white"><span>IT-Security</span></h5>
-                                                <h3 class="font-bg"><span>Maximale Tranparenz – und viel Arbeit!</span></h3>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </a>
-
+{{ attribute(_context.sections.story, "story-slider-02.html")|raw }}
+                              
                             </div>
 
                             <!-- <div class="swiper-scrollbar"></div> -->
@@ -161,6 +78,7 @@
             centeredSlides: false,
             spaceBetween: 20,
             slidesPerGroupSkip: 1,
+            loop: true,
             grabCursor: true,
             keyboard: {
                 enabled: true,
