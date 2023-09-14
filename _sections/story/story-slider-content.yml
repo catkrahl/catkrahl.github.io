@@ -16,3 +16,6 @@ stories:
   - image: images/content005.png
     subline: Story 5
     headline: Die Headline
+  - image: images/content005.png
+    subline: Story 6
+    headline: Die Headline

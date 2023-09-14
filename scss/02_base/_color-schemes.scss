@@ -1,0 +1,127 @@
+@use '../01_abstracts/' as *;
+
+html,
+body {
+	color: $text-color;
+}
+
+h1,
+h2 {
+  color: $color-1;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  color: $text-color;
+}
+
+.color-2 {
+  color: $color-2;
+}
+
+.color-4 {
+  color: $color-4;
+}
+
+a {
+  color: $color-1;
+}
+
+a:hover {
+  color: $color-2;
+}
+
+//
+// color schemes (cs)
+//
+
+// typo with bg-color
+
+.cs-global,
+.cs-content {
+  .font-bg span,
+  .btn-primary {
+    background-color: $color-1;
+  }
+  h1,
+  h2,
+  a,
+  .link {
+    color: $color-1;
+  }
+}
+
+// learning-management
+.cs-lms {
+  .font-bg span,
+  .btn-primary {
+    background-color: $color-4;
+  }
+  h1,
+  h2,
+  a,
+  .link {
+    color: $color-4;
+  }
+}
+
+// consulting
+.cs-consulting {
+  .font-bg span,
+  .btn-primary {
+    background-color: $color-2;
+    &:hover {
+      background-color: $color-1;
+    }
+  }
+
+  h1,
+  h2,
+  a,
+  .link {
+    color: $color-2;
+  }
+}
+
+.font-bg {
+  span {
+    color: $text-color-invert;
+  }
+
+  &.gray span {
+    background-color: $darkgray;
+  }
+  
+  &.white span {
+    background-color: $bg-main;
+    color: $text-color;
+  }
+  
+  &.invert span {
+    color: $text-color-invert;
+  }
+}
+
+// footer color-settings
+footer {
+  color: $text-color-invert;
+  background: $bg-footer;
+
+  h4 {
+    color: $text-color-invert;
+  }
+
+  a {
+    color: $text-color-invert;
+    &:hover {
+      color: $color-2;
+    }
+  }
+}
+
+
+
+
+ 
