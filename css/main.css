@@ -93,7 +93,6 @@ body {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   line-height: 1.5rem;
-  color: #444444;
   font-weight: 300;
   letter-spacing: 0.25px;
 }
@@ -152,6 +151,36 @@ h5 {
   width: 85%;
 }
 
+h4.font-bg span {
+  display: inline-block;
+  padding: 0.3rem 2rem;
+}
+
+.font-bg {
+  line-height: 1.4;
+  margin: 0;
+  width: 600px;
+}
+.font-bg span {
+  margin-bottom: 0.1rem;
+  padding: 0 2rem;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.card .font-bg {
+  width: 300px;
+}
+
+.bubble .font-bg {
+  width: auto;
+}
+
+html,
+body {
+  color: #444444;
+}
+
 h1,
 h2 {
   color: #009bea;
@@ -180,33 +209,51 @@ a:hover {
   color: #c1d31c;
 }
 
-/* typo with bg-color */
-h4.font-bg span {
-  display: inline-block;
-  padding: 0.3rem 2rem;
+.cs-global .font-bg span,
+.cs-global .btn-primary,
+.cs-content .font-bg span,
+.cs-content .btn-primary {
+  background-color: #009bea;
+}
+.cs-global h1,
+.cs-global h2,
+.cs-global a,
+.cs-global .link,
+.cs-content h1,
+.cs-content h2,
+.cs-content a,
+.cs-content .link {
+  color: #009bea;
 }
 
-.font-bg {
-  line-height: 1.4;
-  margin: 0;
-  width: 600px;
+.cs-lms .font-bg span,
+.cs-lms .btn-primary {
+  background-color: #ce1970;
 }
-.font-bg span {
-  background-color: #009bea;
-  color: #ffffff;
-  margin-bottom: 0.1rem;
-  padding: 0 2rem;
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
+.cs-lms h1,
+.cs-lms h2,
+.cs-lms a,
+.cs-lms .link {
+  color: #ce1970;
 }
-.font-bg.color-2 span {
+
+.cs-consulting .font-bg span,
+.cs-consulting .btn-primary {
   background-color: #c1d31c;
 }
-.font-bg.color-3 span {
-  background-color: #89d37e;
+.cs-consulting .font-bg span:hover,
+.cs-consulting .btn-primary:hover {
+  background-color: #009bea;
 }
-.font-bg.color-4 span {
-  background-color: #ce1970;
+.cs-consulting h1,
+.cs-consulting h2,
+.cs-consulting a,
+.cs-consulting .link {
+  color: #c1d31c;
+}
+
+.font-bg span {
+  color: #ffffff;
 }
 .font-bg.gray span {
   background-color: #444444;
@@ -219,12 +266,18 @@ h4.font-bg span {
   color: #ffffff;
 }
 
-.card .font-bg {
-  width: 300px;
+footer {
+  color: #ffffff;
+  background: #555;
 }
-
-.bubble .font-bg {
-  width: auto;
+footer h4 {
+  color: #ffffff;
+}
+footer a {
+  color: #ffffff;
+}
+footer a:hover {
+  color: #c1d31c;
 }
 
 .swiper-image {
@@ -459,43 +512,6 @@ h4.font-bg span {
 .floating-container .float-element:nth-child(3) {
   background: #c1d31c;
   right: 10px;
-}
-
-.floating-container.top {
-  top: 0;
-  right: 0;
-  bottom: auto;
-}
-
-.floating-container.top .floating-button {
-  background: transparent;
-  box-shadow: none;
-  top: 0;
-  bottom: auto;
-  width: 80px;
-  height: 80px;
-}
-.floating-container.top .floating-button:after {
-  content: " ";
-}
-
-.floating-container:hover.top .floating-button {
-  box-shadow: none;
-  -webkit-transform: translatey(5px);
-  transform: translatey(5px);
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.floating-container.top .element-container {
-  margin-top: 100px;
-}
-
-.floating-container.top .float-element {
-  margin: 15px auto;
-  opacity: 0;
-  -webkit-transform: translateY(100px);
-  transform: translateY(100px);
 }
 
 [data-aos][data-aos][data-aos-duration="50"], body[data-aos-duration="50"] [data-aos] {
@@ -1607,7 +1623,7 @@ header.sticky, .header.sticky {
 .logo img {
   height: 135px;
   padding: 15px 5px;
-  transition: all 0.5s ease-out;
+  transition: all 0.3s;
 }
 
 .header.active .logo img {
@@ -1858,6 +1874,7 @@ nav.nav-collapse ul li:last-child:hover a {
 .btn {
   padding: 10px 40px;
   border-radius: 50px;
+  border: 0;
   background: #009bea;
   display: inline-block;
   color: #ffffff;
@@ -2257,6 +2274,80 @@ h5.font-bg span {
 
 .clear-float {
   clear: both;
+}
+
+input {
+  width: 100%;
+  height: 44px;
+  background-color: #FFF;
+  border: 1px solid #DDDDDD;
+  margin: 0 0 5px 0;
+  padding: 0 15px;
+  -webkit-appearance: none;
+  border-radius: 50px;
+}
+
+input:focus-visible {
+  outline: 1px solid #009bea;
+}
+
+/* callback states */
+.fb-requesting,
+.fb-successful,
+.fb-failed {
+  display: none;
+}
+
+.requesting input[type=submit],
+.successful input[type=submit],
+.failed input[type=submit] {
+  display: none;
+}
+
+.requesting .fb-requesting,
+.successful .fb-successful,
+.failed .fb-failed,
+.failed .fb-failed input {
+  display: block;
+}
+
+.successful .fb-successful,
+.requesting .fb-requesting {
+  display: block;
+  text-align: center;
+  color: green;
+  font-size: 0.9em;
+  line-height: 1.3em;
+  margin-top: 1em;
+}
+
+.requesting .fb-requesting {
+  color: #009bea;
+}
+
+.banner .successful .fb-successful,
+.banner .requesting .fb-requesting {
+  color: #ffffff;
+}
+
+.failed .fb-failed,
+.failed .fb-failed input {
+  display: block;
+}
+
+/* feedback icons */
+.fb-successful:before,
+.fb-requesting:before {
+  font-family: cat-icons;
+  margin-right: 6px;
+}
+
+.fb-successful:before {
+  content: "\ea10";
+}
+
+.fb-requesting:before {
+  content: "\ea20";
 }
 
 /*# sourceMappingURL=main.css.map */
