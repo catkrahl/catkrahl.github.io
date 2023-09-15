@@ -33,22 +33,20 @@
   background-color: #ce1970;
 }
 
-.contact-bg-icon {
+.contact:before {
   background-color: white;
-  width: 200px;
+  content: "\e972";
+  font-family: "cat-icons";
+  font-size: 4.7rem;
+  color: #555;
+  width: 250px;
   height: 200px;
   display: flex;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  margin-top: -150px;
+  margin: -170px 43%;
   position: absolute;
-}
-.contact-bg-icon:before {
-  content: "\e93d";
-  font-family: "cat-icons";
-  font-size: 4.7rem;
-  color: #777;
 }
 
 @font-face {
