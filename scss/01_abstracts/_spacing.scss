@@ -7,4 +7,11 @@ $spacer-lg: 40px;
 $spacer-xl: 80px;
 $spacer-xxl: 100px;
 
-.innerspace {padding: $spacer-xxl 0;}
+.innerspace {padding: $spacer-xl 0;}
+
+.spacer-xs {height: $spacer-xs;}
+.spacer-s {height: $spacer-s;}
+.spacer-md {height: $spacer-md;}
+.spacer-lg {height: $spacer-lg;}
+.spacer-xl {height: $spacer-xl;}
+.spacer-xxl {height: $spacer-xxl;}

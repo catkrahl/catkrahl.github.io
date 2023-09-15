@@ -1,0 +1,57 @@
+@use '../01_abstracts/' as *;
+
+// static navigator similar to floating action nav
+
+.navigator {
+  display: inline-block;
+
+  .element-container {
+    // transform: rotate(-40deg);
+  }
+
+  .float-element {
+    // box-shadow: 0 20px 20px -10px rgba(0,0,0,.2);
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-right: -7px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    line-height: 20px;
+    opacity: .85;
+    mix-blend-mode: inherit;
+
+    &.active {
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      /*
+      &:before {
+        content: "\e93b";
+        font-family: cat-icons;
+        color: white;
+        font-size: 2rem;
+        transform: rotate(40deg);
+        position: absolute;
+        line-height: 1rem;
+        left: 9px;
+        opacity: .7;
+      } */
+    }
+
+    &:nth-child(1) {
+      background: $color-4;
+    }
+
+    &:nth-child(2) {
+      background: $color-1;
+    }
+
+    &:nth-child(3) {
+      background: $color-2;
+    }
+  }
+}

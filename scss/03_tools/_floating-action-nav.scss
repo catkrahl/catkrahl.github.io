@@ -75,7 +75,10 @@
     -webkit-animation: come-in 0.4s forwards 0.6s;
             animation: come-in 0.4s forwards 0.6s;
 }
-.floating-container .floating-button {
+
+
+.floating-container {
+  .floating-button {
     position: absolute;
     width: 60px;
     height: 60px;
@@ -101,9 +104,9 @@
         font-size: 1.7rem;
         color: #fff;
     }
-}
+  }
 
-.floating-container .float-element {
+  .float-element {
     box-shadow: 0 20px 20px -10px rgba(0,0,0,.2);
     position: relative;
     display: block;
@@ -119,29 +122,35 @@
     opacity: 0;
     -webkit-transform: translateY(100px);
             transform: translateY(100px);
+
     &:hover {
         transform: scale(1.1);
     }
-}
-.floating-container .float-element span {
-    background-color: rgba(255,255,255,.9);
-    padding: 0 20px 0 20px;
-    border-radius: 25px;text-shadow: 1px 1px 1px #fff;
-    vertical-align: middle;
-    font-size: 12px;
-    position: absolute;
-    right: 50px;
-    color: $text-color;
-}
-.floating-container .float-element:nth-child(1) {
-    background: $color-4;
-    right: 20px;
-}
-.floating-container .float-element:nth-child(2) {
+
+    &:nth-child(1) {
+      background: $color-4;
+      right: 20px;
+    }
+
+    &:nth-child(2) {
     background: $color-1;
     right: 30px;
-}
-.floating-container .float-element:nth-child(3) {
+    }
+
+    &:nth-child(3) {
     background: $color-2;
     right: 10px;
+    }
+
+    span {
+      background-color: rgba(255,255,255,.9);
+      padding: 0 20px 0 20px;
+      border-radius: 25px;text-shadow: 1px 1px 1px #fff;
+      vertical-align: middle;
+      font-size: 12px;
+      position: absolute;
+      right: 50px;
+      color: $text-color;
+    }
+  }
 }
