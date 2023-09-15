@@ -18,7 +18,7 @@
 
   &.offset-darkgray {
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(68,68,68,1) 0%, rgba(68,68,68,1) 80%, rgba(255,255,255,1) 80%);
-    padding-bottom: 30px;
+    padding-bottom: $spacer-xxl;
   }
 
   &.color-1 {
@@ -45,13 +45,12 @@
     font-family: "cat-icons";
     font-size: 4.7rem;
     color: #555;
-    width: 250px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
     display: flex;
-    border-radius: 50%;
-
-    align-items: center;
+    border-radius: 26%;
     justify-content: center;
-    margin: -170px 43%;
+    margin: -170px 40%;
+    padding-top: 60px;
     position: absolute;
 }

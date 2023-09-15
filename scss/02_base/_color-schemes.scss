@@ -72,9 +72,10 @@ a:hover {
   .font-bg span,
   .btn-primary {
     background-color: $color-2;
-    &:hover {
-      background-color: $color-1;
-    }
+  }
+
+  .btn-primary:hover {
+    background-color: $color-1;
   }
 
   h1,

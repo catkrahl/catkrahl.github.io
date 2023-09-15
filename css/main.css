@@ -1,3 +1,7 @@
+.innerspace {
+  padding: 100px 0;
+}
+
 .bg,
 .bg-main {
   background: #ffffff;
@@ -14,7 +18,7 @@
 .bg.offset-darkgray,
 .bg-main.offset-darkgray {
   background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(68, 68, 68) 0%, rgb(68, 68, 68) 80%, rgb(255, 255, 255) 80%);
-  padding-bottom: 30px;
+  padding-bottom: 100px;
 }
 .bg.color-1,
 .bg-main.color-1 {
@@ -39,13 +43,13 @@
   font-family: "cat-icons";
   font-size: 4.7rem;
   color: #555;
-  width: 250px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   display: flex;
-  border-radius: 50%;
-  align-items: center;
+  border-radius: 26%;
   justify-content: center;
-  margin: -170px 43%;
+  margin: -170px 40%;
+  padding-top: 60px;
   position: absolute;
 }
 
@@ -257,7 +261,6 @@ a:hover {
 .cs-consulting .btn-primary {
   background-color: #c1d31c;
 }
-.cs-consulting .font-bg span:hover,
 .cs-consulting .btn-primary:hover {
   background-color: #009bea;
 }
@@ -1481,10 +1484,6 @@ footer a:hover {
 
 [data-aos=flip-down].aos-animate {
   transform: perspective(2500px) rotateX(0);
-}
-
-.innerspace {
-  padding: 80px 0;
 }
 
 footer {
