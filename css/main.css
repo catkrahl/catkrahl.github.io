@@ -33,6 +33,24 @@
   background-color: #ce1970;
 }
 
+.contact-bg-icon {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-top: -150px;
+  position: absolute;
+}
+.contact-bg-icon:before {
+  content: "\e93d";
+  font-family: "cat-icons";
+  font-size: 4.7rem;
+  color: #777;
+}
+
 @font-face {
   font-family: "Nunito";
   src: url("../fonts/Nunito_Sans/nunito-sans-v6-latin-200.woff") format("woff");
@@ -1473,40 +1491,23 @@ footer a:hover {
 
 footer {
   padding: 55px 0;
-  color: #ffffff;
   font-weight: 300;
-  background: #555;
   font-size: 15px;
-}
-footer h4 {
-  color: #ffffff;
 }
 
 .footerblock {
   width: 100%;
 }
-
 .footerblock .contact-icon {
   filter: brightness(100);
-}
-
-footer a,
-footer .contact-link {
-  color: #ffffff;
-}
-
-footer a:hover {
-  color: #c1d31c;
 }
 
 .social-icon {
   margin-top: 5px;
 }
-
 .social-icon a {
   margin-right: 10px;
 }
-
 .social-icon img {
   filter: invert(1);
   height: 22px;
