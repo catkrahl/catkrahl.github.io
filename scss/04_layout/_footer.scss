@@ -4,48 +4,29 @@
 
 footer {
     padding: 55px 0;
-    color: $text-color-invert;
     font-weight: 300;
-    background: $bg-footer;
     font-size: 15px;
-    h4 {
-      color: $text-color-invert;
-    }
 }
 
 .footerblock {
     width: 100%;
+
+    .contact-icon {
+        filter: brightness(100);
+    }
 }
-
-.footerblock .contact-icon {
-    filter: brightness(100);
-}
-
-
-
-footer a,
-footer .contact-link {
-    color: $text-color-invert;
-}
-
-footer a:hover {
-    color: $color-2;
-}
-
 
 // social icons
 
 .social-icon {
     margin-top: 5px;
-}
 
-.social-icon a{
-    margin-right: 10px;
-}
+    a {
+        margin-right: 10px;
+    }
 
-.social-icon img {
-    filter: invert(1);
-    height: 22px;
+    img {
+        filter: invert(1);
+        height: 22px;
+    }
 }
-    
-
