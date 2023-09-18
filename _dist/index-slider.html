@@ -50,6 +50,7 @@
     </div>
   </header>
 
+<section id="content-area" class="cs-global"> <!-- sets color-scheme -->
     <section id="mediahead" class="mediahead">
     <div class="cinescope">
         <div class="media-overlay flex col centerY left">
@@ -331,6 +332,7 @@
         </div>
     </div>
 </section>
+</section>
 
 <footer>
     <div class="container">
@@ -372,13 +374,37 @@
     </div>
 </footer>
 
-<!-- logo-swiper config -->
+<script src="jquery/jquery-2.x.min.js"></script>
+<script src="js/fixed-responsive-nav.js"></script>
+<script src="js/aos.js"></script>
+
 <script>
+    // responsive nav
+    $(function() {
+        $(window).on("scroll", function() {
+            if($(window).scrollTop() > 50) {
+                $(".header").addClass("active");
+            } else {
+                //remove the background property so it comes transparent again (defined in your css)
+            $(".header").removeClass("active");
+            }
+        });
+    });
+</script>
+
+<script>
+    AOS.init({
+        
+    });
+</script>
+
+<script>
+    // swiper module configuration
+    // logo swiper
     var swiper = new Swiper(".logoSwiper", {
         slidesPerView: 1,
         centeredSlides: false,
         spaceBetween: 20,
-        loop: true,
         slidesPerGroupSkip: 1,
         keyboard: {
             enabled: true,
@@ -399,7 +425,43 @@
         },
     });
 
-        var swiper = new Swiper(".bannerSwiper", {
+    // card swiper
+    var swiper = new Swiper(".cardSwiper", {
+        slidesPerView: 1,
+        centeredSlides: false,
+        spaceBetween: 20,
+        slidesPerGroupSkip: 1,
+        loop: true,
+        grabCursor: true,
+        keyboard: {
+            enabled: true,
+        },
+        breakpoints: {
+            769: {
+            slidesPerView: 2,
+            slidesPerGroup: 1,
+            },
+            990: {
+            slidesPerView: 3,
+            slidesPerGroup: 1,
+            },
+        },
+        scrollbar: {
+            el: ".swiper-scrollbar",
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            dynamicBullets: "true",
+        },
+    });
+
+    // banner swiper 
+    var swiper = new Swiper(".bannerSwiper", {
         slidesPerView: 1,
         centeredSlides: false,
         spaceBetween: 0,
@@ -416,33 +478,6 @@
     });
 
 </script>
-
-<script src="jquery/jquery-2.x.min.js"></script>
-<script src="js/fixed-responsive-nav.js"></script>
-
-<script>
-    $(function() {
-        $(window).on("scroll", function() {
-            if($(window).scrollTop() > 50) {
-                $(".header").addClass("active");
-            } else {
-                //remove the background property so it comes transparent again (defined in your css)
-            $(".header").removeClass("active");
-            }
-        });
-    });
-</script>
-
-<!-- 
-library for onscroll css animations
-https://michalsnik.github.io/aos/
--->
-<script src="js/aos.js"></script>
-<script>
-  AOS.init({
-  });
-</script>
-<!-- end AOS-->
 
 </body>
 </html>

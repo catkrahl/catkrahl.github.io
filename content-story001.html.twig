@@ -20,7 +20,7 @@
         </div>
     </section> 
 
-    <section id="text">
+    <section id="content">
         <div class="bg innerspace hero">
             <div class="container">
                 <div class="row">
@@ -34,7 +34,7 @@
                                 </div>
                             </div>
                             <div class="spacer-md"></div>
-                            <div id="company" class="anchor-target"></div>
+                            <div id="content-anchor" class="anchor-target"></div>
                             <h3>Das Studioformat</h3>
                             <h2>Digitale Trainings als Fernsehshow</h2>
                         </div>
@@ -99,42 +99,5 @@
     </section>
 
 {{ include('footer.html') }}
-
-    <!-- swiper config -->
-    <script>
-        var swiper = new Swiper(".imageSwiper", {
-            slidesPerView: 1,
-            centeredSlides: true,
-            spaceBetween: 10,
-            slidesPerGroupSkip: 1,
-            keyboard: {
-                enabled: true,
-            },
-            breakpoints: {
-                769: {
-                slidesPerView: 1,
-                slidesPerGroup: 1,
-                },
-                990: {
-                slidesPerView: 1,
-                slidesPerGroup: 1,
-                },
-            },
-            scrollbar: {
-                el: ".swiper-scrollbar",
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-                dynamicBullets: "true",
-            },
-        });
-
-    </script>
-
 {{ include('page_footer.html') }}
 

@@ -297,8 +297,10 @@
 
 <script src="jquery/jquery-2.x.min.js"></script>
 <script src="js/fixed-responsive-nav.js"></script>
+<script src="js/aos.js"></script>
 
 <script>
+    // responsive nav
     $(function() {
         $(window).on("scroll", function() {
             if($(window).scrollTop() > 50) {
@@ -311,16 +313,92 @@
     });
 </script>
 
-<!-- 
-library for onscroll css animations
-https://michalsnik.github.io/aos/
--->
-<script src="js/aos.js"></script>
 <script>
-  AOS.init({
-  });
+    AOS.init({
+        
+    });
 </script>
-<!-- end AOS-->
+
+<script>
+    // swiper module configuration
+    // logo swiper
+    var swiper = new Swiper(".logoSwiper", {
+        slidesPerView: 1,
+        centeredSlides: false,
+        spaceBetween: 20,
+        slidesPerGroupSkip: 1,
+        keyboard: {
+            enabled: true,
+        },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        breakpoints: {
+            769: {
+            slidesPerView: 2,
+            slidesPerGroup: 1,
+            },
+            990: {
+            slidesPerView: 3,
+            slidesPerGroup: 1,
+            },
+        },
+    });
+
+    // card swiper
+    var swiper = new Swiper(".cardSwiper", {
+        slidesPerView: 1,
+        centeredSlides: false,
+        spaceBetween: 20,
+        slidesPerGroupSkip: 1,
+        loop: true,
+        grabCursor: true,
+        keyboard: {
+            enabled: true,
+        },
+        breakpoints: {
+            769: {
+            slidesPerView: 2,
+            slidesPerGroup: 1,
+            },
+            990: {
+            slidesPerView: 3,
+            slidesPerGroup: 1,
+            },
+        },
+        scrollbar: {
+            el: ".swiper-scrollbar",
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            dynamicBullets: "true",
+        },
+    });
+
+    // banner swiper 
+    var swiper = new Swiper(".bannerSwiper", {
+        slidesPerView: 1,
+        centeredSlides: false,
+        spaceBetween: 0,
+        slidesPerGroupSkip: 1,
+        loop: true,
+        speed: 300,
+        keyboard: {
+            enabled: true,
+        },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+    });
+
+</script>
 
 </body>
 </html>
