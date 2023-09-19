@@ -1,4 +1,4 @@
-template: sections/story/story-slide.html
+template: sections/story/story_slider.html
 ---
 stories:
   - target: content-story001.html
