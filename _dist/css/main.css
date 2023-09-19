@@ -205,6 +205,11 @@ h4.font-bg span {
   margin: 0;
   width: 600px;
 }
+@media only screen and (max-width: 767px) {
+  .font-bg {
+    width: 100%;
+  }
+}
 .font-bg span {
   margin-bottom: 0.1rem;
   padding: 0 2rem;
@@ -1622,6 +1627,11 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+}
+@media only screen and (max-width: 767px) {
+  .media-overlay.col {
+    justify-content: end;
+  }
 }
 
 .cinescope {
