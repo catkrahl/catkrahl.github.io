@@ -1,5 +1,7 @@
 {{ include('page_head.html') }}
+
 <section id="content-area" class="cs-content"> <!-- sets color-scheme -->
+
     <section id="media-head">
         <div class="cinescope">
             <div class="media-overlay flex col centerY left">
@@ -51,7 +53,7 @@
 
     </section>
 
-    <section id="story-slider">
+    <section id="departement-story-slider">
         <div class="cardslider bg offset-darkgray hero">
             <div class="container">
                 <div class="row">
@@ -59,7 +61,7 @@
                         <div class="card-slider swiper cardSwiper" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
                             <div class="swiper-wrapper">
 
-{{ attribute(_context.sections.story_slider, "story-slider-content.html")|raw }}
+{{ attribute(_context.sections.department, "slider-content.html")|raw }}
                               
                             </div>
 

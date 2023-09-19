@@ -1,4 +1,4 @@
-template: sections/story/story_slider.html
+template: sections/department/department_slider.html
 ---
 stories:
   - target: index.html
