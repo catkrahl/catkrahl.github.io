@@ -1,0 +1,37 @@
+{{ include('page_head.html') }}
+
+<section id="content-area" class="cs-content"> <!-- sets color-scheme -->
+
+    {{ attribute(_context.sections.story_content, "content_story_body003.html")|raw }}
+
+    <section id="mediahead" class="mediahead">
+        <div class="cinescope">
+
+            <!-- dimmer overlay -->
+            <div class="dim"></div>
+            
+            <!--slider cinescope -->
+            <div class="swiper bannerSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/videomaking001.jpg" alt="Learning Management">
+                    </div>
+                    <!-- 
+                    <div class="swiper-slide">
+                        <img src="images/bg-header-02.png" alt="e-Learning-Content">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="images/bg-header-03.png" alt="Consulting">
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+</section>
+
+{{ include('footer.html') }}
+{{ include('page_footer.html') }}
+

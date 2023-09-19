@@ -10,9 +10,9 @@ stories:
     subline: Erklärfilme
     headline: Die Kunst der Vereinfachung
   - target: content-story003.html
-    image: images/content003.png
-    subline: Story 3
-    headline: Die Headline
+    image: images/videomaking001.jpg
+    subline: Filmdreh und Film 
+    headline: Die ganze Bandbreite
   - target: content-story004.html
     image: images/content004.png
     subline: Story 4
