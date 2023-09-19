@@ -7,8 +7,8 @@ stories:
     headline: Digitale Trainings als Fernsehshow
   - target: content-story002.html
     image: images/content002.png
-    subline: Story 2
-    headline: Die Headline
+    subline: Erklärfilme
+    headline: Die Kunst der Vereinfachung
   - target: content-story003.html
     image: images/content003.png
     subline: Story 3

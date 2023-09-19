@@ -29,3 +29,6 @@ git push --tags
 #### AOS - onscroll animation lib
 * https://github.com/michalsnik/aos/blob/next/README.md
 
+#### Sonderzeichen in Markdown
+* Backslashmaskierung: 
+  * z.B.: \*

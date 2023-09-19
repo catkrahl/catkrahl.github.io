@@ -1,7 +1,12 @@
 {{ include('page_head.html') }}
 
-{{ attribute(_context.sections.story_content, "content_story_head002.html")|raw }} 
-{{ attribute(_context.sections.story_content, "content_story_body002.html")|raw }} 
+<section id="content-area" class="cs-content"> <!-- sets color-scheme -->
+
+    {{ attribute(_context.sections.story_content, "content_story_head002.html")|raw }} 
+    <!-- attribute(_context.sections.story_content, "content_story_headslider002.html")|raw -->
+    {{ attribute(_context.sections.story_content, "content_story_body002.html")|raw }}
+
+</section>
 
 {{ include('footer.html') }}
 {{ include('page_footer.html') }}

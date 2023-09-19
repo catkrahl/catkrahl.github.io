@@ -18,14 +18,13 @@
                     </div>
                     <!-- col 1 -->
                     <div class="col-sm-12 col-md-6">
-                        <p>{{ c_col1 }}</p>
+                        {{ c_col1|markdown_to_html}}
                         <p><a href="{{ c_link_target }}" traget="_self" class="link">{{ c_link_label }}</a></p>
                     </div>
     
                     <!-- col 2 -->
                     <div class="col-sm-12 col-md-6">
-                        <p> {{ c_col2 }}</p>
-
+                        {{ c_col2|markdown_to_html }}
                     </div>
                 </div>
             </div>
