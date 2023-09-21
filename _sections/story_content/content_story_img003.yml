@@ -1,0 +1,4 @@
+template: sections/story/story_head_slider.html
+---
+slides:
+  - image: images/videomaking001.jpg
