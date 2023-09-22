@@ -1,5 +1,8 @@
 @use '../01_abstracts/' as *;
 
+$floating-btn-size: 55px;
+$floating-element-size: 40px;
+
 //
 // https://codepen.io/Gogh/pen/XzrNZd
 //
@@ -54,7 +57,7 @@
     margin: 35px 25px;
 }
 .floating-container:hover {
-    height: 270px;
+    height: 240px;
 }
 .floating-container:hover .floating-button {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
@@ -80,8 +83,8 @@
 .floating-container {
   .floating-button {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: $floating-btn-size;
+    height: $floating-btn-size;
     background: $color-1;
     bottom: 0;
     border-radius: 50%;
@@ -89,7 +92,7 @@
     right: 0;
     margin: auto;
     color: white;
-    line-height: 60px;
+    line-height: $floating-btn-size;
     text-align: center;
     font-size: 23px;
     z-index: 100;
@@ -110,13 +113,13 @@
     position: relative;
     display: block;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: $floating-element-size;
+    height: $floating-element-size;
     margin: 15px auto;
     color: white;
     font-weight: 500;
     text-align: center;
-    line-height: 50px;
+    line-height: $floating-element-size;
     z-index: 0;
     opacity: 0;
     -webkit-transform: translateY(100px);
@@ -130,8 +133,8 @@
       border-radius: 30px;
       display: block;
       position: absolute;
-      width: 50px;
-      height: 50px;
+      width: $floating-element-size;
+      height: $floating-element-size;
       right: 0;
     }
 
@@ -159,11 +162,10 @@
     .label {
       background-color: rgba(255,255,255,0.8);
       box-shadow: 0 20px 20px -13px rgba(0,0,0,0.2);
-      padding: 0 60px 0 20px;
+      padding: 0 50px 0 20px;
       border-radius: 25px;
-      text-shadow: 1px 1px 1px #fff;
       vertical-align: middle;
-      font-size: 12px;
+      font-size: 0.85rem;
       position: absolute;
       right: 0;
       color: $text-color;

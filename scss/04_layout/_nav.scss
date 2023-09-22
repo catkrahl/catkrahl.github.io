@@ -35,19 +35,28 @@ header.sticky, .header.sticky {
 
 .logo {
     position: absolute;
-    right: 40px;
-    top: 20px;
+    right: 35px;
+    top: 35px;
+    @media only screen and (max-width: 767px) {
+        right: 25px;
+        top: 25px;
+    }
 
     img {
-        height: 135px;
-        padding: 15px 5px;
+        height: 95px;
         transition: all .3s;
+        @media only screen and (max-width: 767px) {
+            height: 70px;
+        }
     }
 }
 
 // resizes logo onscroll
 .header.active .logo img {
-    height: 105px;
+    height: 80px;
+    @media only screen and (max-width: 767px) {
+        height: 60px;
+    }
 }
 
 // outdated floating action btn at the bottom movin in/out
