@@ -18,6 +18,9 @@
   justify-content: center;
   overflow: hidden;
   position: relative;
+  @media only screen and (max-width: 767px) {
+    height: 430px;
+  }
 }
 
 .card-bg {
