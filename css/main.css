@@ -1701,6 +1701,18 @@ footer {
   background-position: right;
 }
 
+.fullwidth {
+  width: 100%;
+}
+.fullwidth img {
+  width: 100%;
+}
+
+.autoheight {
+  min-height: auto;
+  height: auto;
+}
+
 header, .header {
   background: rgba(70, 70, 70, 0);
   position: fixed; /* fix for scrolling behaviour ".scroll-area" */

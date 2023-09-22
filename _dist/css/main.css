@@ -1664,6 +1664,15 @@ footer {
   height: 35vh;
 }
 
+.fullwidth {
+  width: 100%;
+}
+
+.autoheight {
+  min-height: auto;
+  height: auto;
+}
+
 .video-wrapper,
 .media-wrapper {
   position: absolute;
@@ -1699,6 +1708,18 @@ footer {
 
 .media-bg.right {
   background-position: right;
+}
+
+.fullwidth {
+  width: 100%;
+}
+.fullwidth img {
+  width: 100%;
+}
+
+.autoheight {
+  min-height: auto;
+  height: auto;
 }
 
 header, .header {
