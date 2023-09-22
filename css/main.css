@@ -1701,16 +1701,13 @@ footer {
   background-position: right;
 }
 
-.fullwidth {
+.img-slider {
   width: 100%;
+  height: 56.25vw;
+  overflow: hidden;
 }
-.fullwidth img {
+.img-slider img {
   width: 100%;
-}
-
-.autoheight {
-  min-height: auto;
-  height: auto;
 }
 
 header, .header {

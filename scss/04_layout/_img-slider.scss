@@ -1,13 +1,10 @@
 @use '../01_abstracts' as *;
 
-.fullwidth {
+.img-slider {
   width: 100%;
+  height: 56.25vw;
+  overflow: hidden;
   img {
     width: 100%;
   }
-}
-
-.autoheight {
-  min-height: auto;
-  height: auto;
 }
