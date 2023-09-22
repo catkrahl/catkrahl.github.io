@@ -50,14 +50,15 @@ $floating-element-size: 40px;
   
 .floating-container {
     position: fixed;
-    width: 100px;
+    width: 50px;
     height: 100px;
     bottom: 0;
     right: 0;
-    margin: 35px 25px;
+    margin: 25px;
 }
 .floating-container:hover {
     height: 240px;
+    width: 180px;
 }
 .floating-container:hover .floating-button {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
@@ -79,6 +80,10 @@ $floating-element-size: 40px;
             animation: come-in 0.4s forwards 0.6s;
 }
 
+.element-container {
+  position: absolute;
+  right:10px;
+}
 
 .floating-container {
   .floating-button {
@@ -88,9 +93,7 @@ $floating-element-size: 40px;
     background: $color-1;
     bottom: 0;
     border-radius: 50%;
-    left: 0;
     right: 0;
-    margin: auto;
     color: white;
     line-height: $floating-btn-size;
     text-align: center;
@@ -115,10 +118,9 @@ $floating-element-size: 40px;
     border-radius: 50%;
     width: $floating-element-size;
     height: $floating-element-size;
-    margin: 15px auto;
+    margin: 15px 0;
     color: white;
     font-weight: 500;
-    text-align: center;
     line-height: $floating-element-size;
     z-index: 0;
     opacity: 0;
