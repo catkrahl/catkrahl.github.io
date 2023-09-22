@@ -252,12 +252,22 @@ h1,
 h2 {
   color: #009bea;
 }
+h1.invert,
+h2.invert {
+  color: #ffffff;
+}
 
 h3,
 h4,
 h5,
 h6 {
   color: #444444;
+}
+h3.invert,
+h4.invert,
+h5.invert,
+h6.invert {
+  color: #ffffff;
 }
 
 .color-2 {

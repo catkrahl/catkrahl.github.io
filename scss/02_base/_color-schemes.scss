@@ -8,6 +8,9 @@ body {
 h1,
 h2 {
   color: $color-1;
+  &.invert {
+    color: $text-color-invert;
+  }
 }
 
 h3,
@@ -15,6 +18,9 @@ h4,
 h5,
 h6 {
   color: $text-color;
+  &.invert {
+    color: $text-color-invert;
+  }
 }
 
 .color-2 {
