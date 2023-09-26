@@ -93,3 +93,35 @@
   background: $color-2;
   color: $text-color-invert;
 }
+
+// page nav back
+.btn-nav {
+  background-color: rgba(50,50,50,.5);
+  border-radius: $border-radius-xl;
+  color: #fff;
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3px;
+  height: 45px;
+  width: 45px;
+  transition: all .5s;
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  z-index:9999;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(50,50,50,.9);
+  }
+  &:after {
+    content: "\e928";
+    font-family: 'cat-icons'; 
+    font-size: 1.5rem;
+    transform: rotate(270deg);
+  }
+  &.prev:after{
+    transform: rotate(90deg);
+  }
+}
