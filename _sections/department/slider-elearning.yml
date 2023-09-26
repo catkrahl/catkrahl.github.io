@@ -1,27 +1,27 @@
 template: sections/department/department_slider.html
 ---
 stories:
-  - target: content-story001.html
+  - target: elearning-story001.html
     image: images/studio001.jpg
     subline: Das Studioformat
     headline: Digitale Trainings als Fernsehshow
-  - target: content-story002.html
+  - target: elearning-story002.html
     image: images/content002.png
     subline: Erklärfilme
     headline: Die Kunst der Vereinfachung
-  - target: content-story003.html
+  - target: elearning-story003.html
     image: images/videomaking001.jpg
     subline: Filmdreh und Film 
     headline: Die ganze Bandbreite
-  - target: content-story004.html
+  - target: elearning-story004.html
     image: images/content004.png
     subline: Story 4
     headline: Die Headline
-  - target: content-story005.html
+  - target: elearning-story005.html
     image: images/content005.png
     subline: Story 5
     headline: Die Headline
-  - target: content-story006.html
+  - target: elearning-story006.html
     image: images/content005.png
     subline: Story 6
     headline: Die Headline

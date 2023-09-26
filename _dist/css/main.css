@@ -288,18 +288,18 @@ a:hover {
 
 .cs-global .font-bg span,
 .cs-global .btn-primary,
-.cs-content .font-bg span,
-.cs-content .btn-primary {
+.cs-learning .font-bg span,
+.cs-learning .btn-primary {
   background-color: #009bea;
 }
 .cs-global h1,
 .cs-global h2,
 .cs-global a,
 .cs-global .link,
-.cs-content h1,
-.cs-content h2,
-.cs-content a,
-.cs-content .link {
+.cs-learning h1,
+.cs-learning h2,
+.cs-learning a,
+.cs-learning .link {
   color: #009bea;
 }
 
