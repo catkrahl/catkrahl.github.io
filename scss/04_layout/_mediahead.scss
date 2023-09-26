@@ -37,6 +37,9 @@
   flex-direction: column;
   justify-content: end;
   position: relative;
+  @media only screen and (max-width: 767px) {
+    height: 60vh;
+  }
 }
 
 .cinescope.narrow {
@@ -58,11 +61,14 @@
   width: 100vw;
   height: 56.25vw;
   min-height: 100vh;
-  min-width: 177.77vh;
+  min-width: 135vh;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  @media only screen and (max-width: 767px) {
+    min-width: 108vh;
+  }
 }
 
 // fullscreen img-head
