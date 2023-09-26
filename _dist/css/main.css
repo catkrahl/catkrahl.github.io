@@ -132,230 +132,6 @@
   font-style: normal;
 }
 
-html,
-body {
-  font-family: "Nunito", sans-serif;
-  font-size: 16px;
-  line-height: 1.5rem;
-  font-weight: 300;
-  letter-spacing: 0.25px;
-}
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  html,
-  body {
-    font-size: 15px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  html,
-  body {
-    font-size: 14px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  html,
-  body {
-    font-size: 13px;
-  }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 200;
-  margin: 0;
-  margin-bottom: 0.4em;
-}
-
-p {
-  font-size: 16px;
-  line-height: 1.5rem;
-  margin: 0 0 1rem 0;
-}
-
-.hero p {
-  font-size: 1.3rem;
-  line-height: 2rem;
-  font-weight: 200;
-}
-
-h1 {
-  font-size: 3rem;
-  line-height: 3rem;
-}
-
-h2 {
-  font-size: 2.3rem;
-  line-height: 2.5rem;
-}
-
-h3 {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-h4,
-.tab-label {
-  font-size: 1.31rem;
-  line-height: 27px;
-  margin-bottom: 0.7em;
-}
-
-h5 {
-  font-size: 1.125rem;
-  line-height: 24px;
-}
-
-.textbreite {
-  width: 85%;
-}
-
-h4.font-bg span {
-  display: inline-block;
-  padding: 0.3rem 2rem;
-}
-
-.font-bg {
-  line-height: 1.4;
-  margin: 0;
-  width: 600px;
-}
-@media only screen and (max-width: 767px) {
-  .font-bg {
-    width: 100%;
-  }
-}
-.font-bg span {
-  margin-bottom: 0.1rem;
-  padding: 0 2rem;
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
-}
-
-.card .font-bg {
-  width: 300px;
-}
-
-.bubble .font-bg {
-  width: auto;
-}
-
-html,
-body {
-  color: #444444;
-}
-
-h1,
-h2 {
-  color: #009bea;
-}
-h1.invert,
-h2.invert {
-  color: #ffffff;
-}
-
-h3,
-h4,
-h5,
-h6 {
-  color: #444444;
-}
-h3.invert,
-h4.invert,
-h5.invert,
-h6.invert {
-  color: #ffffff;
-}
-
-.color-2 {
-  color: #c1d31c;
-}
-
-.color-4 {
-  color: #ce1970;
-}
-
-a {
-  color: #009bea;
-}
-
-a:hover {
-  color: #c1d31c;
-}
-
-.cs-global .font-bg span,
-.cs-global .btn-primary,
-.cs-learning .font-bg span,
-.cs-learning .btn-primary {
-  background-color: #009bea;
-}
-.cs-global h1,
-.cs-global h2,
-.cs-global a,
-.cs-global .link,
-.cs-learning h1,
-.cs-learning h2,
-.cs-learning a,
-.cs-learning .link {
-  color: #009bea;
-}
-
-.cs-lms .font-bg span,
-.cs-lms .btn-primary {
-  background-color: #ce1970;
-}
-.cs-lms h1,
-.cs-lms h2,
-.cs-lms a,
-.cs-lms .link {
-  color: #ce1970;
-}
-
-.cs-consulting .font-bg span,
-.cs-consulting .btn-primary {
-  background-color: #c1d31c;
-}
-.cs-consulting .btn-primary:hover {
-  background-color: #009bea;
-}
-.cs-consulting h1,
-.cs-consulting h2,
-.cs-consulting a,
-.cs-consulting .link {
-  color: #c1d31c;
-}
-
-.font-bg span {
-  color: #ffffff;
-}
-.font-bg.gray span {
-  background-color: #444444;
-}
-.font-bg.white span {
-  background-color: #ffffff;
-  color: #444444;
-}
-.font-bg.invert span {
-  color: #ffffff;
-}
-
-footer {
-  color: #ffffff;
-  background: #555;
-}
-footer h4 {
-  color: #ffffff;
-}
-footer a {
-  color: #ffffff;
-}
-footer a:hover {
-  color: #c1d31c;
-}
-
 .swiper-image {
   background-repeat: no-repeat;
   background-size: cover;
@@ -1554,6 +1330,230 @@ footer a:hover {
   transform: perspective(2500px) rotateX(0);
 }
 
+html,
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  line-height: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.25px;
+}
+@media (max-width: 1200px) {
+  html,
+  body {
+    font-size: 15px;
+  }
+}
+@media (max-width: 991px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  html,
+  body {
+    font-size: 13px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 200;
+  margin: 0;
+  margin-bottom: 0.4em;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5rem;
+  margin: 0 0 1rem 0;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 200;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+  line-height: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h4,
+.tab-label {
+  font-size: 1.31rem;
+  line-height: 27px;
+  margin-bottom: 0.7em;
+}
+
+h5 {
+  font-size: 1.125rem;
+  line-height: 24px;
+}
+
+.textbreite {
+  width: 85%;
+}
+
+h4.font-bg span {
+  display: inline-block;
+  padding: 0.3rem 2rem;
+}
+
+.font-bg {
+  line-height: 1.4;
+  margin: 0;
+  width: 600px;
+}
+@media (max-width: 767px) {
+  .font-bg {
+    width: 100%;
+  }
+}
+.font-bg span {
+  margin-bottom: 0.1rem;
+  padding: 0 2rem;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.card .font-bg {
+  width: 300px;
+}
+
+.bubble .font-bg {
+  width: auto;
+}
+
+html,
+body {
+  color: #444444;
+}
+
+h1,
+h2 {
+  color: #009bea;
+}
+h1.invert,
+h2.invert {
+  color: #ffffff;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  color: #444444;
+}
+h3.invert,
+h4.invert,
+h5.invert,
+h6.invert {
+  color: #ffffff;
+}
+
+.color-2 {
+  color: #c1d31c;
+}
+
+.color-4 {
+  color: #ce1970;
+}
+
+a {
+  color: #009bea;
+}
+
+a:hover {
+  color: #c1d31c;
+}
+
+.cs-global .font-bg span,
+.cs-global .btn-primary,
+.cs-learning .font-bg span,
+.cs-learning .btn-primary {
+  background-color: #009bea;
+}
+.cs-global h1,
+.cs-global h2,
+.cs-global a,
+.cs-global .link,
+.cs-learning h1,
+.cs-learning h2,
+.cs-learning a,
+.cs-learning .link {
+  color: #009bea;
+}
+
+.cs-lms .font-bg span,
+.cs-lms .btn-primary {
+  background-color: #ce1970;
+}
+.cs-lms h1,
+.cs-lms h2,
+.cs-lms a,
+.cs-lms .link {
+  color: #ce1970;
+}
+
+.cs-consulting .font-bg span,
+.cs-consulting .btn-primary {
+  background-color: #c1d31c;
+}
+.cs-consulting .btn-primary:hover {
+  background-color: #009bea;
+}
+.cs-consulting h1,
+.cs-consulting h2,
+.cs-consulting a,
+.cs-consulting .link {
+  color: #c1d31c;
+}
+
+.font-bg span {
+  color: #ffffff;
+}
+.font-bg.gray span {
+  background-color: #444444;
+}
+.font-bg.white span {
+  background-color: #ffffff;
+  color: #444444;
+}
+.font-bg.invert span {
+  color: #ffffff;
+}
+
+footer {
+  color: #ffffff;
+  background: #555;
+}
+footer h4 {
+  color: #ffffff;
+}
+footer a {
+  color: #ffffff;
+}
+footer a:hover {
+  color: #c1d31c;
+}
+
 .flex {
   display: flex;
 }
@@ -1614,7 +1614,7 @@ footer {
   justify-content: end;
   align-items: flex-start;
 }
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .media-overlay.col {
     justify-content: end;
   }
@@ -1628,7 +1628,7 @@ footer {
   justify-content: end;
   position: relative;
 }
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .cinescope {
     height: 60vh;
   }
@@ -1659,7 +1659,7 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .video-wrapper iframe {
     min-width: 108vh;
   }
@@ -1722,7 +1722,7 @@ header.sticky, .header.sticky {
   right: 35px;
   top: 35px;
 }
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .logo {
     right: 25px;
     top: 25px;
@@ -1732,7 +1732,7 @@ header.sticky, .header.sticky {
   height: 95px;
   transition: all 0.3s;
 }
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .logo img {
     height: 70px;
   }
@@ -1741,37 +1741,12 @@ header.sticky, .header.sticky {
 .header.active .logo img {
   height: 80px;
 }
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .header.active .logo img {
     height: 60px;
   }
 }
 
-/*
-.logo a:after {
-    background: $color-1;
-    box-shadow: 5px 5px 10px rgba(0,0,0,.2);
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    content: "\e93d";
-    font-family: 'cat-icons';
-    font-size: 21px;
-    display: flex;
-    position: absolute;
-    right: 0;
-    top: 106vh;
-    color: #fff;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 0;
-    transition: all .3s;
-}
-
-.logo a:hover:after {
-    transform: scale(1.2);
-}
-*/
 .logo-bg {
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0 0 150px rgba(0, 0, 0, 0.5);
@@ -2083,7 +2058,7 @@ nav.nav-collapse ul li:last-child:hover a {
   overflow: hidden;
   position: relative;
 }
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .card {
     height: 430px;
   }
@@ -2227,7 +2202,7 @@ h5.font-bg span {
   position: relative;
   float: left;
 }
-@media only screen and (max-width: 991px) {
+@media (max-width: 991px) {
   .media-square {
     padding-bottom: 100%;
     width: 100%;
@@ -2241,7 +2216,7 @@ h5.font-bg span {
   left: 0px;
   right: 0px;
 }
-@media only screen and (max-width: 991px) {
+@media (max-width: 991px) {
   .media-inner .media-square {
     width: 50%;
     padding-bottom: 50%;
@@ -2339,7 +2314,7 @@ h5.font-bg span {
   transform: scale(1.3);
   z-index: 1;
 }
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .box-image span {
     opacity: 0.9;
     transform: scale(1);

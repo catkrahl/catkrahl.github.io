@@ -1,4 +1,5 @@
 @use '../01_abstracts/' as *;
+@use '../03_tools/' as *;
 
 // cards
 
@@ -18,7 +19,7 @@
   justify-content: center;
   overflow: hidden;
   position: relative;
-  @media only screen and (max-width: 767px) {
+  @include screen-max ('small')  {
     height: 430px;
   }
 }
