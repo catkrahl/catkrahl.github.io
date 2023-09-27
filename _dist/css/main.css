@@ -1442,6 +1442,13 @@ h4.font-bg span {
   width: auto;
 }
 
+.card-slider-head img {
+  height: 110px;
+  margin-top: 10px;
+  margin-right: -6px;
+  z-index: 1;
+}
+
 html,
 body {
   color: #444444;
