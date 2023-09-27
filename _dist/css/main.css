@@ -1412,6 +1412,7 @@ h5 {
 }
 
 h4.font-bg span {
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
   display: inline-block;
   padding: 0.3rem 2rem;
 }
@@ -1636,6 +1637,13 @@ footer {
 
 .cinescope.narrow {
   height: 35vh;
+}
+
+.storyhead {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .video-wrapper,

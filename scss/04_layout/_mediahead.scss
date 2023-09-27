@@ -47,6 +47,13 @@
   height: 35vh;
 }
 
+.storyhead {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
 .video-wrapper,
 .media-wrapper {
   position: absolute;

@@ -1,5 +1,8 @@
 template: sections/story/story_body.html
 ---
+department: cs-learning
+subtitle: CaT Story
+title: e-Learning Content
 subline: Erklärfilme
 headline: Die Kunst der Vereinfachung
 col1: |
