@@ -48,10 +48,13 @@
 }
 
 .storyhead {
-  height: 20vh;
+  position: absolute;
+  top: 0;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: end;
+  z-index: 999;
 }
 
 .video-wrapper,

@@ -1,8 +1,8 @@
 @use '../01_abstracts/' as *;
 @use '../03_tools/' as *;
 
-$font-bg-padding-horizontal: 2rem;
-$font-bg-padding-vertical: 0.3rem;
+$font-bg-padding-horizontal: 1rem;
+$font-bg-padding-vertical: 0.2rem;
 
 html,
 body {
@@ -21,7 +21,7 @@ body {
   }
 
   @include screen-max ('small')  {
-    font-size: calc($font-size - 3px);
+    font-size: calc($font-size - 2px);
   }
 }
 
@@ -118,7 +118,8 @@ h4.font-bg span {
 
 
 // headline card-slider
-.card-slider-head {
+.card-slider-head,
+.storyhead {
   img {
     height: 6.5rem;
     position: absolute;
@@ -127,5 +128,13 @@ h4.font-bg span {
     transform: scaleX(-1);
     top: -3.75rem;
     left: 12rem;
+  }
+}
+
+.storyhead {
+  position: relative;
+  img {
+    top: 1rem;
+    left: 10rem;
   }
 }

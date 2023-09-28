@@ -1,5 +1,5 @@
 .innerspace {
-  padding: 80px 0;
+  padding: 5rem 0;
 }
 
 .spacer-xs {
@@ -11,19 +11,19 @@
 }
 
 .spacer-md {
-  height: 20px;
+  height: 1.25rem;
 }
 
 .spacer-lg {
-  height: 40px;
+  height: 2.5rem;
 }
 
 .spacer-xl {
-  height: 80px;
+  height: 5rem;
 }
 
 .spacer-xxl {
-  height: 100px;
+  height: 6.25rem;
 }
 
 .bg,
@@ -42,7 +42,7 @@
 .bg.offset-darkgray,
 .bg-main.offset-darkgray {
   background: linear-gradient(0deg, #f4f4f4 0%, rgb(68, 68, 68) 0%, rgb(68, 68, 68) 80%, #f4f4f4 80%);
-  padding-bottom: 100px;
+  padding-bottom: 6.25rem;
 }
 .bg.color-1,
 .bg-main.color-1 {
@@ -1353,7 +1353,7 @@ body {
 @media (max-width: 767px) {
   html,
   body {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
@@ -1419,7 +1419,7 @@ h6 {
 h4.font-bg span {
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
   display: inline-block;
-  padding: 0.3rem 2rem;
+  padding: 0.2rem 1rem;
 }
 
 .font-bg {
@@ -1434,7 +1434,7 @@ h4.font-bg span {
 }
 .font-bg span {
   margin-bottom: 0.1rem;
-  padding: 0 2rem;
+  padding: 0 1rem;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
 }
@@ -1447,7 +1447,8 @@ h4.font-bg span {
   width: auto;
 }
 
-.card-slider-head img {
+.card-slider-head img,
+.storyhead img {
   height: 6.5rem;
   position: absolute;
   filter: opacity(0.1);
@@ -1455,6 +1456,14 @@ h4.font-bg span {
   transform: scaleX(-1);
   top: -3.75rem;
   left: 12rem;
+}
+
+.storyhead {
+  position: relative;
+}
+.storyhead img {
+  top: 1rem;
+  left: 10rem;
 }
 
 html,
@@ -1657,10 +1666,13 @@ footer {
 }
 
 .storyhead {
-  height: 20vh;
+  position: absolute;
+  top: 0;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: end;
+  z-index: 999;
 }
 
 .video-wrapper,
@@ -1708,6 +1720,7 @@ footer {
 .img-slider {
   width: 100%;
   height: 55vw;
+  max-height: 800px;
   overflow: hidden;
 }
 .img-slider img {

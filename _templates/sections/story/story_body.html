@@ -2,22 +2,25 @@
 
 <section id="storyhead" class="storyhead {{ department }}">
     <!-- Overlay Text -->
-    <h4 class="font-bg white"><span>{{ subtitle }}</span></h4>
-    <h2 class="font-bg"><span>{{ title }}</span></h1>
+    <h2 class="font-bg white"><span>CaT</span><br><span>Storys</span></h1>
+    <h3 class="font-bg"><span>{{ title }}</span></h1>
 </section>
 
-<section id="content">
+<section id="content {{ department }}">
     <div class="bg innerspace hero">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="navigator">
+                    
+                    <!-- 
+                    <div class="navigator"> 
                         <div class="element-container flex flex-row">
                             <div class="float-element"></div>
                             <div class="float-element active"></div>
                             <div class="float-element"></div>
                         </div>
                     </div>
+                    -->
                     <div class="spacer-md"></div>
                     <div id="content-anchor" class="anchor-target"></div>
                     <h3>{{ subline }}</h3>
