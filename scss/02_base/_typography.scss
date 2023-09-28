@@ -60,20 +60,25 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
 }
 
 h4,
 .tab-label {
   font-size: 1.31rem;
-  line-height: 27px;
+  line-height: 1.6875rem;
   margin-bottom: .7em
 }
 
 h5 {
   font-size: 1.125rem;
-  line-height: 24px;
+  line-height: 1.5rem;
+}
+
+h6 {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .textbreite {
@@ -110,11 +115,17 @@ h4.font-bg span {
   width: auto;
 }
 
+
+
+// headline card-slider
 .card-slider-head {
   img {
-    height: 110px;
-    margin-top: 10px;
-    margin-right: -6px;
+    height: 6.5rem;
+    position: absolute;
+    filter: opacity(.1);
     z-index: 1;
+    transform: scaleX(-1);
+    top: -3.75rem;
+    left: 12rem;
   }
 }

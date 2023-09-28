@@ -17,7 +17,7 @@
   }
 
   &.offset-darkgray {
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(68,68,68,1) 0%, rgba(68,68,68,1) 80%, rgba(255,255,255,1) 80%);
+    background: linear-gradient(0deg, $lightgray 0%, rgba(68,68,68,1) 0%, rgba(68,68,68,1) 80%, $lightgray 80%);
     padding-bottom: $spacer-xxl;
   }
 

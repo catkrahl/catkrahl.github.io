@@ -15,3 +15,8 @@
           + "Available breakpoints are: #{map-keys($breakpoints)}.";
     }
   }
+
+  // font-bg-shadow
+  @mixin font-bg-shadow () {
+    box-shadow: 5px 5px 20px rgba(0,0,0,.3);
+  } 

@@ -1,4 +1,5 @@
 @use '../01_abstracts/' as *;
+@use '../03_tools/' as *;
 
 html,
 body {
@@ -94,6 +95,7 @@ a:hover {
 
 .font-bg {
   span {
+    @include font-bg-shadow();
     color: $text-color-invert;
   }
 
@@ -103,6 +105,7 @@ a:hover {
   
   &.white span {
     background-color: $bg-main;
+    @include font-bg-shadow();
     color: $text-color;
   }
   
