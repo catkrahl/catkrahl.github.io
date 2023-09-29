@@ -115,9 +115,11 @@ h4.font-bg span {
   width: auto;
 }
 
-
-
 // headline card-slider
+.card-slider-head h1 {
+  margin-bottom: 30px;
+}
+
 .card-slider-head,
 .storyhead {
   img {
@@ -137,4 +139,17 @@ h4.font-bg span {
     top: 1rem;
     left: 10rem;
   }
+}
+
+.text-overlay {
+  margin-bottom: -20px;
+}
+
+.story-content-head:before {
+  content: url("../images/icons/icon_chat.svg");
+  transform: scaleX(-1) scale(0.5);
+  opacity: .1;
+  position: absolute;
+  left: 20rem;
+  top: -6rem;
 }

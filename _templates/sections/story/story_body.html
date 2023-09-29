@@ -1,17 +1,28 @@
 <div class="btn-nav prev" onclick="window.location.href='{{ link_target }}';"></div>
 
 <section id="storyhead" class="storyhead {{ department }}">
-    <!-- Overlay Text -->
-    <h2 class="font-bg white"><span>CaT</span><br><span>Storys</span></h1>
-    <h3 class="font-bg"><span>{{ title }}</span></h1>
-</section>
+    <div class="text-overlay">
 
-<section id="content {{ department }}">
-    <div class="bg innerspace hero">
+          <!-- Overlay Text -->
+          <h2 class="font-bg white"><span>CaT</span><br><span>Storys</span></h1>
+            <h3 class="font-bg"><span>{{ title }}</span></h1>
+        <!--       
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    
+                  
+                </div>
+            </div>
+        </div>
+        -->
+    </div>
+</section>
+
+<section id="content {{ department }}" class="story-content">
+    <div class="bg innerspace hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 story-content-head">
                     <!-- 
                     <div class="navigator"> 
                         <div class="element-container flex flex-row">
@@ -29,12 +40,13 @@
                 <!-- col 1 -->
                 <div class="col-sm-12 col-md-6">
                     {{ col1|markdown_to_html }}
-                    <p><a href="{{ link_target }}" traget="_self" class="link">{{ link_label }}</a></p>
                 </div>
-
+                
                 <!-- col 2 -->
                 <div class="col-sm-12 col-md-6">
+                    <img class="mb-md" src="{{ image01 }}">
                     {{ col2|markdown_to_html }}
+                    <p><a href="{{ link_target }}" traget="_self" class="link">{{ link_label }}</a></p>
                 </div>
             </div>
         </div>
