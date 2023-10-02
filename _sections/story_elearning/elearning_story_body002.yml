@@ -5,7 +5,8 @@ subtitle: CaT Story
 title: e-Learning Content
 subline: Erklärfilme
 headline: Die Kunst der Vereinfachung
-image01: ../images/content001.png
+image_above_text:
+image_below_text: ../images/content001.png
 col1: |
   Ein Schreibtisch, ein Stuhl, eine Pflanze betreten die Bühne, dazu kommen 
   die Uhr und eine Stehlampe und schließlich: der Mensch. Das Drehbuch ist 
@@ -34,5 +35,5 @@ col2: |
 
   Wir erklären ein komplexes Thema in 30, 60 oder 90 Minuten. Sprechen Sie uns an!
 link_target: elearning.html#card-slider
-link_label: weitere Content Stories lesen
+link_label: mehr Content-Storys lesen
 

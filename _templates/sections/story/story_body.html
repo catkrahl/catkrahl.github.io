@@ -1,6 +1,6 @@
 <div class="btn-nav prev" onclick="window.location.href='{{ link_target }}';"></div>
 
-<section id="storyhead" class="storyhead {{ department }}">
+<section id="storyhead" class="storybanner {{ department }}">
     <div class="text-overlay">
 
           <!-- Overlay Text -->
@@ -37,6 +37,11 @@
                     <h3>{{ subline }}</h3>
                     <h2>{{ headline }}</h2>
                 </div>
+
+                <div class="col-sm-12">
+                    <img class="mtb-lg rounded" src="{{ image_above_text }}">
+                </div>
+
                 <!-- col 1 -->
                 <div class="col-sm-12 col-md-6">
                     {{ col1|markdown_to_html }}
@@ -45,10 +50,10 @@
                 <!-- col 2 -->
                 <div class="col-sm-12 col-md-6">
                     {{ col2|markdown_to_html }}
+                    <p><a href="{{ link_target }}" traget="_self" class="link">{{ link_label }}</a></p>
                 </div>
                 <div class="col-sm-12">
-                    <img class="mb-md" src="{{ image01 }}">
-                    <p><a href="{{ link_target }}" traget="_self" class="link">{{ link_label }}</a></p>
+                    <img class="mtb-lg rounded" src="{{ image_below_text }}">
                 </div>
             </div>
         </div>

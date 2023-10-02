@@ -7,3 +7,11 @@ img {
 footer img {
     width: auto;
 }
+
+img.rounded {
+    border-radius: $border-radius-sm;
+}
+
+img[src=""] {
+    display: none;
+ }

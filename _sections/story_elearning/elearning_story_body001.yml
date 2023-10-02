@@ -5,7 +5,8 @@ subtitle: CaT Story
 title: e-Learning Content
 subline: Das Studioformat
 headline: Digitale Trainings als Fernsehshow
-image01: 
+image_above_text:
+image_below_text: 
 col1: |
   Ein virtuelles 3D-Studio im Zentrum des Geschehens: Darin steht eine Moderatorin, die auf bewegte Einspieler im Hintergrund zeigt, vielleicht Interviews gibt. Während sie spricht, fährt die Kamera langsam auf sie zu, bis schließlich, genau getimt, der Zoom ins Vollbild des Einspielers folgt – ein perfekter Übergang zur nächsten Inhaltsseite. In diesem Rahmen wird ein digitales Training fast zur Fernsehshow, ein komplexer Inhalt zur gut durchdachten Unterhaltung.  
 
@@ -15,5 +16,5 @@ col2: |
   
   Bei diesem Format arbeiten wir Hand in Hand mit unseren Kunden, um ein möglichst authentisches (Lern-)Erlebnis zu erzielen. Das Studio ist vor allem bei den großen Produkt-Trainingsreihen unserer Kunden aus der Versicherungswirtschaft im Einsatz, die über das Lernmanagementsystem cate verwaltet werden. Versicherungen müssen Vermittlerrichtlinien einhalten und pro Jahr eine bestimmte Anzahl an Weiterbildungsstunden für ihre Mitarbeitenden gewährleisten. Das Studio im digitalen Training unterstützt dabei auf effektive Weise.
 link_target: elearning.html#card-slider
-link_label: weitere Content Stories lesen
+link_label: mehr Content-Storys lesen
 

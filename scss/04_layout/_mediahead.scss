@@ -47,20 +47,6 @@
   height: 35vh;
 }
 
-.storyhead {
-  background-image: url('../images/header/cat-storys-header-logo-big.png');
-  background-color: white;
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow: inset 0 0 50px -30px rgba(0,0,0,.2);
-  position: relative;
-  top: 0;
-  height: 27vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-}
-
 .video-wrapper,
 .media-wrapper {
   position: absolute;
@@ -101,4 +87,36 @@
 
 .media-bg.right { 
   background-position: right;
+}
+
+.storybanner {
+  // background-image: url('../images/header/cat-storys-header-logo-big.png');
+  background-color: #666;
+  background-size: cover;
+  background-repeat: no-repeat;
+  // box-shadow: inset 0 0 50px -30px rgba(0,0,0,.2);
+  position: relative;
+  top: 0;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+  img {
+    top: 1rem;
+    left: 10rem;
+  }
+
+  .text-overlay {
+    margin-bottom: -20px;
+    &:before {
+      content: url("../images/icons/icon_chat.svg");
+      transform: scaleX(-1) scale(0.5);
+      opacity: 0.3;
+      position: absolute;
+      left: 8rem;
+      top: 0rem;
+      filter: invert(1) brightness(10);
+    }
+  }
 }

@@ -30,8 +30,16 @@
   margin-bottom: 1.25rem;
 }
 
+.mtb-md {
+  margin: 1.25rem 0;
+}
+
 .mb-lg {
   margin-bottom: 2.5rem;
+}
+
+.mtb-lg {
+  margin: 2.5rem 0;
 }
 
 img {
@@ -40,6 +48,14 @@ img {
 
 footer img {
   width: auto;
+}
+
+img.rounded {
+  border-radius: 8px;
+}
+
+img[src=""] {
+  display: none;
 }
 
 .bg,
@@ -1564,27 +1580,25 @@ h4.font-bg span {
   left: 12rem;
 }
 
-.storyhead {
-  position: relative;
-}
-.storyhead img {
-  top: 1rem;
+.storyhead:before {
+  content: url("../images/icons/icon_chat.svg");
+  transform: scaleX(-1) scale(0.5);
+  opacity: 0.1;
+  position: absolute;
   left: 10rem;
+  top: -6rem;
 }
 
-.text-overlay {
-  margin-bottom: -20px;
-}
-
+/*
 .story-content-head:before {
   content: url("../images/icons/icon_chat.svg");
-  transform: scaleX(-1) scale(0.4);
-  opacity: 0.1;
+  transform: scaleX(-1) scale(0.35);
+  opacity: .1;
   position: absolute;
   left: 13rem;
   top: -6rem;
 }
-
+*/
 html,
 body {
   color: #444444;
@@ -1784,20 +1798,6 @@ footer {
   height: 35vh;
 }
 
-.storyhead {
-  background-image: url("../images/header/cat-storys-header-logo-big.png");
-  background-color: white;
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow: inset 0 0 50px -30px rgba(0, 0, 0, 0.2);
-  position: relative;
-  top: 0;
-  height: 27vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-}
-
 .video-wrapper,
 .media-wrapper {
   position: absolute;
@@ -1838,6 +1838,34 @@ footer {
 
 .media-bg.right {
   background-position: right;
+}
+
+.storybanner {
+  background-color: #666;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.storybanner img {
+  top: 1rem;
+  left: 10rem;
+}
+.storybanner .text-overlay {
+  margin-bottom: -20px;
+}
+.storybanner .text-overlay:before {
+  content: url("../images/icons/icon_chat.svg");
+  transform: scaleX(-1) scale(0.5);
+  opacity: 0.3;
+  position: absolute;
+  left: 8rem;
+  top: 0rem;
+  filter: invert(1) brightness(10);
 }
 
 .img-slider {
@@ -2215,7 +2243,7 @@ nav.nav-collapse ul li:last-child:hover a {
   width: 45px;
   transition: all 0.5s;
   position: fixed;
-  top: 30px;
+  top: 20px;
   left: 30px;
   z-index: 9999;
   cursor: pointer;

@@ -32,3 +32,12 @@ git push --tags
 #### Sonderzeichen in Markdown
 * Backslashmaskierung: 
   * z.B.: \*
+
+#### auf github pages veröffentlichen
+* ghpages-branch anlegen
+* Inhalt _dist-Verzeichnis im Dateibrowser auf oberste Ebene kopieren 
+* alle anderen Ordner löschen
+* force-push branch zu ghpages-remote
+* auf master switchen
+* ghpages-branch wieder löschen
+* http://www.catkrahl.github.io aufrufen
