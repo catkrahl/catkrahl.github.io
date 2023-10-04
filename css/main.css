@@ -287,6 +287,55 @@ img[src=""] {
     opacity: 1;
   }
 }
+.floating-action-nav {
+  position: fixed;
+  width: 50px;
+  height: 100px;
+  bottom: 0;
+  right: 0;
+  margin: 25px;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input:checked ~ .floating-container {
+  height: 240px;
+  width: 180px;
+}
+
+.floating-button {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  background: #666666;
+  bottom: 0;
+  border-radius: 50%;
+  right: 0;
+  color: white;
+  line-height: 55px;
+  text-align: center;
+  font-size: 23px;
+  z-index: 100;
+  box-shadow: -15px 15px 30px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.floating-button:after {
+  content: "\e90e";
+  font-family: "cat-icons";
+  font-size: 1.9rem;
+  color: #fff;
+  transform: all 0.5s;
+}
+
+input:checked + .floating-button:after {
+  content: "\e978";
+  font-size: 1.5rem;
+}
+
 .floating-container {
   position: fixed;
   width: 50px;
@@ -296,12 +345,7 @@ img[src=""] {
   margin: 25px;
 }
 
-.floating-container:hover {
-  height: 240px;
-  width: 180px;
-}
-
-.floating-container:hover .floating-button {
+input:checked ~ .floating-container .floating-button {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
   -webkit-transform: translatey(5px);
   transform: translatey(5px);
@@ -309,17 +353,17 @@ img[src=""] {
   transition: all 0.3s;
 }
 
-.floating-container:hover .element-container .float-element:nth-child(1) {
+input:checked ~ .floating-container .element-container .float-element:nth-child(1) {
   -webkit-animation: come-in 0.4s forwards 0.2s;
   animation: come-in 0.4s forwards 0.2s;
 }
 
-.floating-container:hover .element-container .float-element:nth-child(2) {
+input:checked ~ .floating-container .element-container .float-element:nth-child(2) {
   -webkit-animation: come-in 0.4s forwards 0.4s;
   animation: come-in 0.4s forwards 0.4s;
 }
 
-.floating-container:hover .element-container .float-element:nth-child(3) {
+input:checked ~ .floating-container .element-container .float-element:nth-child(3) {
   -webkit-animation: come-in 0.4s forwards 0.6s;
   animation: come-in 0.4s forwards 0.6s;
 }
@@ -330,28 +374,7 @@ img[src=""] {
 }
 
 .floating-container .floating-button {
-  position: absolute;
-  width: 55px;
-  height: 55px;
-  background: #009bea;
-  bottom: 0;
-  border-radius: 50%;
-  right: 0;
-  color: white;
-  line-height: 55px;
-  text-align: center;
-  font-size: 23px;
-  z-index: 100;
-  box-shadow: 20px 20px -10px rgba(0, 0, 0, 0.5);
-  cursor: pointer;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.floating-container .floating-button:after {
-  content: "\e93d";
-  font-family: "cat-icons";
-  font-size: 1.7rem;
-  color: #fff;
+  display: none;
 }
 .floating-container .float-element {
   position: relative;
@@ -398,7 +421,7 @@ img[src=""] {
   background: #c1d31c;
 }
 .floating-container .float-element .label {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0 20px 20px -13px rgba(0, 0, 0, 0.2);
   padding: 0 50px 0 20px;
   border-radius: 25px;
@@ -2076,10 +2099,14 @@ nav.nav-collapse ul li:last-child:hover a {
   height: 360px;
   width: 360px;
 }
-
 .bubble .font-bg {
   box-shadow: 10px 10px 50px rgba(0, 0, 0, 0);
   padding: 10px 50px;
+  width: auto;
+}
+.bubble h3 {
+  font-size: 1.4rem;
+  line-height: 2rem;
 }
 
 .bubble-content.col-2::after {

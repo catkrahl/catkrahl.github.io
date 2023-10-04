@@ -28,11 +28,17 @@
   border-radius: 50%;
   height: 360px;
   width: 360px;
-}
 
-.bubble .font-bg {
-  box-shadow: 10px 10px 50px rgba(0,0,0,0);
-  padding: 10px 50px;
+  .font-bg {
+    box-shadow: 10px 10px 50px rgba(0,0,0,0);
+    padding: 10px 50px;
+    width: auto;
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
 }
 
 .bubble-content.col-2::after {
