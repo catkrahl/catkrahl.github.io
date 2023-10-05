@@ -1,27 +1,27 @@
 template: sections/department/department_slider.html
 ---
 stories:
-  - target: index.html
+  - subline: Corporate Learning
+    headline: Pflichtschulungen
+    target: 
     image: images/cate001.png
-    subline: Pflichtschulungen
-    headline: Die besondere Gabe von cate
-  - target: index.html
+  - subline: Automatisierung
+    headline: Der Faktor Mensch in der IT
+    target: 
     image: images/code002.png
-    subline: Der Aufräumer
-    headline: Über Chaos und Struktur im Code
-  - target: index.html
+  - subline: Die Implementierung von cate
+    headline: Wenn das Lernmanagementsystem wirklich kommt
+    target: 
     image: images/itsecurity001.jpg
-    subline: IT-Security
-    headline: Maximale Tranparenz – und viel Arbeit!
-  - target: index.html
+  - subline: ILIAS und cate
+    headline: Win-win für alle Seiten
+    target: 
     image: images/release001.jpg
-    subline: Releases
-    headline: Eine Frage des Managements
-  - target: index.html
+  - subline: Schulungen
+    headline: Keine wie die andere
+    target: 
     image: images/introduction001.jpg
-    subline: Die Implementierung von cate
-    headline: Wenn das System wirklich kommt
-  - target: index.html
-    image: images/itsecurity001.jpg
-    subline: IT-Security
-    headline: Maximale Tranparenz – und viel Arbeit!
+  - subline: Stay tuned ...
+    headline: Hier folgen bald weitere Storys
+    target: 
+    image: images/content006.png

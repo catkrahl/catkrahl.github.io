@@ -1,27 +1,19 @@
 template: sections/department/department_slider.html
 ---
 stories:
-  - target: index.html
-    image: images/cat004.jpg
-    subline: Story 1
-    headline: Die Headline
-  - target: index.html
-    image: images/cat004.jpg
-    subline: Story 2
-    headline: Die Headline
-  - target: index.html
-    image: images/cat004.jpg
-    subline: Story 3
-    headline: Die Headline
-  - target: index.html
-    image: images/cat004.jpg
-    subline: Story 4
-    headline: Die Headline
-  - target: index.html
-    image: images/cat004.jpg
-    subline: Story 5
-    headline: Die Headline
-  - target: index.html
-    image: images/cat004.jpg
-    subline: Story 6
-    headline: Die Headline
+  - subline: Digitales Training
+    headline: Wege zum richtigen Konzept
+    target: 
+    image: 
+  - subline: IT Security
+    headline: Höchste Transparenz und viele To-dos!
+    target: 
+    image: 
+  - subline: Strategieworkshop
+    headline: Was muss mein Lernmangementsystem können?
+    target: 
+    image: 
+  - subline: Suchkonzepte in cate
+    headline: Ordnen, clustern, filtern
+    target: 
+    image: 
