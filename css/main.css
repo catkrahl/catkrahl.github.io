@@ -436,6 +436,7 @@ input:checked ~ .floating-container .element-container .float-element:nth-child(
   vertical-align: middle;
   font-size: 0.85rem;
   position: absolute;
+  white-space: nowrap;
   right: 0;
   color: #444444;
 }
