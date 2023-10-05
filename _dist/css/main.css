@@ -1534,8 +1534,8 @@ p {
 }
 
 h1 {
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 2.8rem;
+  line-height: 3.3rem;
 }
 
 h2 {
@@ -1582,7 +1582,7 @@ h4.font-bg span {
 }
 @media (max-width: 767px) {
   .font-bg {
-    width: 100%;
+    width: 450px;
   }
 }
 .font-bg span {
@@ -1681,6 +1681,10 @@ a:hover {
 .cs-learning h1,
 .cs-learning a,
 .cs-learning .link {
+  color: #009bea;
+}
+
+.cs-global h2 {
   color: #009bea;
 }
 
