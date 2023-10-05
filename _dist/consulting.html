@@ -72,9 +72,23 @@
 
             <!-- dimmer overlay -->
             <div class="dim"></div>
-            
-            <div class="media-wrapper media-bg right" style="background-image: url(images/bg-header-03.png);">
-            <!--  <img src="images/cate001.png"> -->
+
+            <!--slider cinescope -->
+            <div class="swiper bannerSwiper">
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide">
+                        <img src="images/bg-header-03.png" alt="Learning Management">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="images/bg-header-03.png" alt="e-Learning-Content">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="images/bg-header-03.png" alt="Consulting">
+                    </div>
+                </div>
             </div>
         </div>
     </section> 
@@ -83,7 +97,7 @@
         <div class="bg innerspace hero">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12"  data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
+                    <div class="col-sm-12" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
                         <div id="content-anchor" class="anchor-target"></div>
                         <!-- <h4>CaT Concepts and Training GmbH</h4> -->
                         <div class="navigator">
@@ -94,7 +108,7 @@
                             </div>
                         </div>
                         <div class="spacer-md"></div>
-                        <h2 >Strategie und Orientierung im Corporate Learning</h2>
+                        <h2>Strategie und Orientierung im Corporate Learning</h2>
                     </div>
                     <!-- col 1 -->
                     <div class="col-sm-12 col-md-6" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
@@ -111,7 +125,7 @@
 
     </section>
 
-    <section id="story-slider-head" class="story-slider-head">
+    <section id="story-head" class="story-head">
         <div class="bg lightgray innerspace hero">
             <div class="container">
                 <div class="row">
@@ -295,45 +309,6 @@
         </div>
     </div>
 </footer>
-
-    <!-- swiper config -->
-    <script>
-        var swiper = new Swiper(".cardSwiper", {
-            slidesPerView: 1,
-            centeredSlides: false,
-            spaceBetween: 20,
-            slidesPerGroupSkip: 1,
-            grabCursor: true,
-            loop: true,
-            keyboard: {
-                enabled: true,
-            },
-            breakpoints: {
-                769: {
-                slidesPerView: 2,
-                slidesPerGroup: 1,
-                },
-                990: {
-                slidesPerView: 3,
-                slidesPerGroup: 1,
-                },
-            },
-            scrollbar: {
-                el: ".swiper-scrollbar",
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-                dynamicBullets: "true",
-            },
-        });
-
-    </script>
-
 <script src="jquery/jquery-2.x.min.js"></script>
 <script src="js/fixed-responsive-nav.js"></script>
 <script src="js/aos.js"></script>
@@ -385,7 +360,22 @@
         },
     });
 
-    // card swiper
+    var swiper = new Swiper(".bannerSwiper", {
+        slidesPerView: 1,
+        centeredSlides: false,
+        spaceBetween: 0,
+        slidesPerGroupSkip: 1,
+        loop: true,
+        speed: 700,
+        keyboard: {
+            enabled: true,
+        },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+    });
+
     var swiper = new Swiper(".cardSwiper", {
         slidesPerView: 1,
         centeredSlides: false,
@@ -417,23 +407,6 @@
             el: ".swiper-pagination",
             clickable: true,
             dynamicBullets: "true",
-        },
-    });
-
-    // banner swiper 
-    var swiper = new Swiper(".bannerSwiper", {
-        slidesPerView: 1,
-        centeredSlides: false,
-        spaceBetween: 0,
-        slidesPerGroupSkip: 1,
-        loop: true,
-        speed: 300,
-        keyboard: {
-            enabled: true,
-        },
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
         },
     });
 

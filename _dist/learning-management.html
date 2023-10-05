@@ -70,10 +70,25 @@
 
             <!-- dimmer overlay -->
             <div class="dim"></div>
-            
-            <div class="media-wrapper media-bg right" style="background-image: url(images/bg-header-01.png);">
-            <!--  <img src="images/cate001.png"> -->
+
+            <!--slider cinescope -->
+            <div class="swiper bannerSwiper">
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide">
+                        <img src="images/bg-header-01.png" alt="Learning Management">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="images/bg-header-01.png" alt="e-Learning-Content">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="images/bg-header-01.png" alt="Consulting">
+                    </div>
+                </div>
             </div>
+            
         </div>
     </section> 
 
@@ -115,7 +130,7 @@
 
     </section>
 
-    <section id="story-slider-head" class="story-slider-head">
+    <section id="story-head" class="story-head">
         <div class="bg lightgray innerspace hero">
             <div class="container">
                 <div class="row">
@@ -299,7 +314,6 @@
         </div>
     </div>
 </footer>
-
 <script src="jquery/jquery-2.x.min.js"></script>
 <script src="js/fixed-responsive-nav.js"></script>
 <script src="js/aos.js"></script>
@@ -351,7 +365,22 @@
         },
     });
 
-    // card swiper
+    var swiper = new Swiper(".bannerSwiper", {
+        slidesPerView: 1,
+        centeredSlides: false,
+        spaceBetween: 0,
+        slidesPerGroupSkip: 1,
+        loop: true,
+        speed: 700,
+        keyboard: {
+            enabled: true,
+        },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+    });
+
     var swiper = new Swiper(".cardSwiper", {
         slidesPerView: 1,
         centeredSlides: false,
@@ -383,23 +412,6 @@
             el: ".swiper-pagination",
             clickable: true,
             dynamicBullets: "true",
-        },
-    });
-
-    // banner swiper 
-    var swiper = new Swiper(".bannerSwiper", {
-        slidesPerView: 1,
-        centeredSlides: false,
-        spaceBetween: 0,
-        slidesPerGroupSkip: 1,
-        loop: true,
-        speed: 300,
-        keyboard: {
-            enabled: true,
-        },
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
         },
     });
 

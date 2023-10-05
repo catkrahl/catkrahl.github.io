@@ -495,7 +495,22 @@
         },
     });
 
-    // card swiper
+    var swiper = new Swiper(".bannerSwiper", {
+        slidesPerView: 1,
+        centeredSlides: false,
+        spaceBetween: 0,
+        slidesPerGroupSkip: 1,
+        loop: true,
+        speed: 700,
+        keyboard: {
+            enabled: true,
+        },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+    });
+
     var swiper = new Swiper(".cardSwiper", {
         slidesPerView: 1,
         centeredSlides: false,
@@ -527,23 +542,6 @@
             el: ".swiper-pagination",
             clickable: true,
             dynamicBullets: "true",
-        },
-    });
-
-    // banner swiper 
-    var swiper = new Swiper(".bannerSwiper", {
-        slidesPerView: 1,
-        centeredSlides: false,
-        spaceBetween: 0,
-        slidesPerGroupSkip: 1,
-        loop: true,
-        speed: 300,
-        keyboard: {
-            enabled: true,
-        },
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
         },
     });
 
