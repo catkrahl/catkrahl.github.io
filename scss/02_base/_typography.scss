@@ -96,7 +96,7 @@ h4.font-bg span {
   margin: 0;
   width: 600px;
   @include screen-max ('small') {
-    width: 450px;
+    max-width: 100%;
   }
 
   span {

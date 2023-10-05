@@ -1582,7 +1582,7 @@ h4.font-bg span {
 }
 @media (max-width: 767px) {
   .font-bg {
-    width: 450px;
+    max-width: 100%;
   }
 }
 .font-bg span {
