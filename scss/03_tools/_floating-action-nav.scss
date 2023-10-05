@@ -1,6 +1,6 @@
 @use '../01_abstracts/' as *;
 
-$floating-btn-size: 55px;
+$floating-btn-size: 50px;
 $floating-element-size: 40px;
 
 //
@@ -83,6 +83,9 @@ input:checked ~ .floating-container {
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  &:hover {
+    transform: scale(1.1);
+  }
   // home icon
   &:after {
       content: "\e90e";

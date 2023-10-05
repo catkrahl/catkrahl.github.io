@@ -307,14 +307,14 @@ input:checked ~ .floating-container {
 
 .floating-button {
   position: absolute;
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   background: #666666;
   bottom: 0;
   border-radius: 50%;
   right: 0;
   color: white;
-  line-height: 55px;
+  line-height: 50px;
   text-align: center;
   font-size: 23px;
   z-index: 100;
@@ -322,6 +322,9 @@ input:checked ~ .floating-container {
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+.floating-button:hover {
+  transform: scale(1.1);
 }
 .floating-button:after {
   content: "\e90e";
