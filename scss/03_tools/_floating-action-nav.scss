@@ -62,8 +62,8 @@ input[type="checkbox"] {
 }
   
 input:checked ~ .floating-container {
-  height: 240px;
-  width: 180px;
+  height: 295px;
+  width: 200px;
 }
 
 .floating-button {
@@ -116,16 +116,20 @@ input:checked ~ .floating-container .floating-button {
     transition: all 0.3s;
 }
 input:checked ~ .floating-container .element-container .float-element:nth-child(1) {
+    -webkit-animation: come-in 0.4s forwards 0.1s;
+            animation: come-in 0.4s forwards 0.1s;
+}
+input:checked ~ .floating-container .element-container .float-element:nth-child(2) {
     -webkit-animation: come-in 0.4s forwards 0.2s;
             animation: come-in 0.4s forwards 0.2s;
 }
-input:checked ~ .floating-container .element-container .float-element:nth-child(2) {
-    -webkit-animation: come-in 0.4s forwards 0.4s;
-            animation: come-in 0.4s forwards 0.4s;
-}
 input:checked ~ .floating-container .element-container .float-element:nth-child(3) {
-    -webkit-animation: come-in 0.4s forwards 0.6s;
-            animation: come-in 0.4s forwards 0.6s;
+    -webkit-animation: come-in 0.4s forwards 0.3s;
+            animation: come-in 0.4s forwards 0.3s;
+}
+input:checked ~ .floating-container .element-container .float-element:nth-child(4) {
+  -webkit-animation: come-in 0.4s forwards 0.4s;
+          animation: come-in 0.4s forwards 0.4s;
 }
 
 .element-container {
@@ -134,10 +138,6 @@ input:checked ~ .floating-container .element-container .float-element:nth-child(
 }
 
 .floating-container {
-
-  .floating-button {
-    display: none;
-  }
 
   .float-element {
     position: relative;
@@ -164,34 +164,41 @@ input:checked ~ .floating-container .element-container .float-element:nth-child(
       position: absolute;
       width: $floating-element-size;
       height: $floating-element-size;
-      right: 0;
+      right: -5px;
     }
 
     &:nth-child(1) {
-      right: 10px;
+      right: 0;
+      .bullet-icon {
+        background: #666;
+      }
+    }
+
+    &:nth-child(2) {
+      right: 20px;
       .bullet-icon {
         background: $color-4;
       }
     }
 
-    &:nth-child(2) {
+    &:nth-child(3) {
       right: 30px;
       .bullet-icon {
         background: $color-1;
       }
     }
 
-    &:nth-child(3) {
-      right: 10px;
+    &:nth-child(4) {
+      right: 20px;
       .bullet-icon {
         background: $color-2;
       }
     }
 
     .label {
-      background-color: rgba(255,255,255,0.5);
+      background-color: rgba(255,255,255,1);
       box-shadow: 0 20px 20px -13px rgba(0,0,0,0.2);
-      padding: 0 50px 0 20px;
+      padding: 0 43px 0 15px;
       border-radius: 25px;
       vertical-align: middle;
       font-size: 0.85rem;

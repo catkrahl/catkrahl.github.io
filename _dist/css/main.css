@@ -301,8 +301,8 @@ input[type=checkbox] {
 }
 
 input:checked ~ .floating-container {
-  height: 240px;
-  width: 180px;
+  height: 295px;
+  width: 200px;
 }
 
 .floating-button {
@@ -354,18 +354,23 @@ input:checked ~ .floating-container .floating-button {
 }
 
 input:checked ~ .floating-container .element-container .float-element:nth-child(1) {
+  -webkit-animation: come-in 0.4s forwards 0.1s;
+  animation: come-in 0.4s forwards 0.1s;
+}
+
+input:checked ~ .floating-container .element-container .float-element:nth-child(2) {
   -webkit-animation: come-in 0.4s forwards 0.2s;
   animation: come-in 0.4s forwards 0.2s;
 }
 
-input:checked ~ .floating-container .element-container .float-element:nth-child(2) {
-  -webkit-animation: come-in 0.4s forwards 0.4s;
-  animation: come-in 0.4s forwards 0.4s;
+input:checked ~ .floating-container .element-container .float-element:nth-child(3) {
+  -webkit-animation: come-in 0.4s forwards 0.3s;
+  animation: come-in 0.4s forwards 0.3s;
 }
 
-input:checked ~ .floating-container .element-container .float-element:nth-child(3) {
-  -webkit-animation: come-in 0.4s forwards 0.6s;
-  animation: come-in 0.4s forwards 0.6s;
+input:checked ~ .floating-container .element-container .float-element:nth-child(4) {
+  -webkit-animation: come-in 0.4s forwards 0.4s;
+  animation: come-in 0.4s forwards 0.4s;
 }
 
 .element-container {
@@ -373,9 +378,6 @@ input:checked ~ .floating-container .element-container .float-element:nth-child(
   right: 10px;
 }
 
-.floating-container .floating-button {
-  display: none;
-}
 .floating-container .float-element {
   position: relative;
   display: block;
@@ -400,30 +402,36 @@ input:checked ~ .floating-container .element-container .float-element:nth-child(
   position: absolute;
   width: 40px;
   height: 40px;
-  right: 0;
+  right: -5px;
 }
 .floating-container .float-element:nth-child(1) {
-  right: 10px;
+  right: 0;
 }
 .floating-container .float-element:nth-child(1) .bullet-icon {
-  background: #ce1970;
+  background: #666;
 }
 .floating-container .float-element:nth-child(2) {
-  right: 30px;
+  right: 20px;
 }
 .floating-container .float-element:nth-child(2) .bullet-icon {
-  background: #009bea;
+  background: #ce1970;
 }
 .floating-container .float-element:nth-child(3) {
-  right: 10px;
+  right: 30px;
 }
 .floating-container .float-element:nth-child(3) .bullet-icon {
+  background: #009bea;
+}
+.floating-container .float-element:nth-child(4) {
+  right: 20px;
+}
+.floating-container .float-element:nth-child(4) .bullet-icon {
   background: #c1d31c;
 }
 .floating-container .float-element .label {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgb(255, 255, 255);
   box-shadow: 0 20px 20px -13px rgba(0, 0, 0, 0.2);
-  padding: 0 50px 0 20px;
+  padding: 0 43px 0 15px;
   border-radius: 25px;
   vertical-align: middle;
   font-size: 0.85rem;
