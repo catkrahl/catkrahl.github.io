@@ -305,8 +305,8 @@ input:checked ~ .floating-container {
   width: 200px;
 }
 input:checked ~ .floating-container:after {
-  bottom: -80px;
-  right: -230px;
+  bottom: -120px;
+  right: -430px;
   opacity: 0.9;
 }
 
@@ -319,16 +319,17 @@ input:checked ~ .floating-container:after {
   margin: 25px;
 }
 .floating-container:after {
-  background-color: #444444;
+  background-color: transparent;
+  box-shadow: 0 100px 30px rgba(0, 0, 0, 0.1);
   content: "";
-  width: 500px;
-  height: 500px;
+  width: 700px;
+  height: 700px;
   border-radius: 50%;
   display: block;
-  bottom: -400px;
+  bottom: -600px;
   position: absolute;
   opacity: 0.3;
-  right: -400px;
+  right: -600px;
   transition: all 0.3s;
   z-index: -1;
 }
@@ -363,7 +364,7 @@ input:checked ~ .floating-container:after {
 
 input:checked + .floating-button {
   background: white;
-  opacity: 0.6;
+  opacity: 1;
 }
 input:checked + .floating-button:after {
   content: "\e978";
@@ -420,24 +421,11 @@ input:checked ~ .floating-container .element-container .float-element:nth-child(
   -webkit-transform: translateY(100px);
   transform: translateY(100px);
 }
-.floating-container .float-element:hover .bullet-icon {
-  transform: scale(1.15);
-  transition: all 0.2s;
-}
-.floating-container .float-element .bullet-icon {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  border-radius: 30px;
-  display: block;
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  right: -5px;
-}
 .floating-container .float-element:nth-child(1) {
   right: 20px;
 }
 .floating-container .float-element:nth-child(1) .bullet-icon {
-  background: #f4f4f4;
+  background: #777;
 }
 .floating-container .float-element:nth-child(2) {
   right: 40px;
@@ -457,8 +445,21 @@ input:checked ~ .floating-container .element-container .float-element:nth-child(
 .floating-container .float-element:nth-child(4) .bullet-icon {
   background: #c1d31c;
 }
+.floating-container .float-element .bullet-icon {
+  border-radius: 30px;
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: -5px;
+}
+.floating-container .float-element:hover .bullet-icon {
+  transform: scale(1.15);
+  transition: all 0.2s;
+}
 .floating-container .float-element .label {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
   padding: 0 43px 0 15px;
   border-radius: 25px;
   vertical-align: middle;
