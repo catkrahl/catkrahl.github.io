@@ -304,6 +304,34 @@ input:checked ~ .floating-container {
   height: 295px;
   width: 200px;
 }
+input:checked ~ .floating-container:after {
+  bottom: -80px;
+  right: -230px;
+  opacity: 0.9;
+}
+
+.floating-container {
+  position: fixed;
+  width: 50px;
+  height: 100px;
+  bottom: 0;
+  right: 0;
+  margin: 25px;
+}
+.floating-container:after {
+  background-color: #444444;
+  content: "";
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  display: block;
+  bottom: -400px;
+  position: absolute;
+  opacity: 0.3;
+  right: -400px;
+  transition: all 0.3s;
+  z-index: -1;
+}
 
 .floating-button {
   position: absolute;
@@ -331,21 +359,16 @@ input:checked ~ .floating-container {
   font-family: "cat-icons";
   font-size: 1.9rem;
   color: #fff;
-  transform: all 0.5s;
 }
 
+input:checked + .floating-button {
+  background: white;
+  opacity: 0.6;
+}
 input:checked + .floating-button:after {
   content: "\e978";
+  color: #444444;
   font-size: 1.5rem;
-}
-
-.floating-container {
-  position: fixed;
-  width: 50px;
-  height: 100px;
-  bottom: 0;
-  right: 0;
-  margin: 25px;
 }
 
 input:checked ~ .floating-container .floating-button {
@@ -393,13 +416,16 @@ input:checked ~ .floating-container .element-container .float-element:nth-child(
   line-height: 40px;
   z-index: 0;
   opacity: 0;
+  transition: all 0.2s;
   -webkit-transform: translateY(100px);
   transform: translateY(100px);
 }
-.floating-container .float-element:hover {
-  transform: scale(1.1);
+.floating-container .float-element:hover .bullet-icon {
+  transform: scale(1.15);
+  transition: all 0.2s;
 }
 .floating-container .float-element .bullet-icon {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 30px;
   display: block;
   position: absolute;
@@ -408,13 +434,13 @@ input:checked ~ .floating-container .element-container .float-element:nth-child(
   right: -5px;
 }
 .floating-container .float-element:nth-child(1) {
-  right: 0;
+  right: 20px;
 }
 .floating-container .float-element:nth-child(1) .bullet-icon {
-  background: #666;
+  background: #f4f4f4;
 }
 .floating-container .float-element:nth-child(2) {
-  right: 20px;
+  right: 40px;
 }
 .floating-container .float-element:nth-child(2) .bullet-icon {
   background: #ce1970;
@@ -426,18 +452,17 @@ input:checked ~ .floating-container .element-container .float-element:nth-child(
   background: #009bea;
 }
 .floating-container .float-element:nth-child(4) {
-  right: 20px;
+  right: 10px;
 }
 .floating-container .float-element:nth-child(4) .bullet-icon {
   background: #c1d31c;
 }
 .floating-container .float-element .label {
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0 20px 20px -13px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.7);
   padding: 0 43px 0 15px;
   border-radius: 25px;
   vertical-align: middle;
-  font-size: 0.85rem;
+  font-size: 1rem;
   position: absolute;
   white-space: nowrap;
   right: 0;
