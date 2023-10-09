@@ -320,7 +320,6 @@ input:checked ~ .floating-container:after {
 }
 .floating-container:after {
   background-color: transparent;
-  box-shadow: 0 100px 30px rgba(0, 0, 0, 0.1);
   content: "";
   width: 700px;
   height: 700px;
@@ -336,18 +335,17 @@ input:checked ~ .floating-container:after {
 
 .floating-button {
   position: absolute;
-  width: 50px;
+  width: 150px;
   height: 50px;
-  background: #666666;
+  background: #444444;
   bottom: 0;
-  border-radius: 50%;
-  right: 0;
+  border-radius: 50px;
+  right: -120px;
   color: white;
   line-height: 50px;
   text-align: center;
   font-size: 23px;
   z-index: 100;
-  box-shadow: -15px 15px 30px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -359,17 +357,21 @@ input:checked ~ .floating-container:after {
   content: "\e90e";
   font-family: "cat-icons";
   font-size: 1.9rem;
-  color: #fff;
+  color: #ffffff;
+  position: absolute;
+  left: 15px;
 }
 
 input:checked + .floating-button {
   background: white;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
   opacity: 1;
+  right: -100px;
 }
 input:checked + .floating-button:after {
   content: "\e978";
   color: #444444;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 input:checked ~ .floating-container .floating-button {
@@ -459,7 +461,7 @@ input:checked ~ .floating-container .element-container .float-element:nth-child(
 }
 .floating-container .float-element .label {
   background-color: rgb(255, 255, 255);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2);
   padding: 0 43px 0 15px;
   border-radius: 25px;
   vertical-align: middle;

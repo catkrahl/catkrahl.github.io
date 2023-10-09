@@ -80,7 +80,8 @@ input:checked ~ .floating-container {
   margin: 25px;
   &:after {
     background-color: transparent;
-    box-shadow: 0 100px 30px rgba(0,0,0,.1);
+    // background: linear-gradient(0deg, rgb(214,214,214) 0%, rgba(214,214,214,0.99) 19%, rgba(214,214,214,0) 68%);
+    // box-shadow: 0 100px 30px rgba(0,0,0,.1);
     content: "";
     width: 700px;
     height: 700px;
@@ -97,18 +98,18 @@ input:checked ~ .floating-container {
 
 .floating-button {
   position: absolute;
-  width: $floating-btn-size;
+  width: calc($floating-btn-size * 3);
   height: $floating-btn-size;
-  background: $floating-action-btn;
+  background: $darkgray;
   bottom: 0;
-  border-radius: 50%;
-  right: 0;
+  border-radius: 50px;
+  right: -120px;
   color: white;
   line-height: $floating-btn-size;
   text-align: center;
   font-size: 23px;
   z-index: 100;
-  box-shadow: -15px 15px 30px rgba(0,0,0,0.3);
+  // box-shadow: -15px 15px 30px rgba(0,0,0,0.3);
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -120,17 +121,21 @@ input:checked ~ .floating-container {
       content: "\e90e";
       font-family: 'cat-icons';
       font-size: 1.9rem;
-      color: #fff;
+      color: $text-color-invert;
+      position: absolute;
+      left: 15px;
   }
 }
 
 input:checked + .floating-button {
   background: white;
+  box-shadow: 0 0 2px rgba(0,0,0,0.5);
   opacity: 1;
+  right: -100px;
   &:after {
     content: "\e978";
     color: $text-color;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -227,7 +232,7 @@ input:checked ~ .floating-container .element-container .float-element:nth-child(
 
     .label {
       background-color: rgba(255,255,255,1);
-      box-shadow: 0 0 1px rgba(0,0,0,0.2);
+      box-shadow: -10px 10px 10px rgba(0,0,0,0.2);
       padding: 0 43px 0 15px;
       border-radius: 25px;
       vertical-align: middle;
