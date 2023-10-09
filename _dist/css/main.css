@@ -1697,16 +1697,16 @@ a:hover {
 
 .cs-global .font-bg span,
 .cs-global .btn-primary,
-.cs-learning .font-bg span,
-.cs-learning .btn-primary {
+.cs-elearning .font-bg span,
+.cs-elearning .btn-primary {
   background-color: #009bea;
 }
 .cs-global h1,
 .cs-global a,
 .cs-global .link,
-.cs-learning h1,
-.cs-learning a,
-.cs-learning .link {
+.cs-elearning h1,
+.cs-elearning a,
+.cs-elearning .link {
   color: #009bea;
 }
 
