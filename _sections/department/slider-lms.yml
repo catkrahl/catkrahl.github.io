@@ -3,23 +3,23 @@ template: sections/department/department_slider.html
 stories:
   - subline: Corporate Learning
     headline: Pflichtschulungen
-    target: 
+    target: learning-management-story001.html
     image: images/cate001.png
   - subline: Automatisierung
     headline: Der Faktor Mensch in der IT
-    target: 
+    target: learning-management-story002.html
     image: images/code002.png
   - subline: Die Implementierung von cate
     headline: Wenn das Lernmanagementsystem wirklich kommt
-    target: 
+    target: learning-management-story003.html
     image: images/itsecurity001.jpg
   - subline: ILIAS und cate
     headline: Win-win für alle Seiten
-    target: 
+    target: learning-management-story004.html
     image: images/release001.jpg
   - subline: Schulungen
     headline: Keine wie die andere
-    target: 
+    target: learning-management-story005.html
     image: images/introduction001.jpg
   - subline: Stay tuned ...
     headline: Hier folgen bald weitere Storys
