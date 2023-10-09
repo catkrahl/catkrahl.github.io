@@ -1,5 +1,10 @@
 @use '../01_abstracts' as *;
 
+.banner-slider {
+  max-height: 76vh;
+  overflow: hidden;
+}
+
 .img-slider {
   width: 100%;
   height: 55vw;
