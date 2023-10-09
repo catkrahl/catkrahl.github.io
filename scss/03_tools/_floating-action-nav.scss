@@ -52,9 +52,8 @@ $floating-element-size: 40px;
   position: fixed;
   width: 50px;
   height: 100px;
-  bottom: 0;
-  right: 0;
-  margin: 25px;
+  bottom: 25px;
+  right: 20px;
 }
 
 input[type="checkbox"] {
@@ -75,9 +74,8 @@ input:checked ~ .floating-container {
   position: fixed;
   width: 50px;
   height: 100px;
-  bottom: 0;
-  right: 0;
-  margin: 25px;
+  bottom: 25px;
+  right: 25px;
   &:after {
     background-color: transparent;
     // background: linear-gradient(0deg, rgb(214,214,214) 0%, rgba(214,214,214,0.99) 19%, rgba(214,214,214,0) 68%);
@@ -131,7 +129,7 @@ input:checked + .floating-button {
   background: white;
   box-shadow: 0 0 2px rgba(0,0,0,0.5);
   opacity: 1;
-  right: -100px;
+  right: -80px;
   &:after {
     content: "\e978";
     color: $text-color;
