@@ -1,0 +1,30 @@
+template: sections/story/story_body.html
+---
+department: cs-consulting
+banner_slides:
+  - image: 
+subtitle: CaT Story
+title: Beratung
+subline: Suchkonzepte in cate – 
+headline: Ordnen, clustern, filtern
+image_above_text:
+image_below_text: 
+col1: |
+  Wann und wie auch immer wir ein neues Lernmanagementsystem für einen Kunden aufsetzen, irgendwann steht die Frage auf dem Plan: Wie bekommen wir das Trainingsangebot in cate hinein und von wem soll was auf welche Art gefunden werden?  
+
+  Zu diesen Fragen beraten wir unsere Kunden sehr gerne, denn gerade bei großen Unternehmen gibt es oft Tausende von Maßnahmen. Entwickelt man kein Konzept für Clusterung und Filtermöglichkeiten, bekommen Lernende bei einer Suche einfach eine sehr lange Liste aller Trainings mit allenfalls einer alphabetischen Sortierung.  
+
+  Wir wechseln dafür in die Perspektive der Lernenden und suchen nach den unterschiedlichen Motivationen, mit denen Mitarbeitende an eine Suche herangehen.  
+
+    * Der eine möchte einfach im Angebot stöbern, weil er noch eine bestimmte Anzahl an Weiterbildungsstunden zu erfüllen hat.
+    * Die nächste sucht ganz konkret nach einer bestimmten Weiterbildung, um eine bestehende Wissenslücke zu füllen.
+    * Auf einen Blick möchte sie vielleicht auch sehen, ob es verschiedene Maßnahmen mit unterschiedlichen Schwerpunkten zu ihrem Wunschthema gibt.
+    * Manch eine möchte Präsenzschulungen schon mal gleich ausklammern, weil sie sich die Reise sparen möchte.
+    * Und wieder andere wollen wissen, ob nicht schon im kommenden Monat geeignete Angebote verfügbar sind. 
+col2: |
+  Und dann gibt es natürlich auch die Perspektive von Trainingsorganisation und Personalentwicklung. Diese Bereiche haben noch einmal eigene Interessen. Zum Beispiel, wenn es darum geht, bestimmte Inhalte zu fördern und Anreize zu schaffen, damit Mitarbeitende sich mit gewünschten Themen auseinandersetzen. Wie lässt sich das innerhalb des Lernmanagementsystems erreichen?  
+
+  Es lohnt sich, in dieses Thema Denkarbeit und Zeit zu investieren und wir tun dies mit unseren Kunden auf verschiedenste Art und Weise. In Form von Beratungsgesprächen, Workshops, Aufgabenstellungen oder mit geführter Moderation. Die Ergebnisse sind immer individuell – weil auch jedes Unternehmen individuell ist.  
+link_target: consulting.html#card-slider
+link_label: mehr Beratungs-Storys lesen
+

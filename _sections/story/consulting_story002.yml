@@ -1,0 +1,24 @@
+template: sections/story/story_body.html
+---
+department: cs-consulting
+banner_slides:
+  - image: 
+subtitle: CaT Story
+title: Beratung
+subline: IT-Security – 
+headline: Höchste Transparenz – und viele To-dos!
+image_above_text:
+image_below_text: 
+col1: |
+  Es sind Dokumente mit eng beschriebenen Textseiten, hunderte Sätze, die durchgearbeitet, etliche Tabellen mit Fragen, die beantwortet werden müssen: Über Daten- und Informationssicherheit spricht niemand gerne – aber sie gehört dazu. Ein Lernmanagementsystem in einem Unternehmen zu implementieren, funktioniert nicht ohne und wir nehmen diese Aufgabe ernst.  
+
+  Wir erstellen die benötigten Analysen und Anforderungsdokumente, sind mit den Vorgaben des BSI (Bundesamt für Sicherheit in der Informationstechnik) vertraut, geben transparent Auskunft – auch darüber, welche Schwachstellen wir eventuell noch sehen. Auch für Mitbestimmungsgremien wie Betriebsrat und Datenschutzbeauftragte erstellen wir auf Wunsch zusätzliche Dokumentationen und Präsentationen.  
+
+  Wir haben bei all diesen Arbeiten viel Erfahrung mit großen Unternehmen, Konzernen und behördennahen Institutionen gesammelt – auch mit solchen, die besonders sensible Daten und Geschäftsgeheimnisse verwalten wie zum Beispiel die Versicherungswirtschaft.   
+col2: |
+  Um die Sicherheit von Daten zu gewährleisten, bleiben wir in Deutschland. Unsere Server stehen innerhalb der Grenzen und auch die komplette Datenverarbeitung findet in Deutschland statt. Die Optimierung der IT-Security sehen wir als stetigen Prozess, den wir gemeinsam mit einer externen Datenschutzbeauftragten erarbeiten.  
+
+  Server hosten wir bei der Hetzner Online GmbH - Ein führender Webhostinganbieter und erfahrener Rechenzentrumsbetreiber in Deutschland. Hetzner ist nach DIN ISO/IEC 27001 zertifiziert.   
+link_target: consulting.html#card-slider
+link_label: mehr Beratungs-Storys lesen
+

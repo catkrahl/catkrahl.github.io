@@ -3,17 +3,17 @@ template: sections/department/department_slider.html
 stories:
   - subline: Digitales Training
     headline: Wege zum richtigen Konzept
-    target: 
+    target: consulting-story001.html
     image: 
   - subline: IT Security
     headline: Höchste Transparenz und viele To-dos!
-    target: 
+    target: consulting-story002.html
     image: 
   - subline: Strategieworkshop
     headline: Was muss mein Lernmangementsystem können?
-    target: 
+    target: consulting-story003.html
     image: 
   - subline: Suchkonzepte in cate
     headline: Ordnen, clustern, filtern
-    target: 
+    target: consulting-story004.html
     image: 

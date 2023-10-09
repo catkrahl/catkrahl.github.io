@@ -1,0 +1,26 @@
+template: sections/story/story_body.html
+---
+department: cs-consulting
+banner_slides:
+  - image: 
+subtitle: CaT Story
+title: Beratung
+subline: Strategieworkshop – 
+headline: Was muss mein Lernmanagementsystem können?
+image_above_text:
+image_below_text: 
+col1: |
+  Wenn Interessenten für ein erstes Gespräch zu uns kommen, bringen sie unterschiedlichste Kenntnisse über digitale Qualifizierungsstrategien mit. Manche sind im Entscheidungsprozess schon weit und haben eine sehr klare Vorstellung von dem, was sie möchten. Andere suchen zunächst nach einer generellen Orientierung, nach Begriffsklärung oder überhaupt nach Aufklärung darüber, welchen Mehrwert eine Digitalisierung des Bildungsbereichs bietet.  
+
+  Wenn wir merken, dass es eher um letzteres geht, bieten wir gerne einen Strategieworkshop an. Dieser Workshop kann individuell geplant werden und gemeinsam abgestimmte Bausteine enthalten.  
+
+  Wichtig für uns ist zunächst, die Komponenten bzw. Tools vorzustellen, die im Kosmos der digitalen Bildungsstrategien eine Rolle spielen. Danach teilt sich die gemeinsame Zeit grob gesagt in zwei Themenblöcke. Der eine widmet sich der Analyse der bestehenden Situation im Unternehmen, der zweite befasst sich damit, wie die Situation im Unternehmen zukünftig aussehen könnte.  
+col2: |
+  Wir beschäftigen uns also zunächst sehr stark mit Zielgruppen, die ein mögliches Lernmanagementsystem nutzen würden, mit Workflows und Organisationsstrukturen, mit dem bestehenden Trainingsprogramm, den bereits implementierten Personalsystemen und so weiter.
+
+  Dann gehen wir zum Wunschszenario über oder wir erarbeiten dieses gemeinsam. Wie könnte ein digitales Trainingsmanagement aussehen? Wie kann ein Trainingsangebot in ein System integriert werden? An welchen Stellen verringert eine Automatisierung den Arbeitsaufwand? Welche Reportings vereinfachen Dokumentations- und Nachweispflichten? Das sind beispielhafte Fragen, um die es geht.  
+
+  Offen ist auch die Frage, wie es am Ende des Tages weitergeht. Es ist völlig in Ordnung, wenn sich die Wege nach dem Workshop wieder trennen. Es kommt durchaus vor, dass es im Unternehmen ein Bedarf gibt, den unser Lernmanagementsystem nicht abdeckt. Vielleicht geht es dann im nächsten Schritt aber auch um die Erstellung von Strategiepapieren, von Konzepten oder Anforderungsprofilen oder um die Befüllung eines Lastenheftes.  
+link_target: consulting.html#card-slider
+link_label: mehr Beratungs-Storys lesen
+
