@@ -1,0 +1,32 @@
+template: sections/story/story_body.html
+---
+department: cs-lms
+banner_slides:
+  - image: 
+subtitle: CaT Story
+title: Lernmanagement
+subline: Die Implementierung von cate – 
+headline: Wenn das Lernmanagementsystem wirklich kommt
+image_above_text:
+image_below_text: 
+col1: |
+  Ein neues Unternehmen hat sich für das Lernmanagementsystem cate entschieden, beide Seiten freuen sich, denn das Produkt und die Anforderungen des Unternehmens an das System passen gut zusammen.  
+
+  Und dann? Beginnt die Arbeit. Je nach Systemvariante, Anzahl der Benutzer und Trainings und der Komplexität der Organisationsstrukturen ist diese natürlich mal mehr, mal weniger aufwändig – aber die Prozesse, die dahinterstehen, sind dieselben und wir begleiten unsere Kunden bei jedem Schritt.  
+
+  Wie sieht das genau aus? Der erste Schritt ist immer die Unterzeichnung des Vertrags zum SaaS Cloud Hosting mit allen dazugehörigen Dokumenten (AVV etc.). Danach erstellen wir die Instanz in der beauftragten Variante und den eventuellen Extras und führen die Erstkonfiguration durch.  
+
+  Parallel dazu kommen wir mit unseren Kunden mehrmals in Terminen zusammen. Wir besprechen explizit jedes Arbeitspaket, legen einen Rollout- und Projektzeitplan fest. Wir erstellen gemeinsam benötigte Paper und Konzepte und führen bei Bedarf Workshops durch.  
+
+  Die Konfigurationen laufen weiter – Schritt für Schritt. Mailings werden definiert, Workflows definiert, Rollen und deren Rechte im System festgelegt, Trainingsvorlagen erstellt.    
+col2: |
+  Schon bald danach beginnen wir mit der Schulung der verschiedenen Zielgruppen (Administratoren, Trainingsorganisation). Wir vermitteln die Funktionalitäten, aber auch den richtigen Umgang innerhalb des Support-Prozesses. Der Kunde kann nun in seinem System arbeiten z.B. Trainings und Ausbildungsreihen anlegen.  
+
+  Dann erfolgt der letzte große Step vor dem Rollout\: der Import der Benutzerdaten. Auch dafür braucht es ein Konzept, welches sich immer daran orientiert, in welcher Form Benutzerdaten vorliegen und welche eindeutigen Merkmale es gibt.  
+
+  Ist dieser Schritt vollzogen, kann es „losgehen“. Gemeinsam einigen wir uns auf einen Termin für den Rollout, finalisieren das Übergabeprotokoll, überprüfen noch einmal, ob alle Punkte aus dem Angebot im Projekt umgesetzt wurden.  
+
+  Am Tag des Rollouts und auch danach sind wir präsent und halten Zeit für eventuelle Unregelmäßigkeiten vor. Das System füllt sich mit Leben – und ein großer Schritt zur Digitalisierung der Bildungskultur ist vollzogen.  
+link_target: learning-management.html#card-slider
+link_label: mehr Lernmanagement-Storys lesen
+

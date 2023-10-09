@@ -1,0 +1,26 @@
+template: sections/story/story_body.html
+---
+department: cs-lms
+banner_slides:
+  - image: 
+subtitle: CaT Story
+title: Lernmanagement
+subline: ILIAS und CaT –  
+headline: „Win-win“ für alle Seiten
+image_above_text:
+image_below_text: 
+col1: |
+  Das Opensource-Lernmanagementsystem ILIAS und wir, also das Unternehmen CaT, sind schon lange miteinander verbunden. Wir wären ohne ILIAS nicht da, wo wir heute sind, doch ILIAS wäre ohne uns auch nicht da, wo es heute steht.  
+
+  Seit vielen Jahren sind wir mit erheblicher Kapazität in der Community unterwegs, um Features zu entwickeln, Code-Qualität zu überprüfen, Performance zu optimieren, die Nutzung aktueller PHP-Versionen zu etablieren, das UI-Framework zu optimieren, Entwicklerwerkzeuge zu schaffen, Security Bugs zu fixen und überhaupt viel, viel Basisarbeit zu leisten.  
+
+  Was in den Pionierzeiten des E-Learnings damit begann, händeringend ein geeignetes System für die digitalen Trainings unserer Kunden zu finden, hat zum eigenen Lernmanagementsystem cate geführt, das im Kern auf ILIAS basiert, aber mit vielen PlugIns und Features für das Corporate Learning – also den Einsatz in Unternehmen – optimiert ist.  
+
+  Eines unserer Geschäftsmodelle hat damit zu tun, dass wir die Sicherheit und den Austausch mit einer großen Open Source Community, die mit vielen Augen über den Code wacht, nutzen, um unser eigenes Produkt voranzutreiben und immer eine stabile Basis für es zu gewährleisten. Gleichzeitig geben wir der Community und damit der Allmende aber auch vieles zurück.  
+col2: |
+  Indem wir die Praxiserfahrung in der Arbeit mit unseren Kunden in den Verein einbringen, indem wir dort schnelle und professionell arbeitende Arbeitskraft zur Verfügung stellen, selbst einen hohen Codestandard etablieren und Features, die so allgemeingültig sind, dass alle davon profitieren können, dem ILIAS-Kern – und damit der Allgemeinheit – zuführen. Komponenten wie die Organisationsstruktur, die Möglichkeiten, Pflichtschulungen zu automatisieren oder Lernpfade zu etablieren, gäbe es ohne uns so in ILIAS nicht.  
+
+  Wir finden, das ist ein fairer „Deal“, eine Win-win-Situation für alle Seiten. ILIAS profitiert in genannter Weise. Wir profitieren von einer stabilen Basis und einer problemlosen Update-Fähigkeit für unser System. Und unsere Kunden profitieren doppelt – sie können sowohl die Vorteile eines für sie optimierten Produktes als auch die Sicherheit einer stabilen, modernen, gut überwachten und updatefähigen Basis genießen. Und sie können sich darüber hinaus – wenn gewünscht – auch selbst in der Community einbringen. Transparenter geht es kaum!  
+link_target: learning-management.html#card-slider
+link_label: mehr Lernmanagement-Storys lesen
+

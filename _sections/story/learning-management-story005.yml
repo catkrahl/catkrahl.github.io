@@ -1,0 +1,22 @@
+template: sections/story/story_body.html
+---
+department: cs-lms
+banner_slides:
+  - image: 
+subtitle: CaT Story
+title: Lernmanagement
+subline: Schulungen –  
+headline: Keine wie die andere
+image_above_text:
+image_below_text: 
+col1: |
+  Was muss man beachten, wenn SCORM-Module im Lernmanagementsystem im laufenden Betrieb ausgetauscht werden? Wie kann im Konzern eine einheitliche Seitengestaltung aussehen, wenn verschiedenste Parteien neue Inhaltsseiten im LMS erstellen? Wie können komplexe Pflichtschulungen im System auf bestmögliche Art automatisiert werden? Wie erstellen Referenten ihre eigenen Trainings im System und wickeln anschließend auch die Listen der Teilnehmer\*innen darüber ab? Oder auch einfach: Das System ist fertig konfiguriert und nun geht es darum, dass die Administrator\*innen ihre Basisschulung zur Einarbeitung ins System erhalten.  
+
+  All das sind Themen von Schulungen, die wir mit unseren Kunden durchführen – entweder auf Anfrage oder auch proaktiv, wenn wir erkennen, dass es noch Wissenslücken in bestimmten Bereichen gibt. Das kann in Workshops passieren, in Online-Seminaren oder in Präsenz – es ist ganz unterschiedlich.  
+col2: |
+  Und da wir jedes System zwar entsprechend seiner Variante, aber dennoch ausgerichtet auf die Strukturen und Maßnahmen im Unternehmen individuell konfigurieren, bedeutet dies, dass auch die Schulungen immer einen sehr individuellen Charakter haben. Wir schulen direkt im kundeneigenen System und arbeiten dort sehr oft an den konkreten Bereichen und Themen. Oder wir entwickeln gemeinsam einige Grundkonfigurationen, um ein Gerüst zu erstellen, mit dem unsere Kunden dann alleine weiter arbeiten.    
+
+  Zusätzlich verfügen wir über generische Schulungsunterlagen und Dokumentationen, die wir unseren Kunden bei der Übergabe des Systems zur Verfügung stellen.   
+link_target: learning-management.html#card-slider
+link_label: mehr Lernmanagement-Storys lesen
+
