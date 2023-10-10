@@ -332,10 +332,10 @@ input:checked ~ .floating-container:after {
 }
 
 .floating-button {
+  background: #ce1970;
   position: absolute;
   width: 150px;
   height: 50px;
-  background: #444444;
   bottom: 0;
   border-radius: 50px;
   right: -120px;
@@ -1697,16 +1697,20 @@ a:hover {
 
 .cs-global .font-bg span,
 .cs-global .btn-primary,
-.cs-elearning .font-bg span,
-.cs-elearning .btn-primary {
+.cs-learning .font-bg span,
+.cs-learning .btn-primary {
   background-color: #009bea;
 }
 .cs-global h1,
 .cs-global a,
 .cs-global .link,
-.cs-elearning h1,
-.cs-elearning a,
-.cs-elearning .link {
+.cs-learning h1,
+.cs-learning a,
+.cs-learning .link {
+  color: #009bea;
+}
+
+.cs-learning h1 {
   color: #009bea;
 }
 
