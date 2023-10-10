@@ -95,10 +95,11 @@ input:checked ~ .floating-container {
 }
 
 .floating-button {
+  background: $color-1;
   position: absolute;
   width: calc($floating-btn-size * 3);
   height: $floating-btn-size;
-  background: $darkgray;
+  
   bottom: 0;
   border-radius: 50px;
   right: -120px;
