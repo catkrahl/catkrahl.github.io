@@ -8,6 +8,7 @@ $spacer-xl: 5rem;
 $spacer-xxl: 6.25rem;
 
 .innerspace {padding: $spacer-xl 0;}
+.innerspace-lg {padding: calc($spacer-xl * 2) 0;}
 
 .spacer-xs {height: $spacer-xs;}
 .spacer-s {height: $spacer-s;}

@@ -2,6 +2,10 @@
   padding: 5rem 0;
 }
 
+.innerspace-lg {
+  padding: 10rem 0;
+}
+
 .spacer-xs {
   height: 0.3125rem;
 }
@@ -1563,6 +1567,11 @@ h1 {
   font-size: 2.8rem;
   line-height: 3.3rem;
 }
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
 
 h2 {
   font-size: 2.3rem;
@@ -1831,6 +1840,9 @@ footer {
   .media-overlay.col {
     justify-content: end;
   }
+}
+.media-overlay.bottom {
+  top: 90px;
 }
 
 .cinescope {

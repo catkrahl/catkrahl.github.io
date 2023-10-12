@@ -29,7 +29,12 @@
       justify-content: end;
     }
   }
+  &.bottom {
+    top: 90px;
+  }
 }
+
+
 
 .cinescope {
   height: 76vh;

@@ -52,6 +52,9 @@ p {
 h1 {
   font-size: 2.8rem;
   line-height: 3.3rem;
+  @include screen-max('small') {
+    font-size: 2.5rem;
+  }
 }
 
 h2 {
