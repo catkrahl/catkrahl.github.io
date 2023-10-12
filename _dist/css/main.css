@@ -361,7 +361,7 @@ input:checked ~ .floating-container:after {
 }
 
 input:checked + .floating-button {
-  background: white;
+  background: rgba(255, 255, 255, 0.5);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
   opacity: 1;
   right: -80px;
@@ -2306,7 +2306,7 @@ nav.nav-collapse ul li:last-child:hover a {
   width: 45px;
   transition: all 0.5s;
   position: fixed;
-  top: 50%;
+  bottom: 50%;
   left: 30px;
   z-index: 9999;
   cursor: pointer;
