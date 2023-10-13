@@ -41,13 +41,14 @@
   flex-direction: column;
   justify-content: end;
   position: relative;
-  @include screen-max ('medium')  {
+  // always check setting 
+  // on videowrapper iframe!!!
+  @include screen-max ('large')  {
     height: 57vh;
   }
   @include screen-max ('small')  {
     height: 45vh;
   }
-
 }
 
 .cinescope.narrow {
@@ -69,7 +70,7 @@
   width: 100vw;
   height: 56.25vw;
   min-height: 100vh;
-  min-width: 135vh;
+  min-width: 191vh;
   position: absolute;
   top: 50%;
   left: 50%;
