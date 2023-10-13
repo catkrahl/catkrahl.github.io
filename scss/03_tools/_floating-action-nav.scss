@@ -99,7 +99,6 @@ input:checked ~ .floating-container {
   position: absolute;
   width: calc($floating-btn-size * 3);
   height: $floating-btn-size;
-  
   bottom: 0;
   border-radius: 50px;
   right: -120px;
@@ -108,7 +107,6 @@ input:checked ~ .floating-container {
   text-align: center;
   font-size: 23px;
   z-index: 100;
-  // box-shadow: -15px 15px 30px rgba(0,0,0,0.3);
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -128,9 +126,9 @@ input:checked ~ .floating-container {
 
 input:checked + .floating-button {
   background: rgba(255,255,255,0.5);
-  box-shadow: 0 0 2px rgba(0,0,0,0.5);
+  box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.2);
   opacity: 1;
-  right: -80px;
+  right: -100px;
   &:after {
     content: "\e978";
     color: $text-color;
@@ -230,8 +228,8 @@ input:checked ~ .floating-container .element-container .float-element:nth-child(
       }
 
     .label {
-      background-color: rgba(255,255,255,1);
-      box-shadow: -10px 10px 10px rgba(0,0,0,0.2);
+      background-color: rgba(255,255,255,0.8);
+      box-shadow: 10px 3px 3px rgba(0, 0, 0, 0.2);
       padding: 0 43px 0 15px;
       border-radius: 25px;
       vertical-align: middle;
