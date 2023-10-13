@@ -12,7 +12,7 @@ stories:
   - subline: Die Implementierung von cate
     headline: Wenn das Lernmanagementsystem wirklich kommt
     target: learning-management-story003.html
-    image: 
+    image: images/lms/lms003.png
   - subline: ILIAS und cate
     headline: Win-win für alle Seiten
     target: learning-management-story004.html

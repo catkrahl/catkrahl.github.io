@@ -31,7 +31,7 @@
 
   .font-bg {
     box-shadow: 10px 10px 50px rgba(0,0,0,0);
-    padding: 10px 50px;
+    padding: 10px 50px 10px 20px;
     width: auto;
   }
   
@@ -64,7 +64,7 @@
     font-family: "cat-icons";
     font-size: 1.8rem;
     position: absolute;
-    top: 7px;
+    top: 4  px;
     right: 10px;
     color: $text-color;
   }

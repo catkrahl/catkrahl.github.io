@@ -2,7 +2,7 @@ template: sections/story/story_body.html
 ---
 department: cs-lms
 banner_slides:
-  - image: 
+  - image: images/lms/lms003.png
 subtitle: CaT Story
 title: Lernmanagement
 subline: Die Implementierung von cate – 
