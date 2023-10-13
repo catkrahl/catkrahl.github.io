@@ -1646,6 +1646,9 @@ h4.font-bg span {
   left: 12rem;
 }
 
+.storyhead {
+  position: relative;
+}
 .storyhead:before {
   content: url("../images/icons/icon_chat.svg");
   transform: scaleX(-1) scale(0.5);
@@ -2810,6 +2813,10 @@ input:focus-visible {
 }
 .navigator .float-element:nth-child(3) {
   background: #c1d31c;
+}
+
+.big-icon {
+  max-height: 230px;
 }
 
 /*# sourceMappingURL=main.css.map */
