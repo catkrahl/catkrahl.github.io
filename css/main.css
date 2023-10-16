@@ -1627,6 +1627,10 @@ h4.font-bg span {
   -webkit-box-decoration-break: clone;
 }
 
+a.font-bg span {
+  padding-top: 0.1rem;
+}
+
 .card .font-bg {
   width: 300px;
 }
