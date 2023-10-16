@@ -1,5 +1,4 @@
 template: sections/story/story_video.html
 ---
 video: |
-  https://www.youtube.com/embed/wJXeiQdLVLQ?playlist=wJXeiQdLVLQ
-  
+  https://iframe.mediadelivery.net/embed/164704/febe10bb-9eb0-48ca-b8e5-a4a29b402c1e?autoplay=true&loop=true
