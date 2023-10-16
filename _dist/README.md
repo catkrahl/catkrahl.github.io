@@ -1,14 +1,26 @@
-# cat-web
-re-design CaT website
+# Bash-Script zum Kopieren _dist-Dateien ins www-webserver-Verzeichnis
+* sudo ~/projects/scripts/copychown
+* das Script macht:
+  * führt den SSG aus, der alle Dateien kompiliert
+  * kopiert alle Dateien aus dem _dist-Verzeichnis ins www-Verzeichnis des Webserver und 
+  * ändert die Rechte zu www-data
 
-# Kompilieren der Website:
-Aufruf der generate.php aus lokalem web-repo
+# SCSS (auto-)kompilieren and watch
+* sass --watch ./scss/main.scss ./css/main.css
+* Zielverzeichnis für css-Ausgabe ist variabel!
 
-### Ubuntu
+### SSG AUfruf zum Kopilieren
 php ../static-site-generator/generate.php .
 
+# cat-web
+* re-design CaT website
+
+# Kompilieren der Website:
+* Aufruf der generate.php aus lokalem web-repo
+
 # Aufruf Website:
-chrome/firefox ~/web/cate-web/_dist/index.html
+* chrome/firefox ~/web/cate-web/_dist/index.html
+* localhost:8080
 
 # Tag setzen zum publizieren
 git pull --tags
@@ -19,11 +31,7 @@ git push --tags
 * "page_meta"-variable does noct exist
 * "folder"-variable does not exist
 * "contact_settings"
-* 
 
-# SCSS (auto-)kompilieren and watch
-* sass --watch ./scss/main.scss ./css/main.css
-* Zielverzeichnis für css-Ausgabe ist variabel!
 
 ### third party 
 #### AOS - onscroll animation lib
