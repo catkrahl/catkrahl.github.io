@@ -1,3 +1,9 @@
+# Doil als Webserver für SSG/CaT Website benutzen
+* aus einem Verzeichnis z.b.: cat-web: ~/web/cat-web
+* php ../static-site-generator/generate.php ../cat-web/ ~/projects/instances/r77/volumes/ilias
+* r77: Name der doil-Instanz (sollte leer sein!)
+* wert in _settings.yml "base-target" muss auf doil instanz zeigen!
+
 # Bash-Script zum Kopieren _dist-Dateien ins www-webserver-Verzeichnis
 * sudo ~/projects/scripts/copychown
 * das Script macht:
@@ -9,7 +15,7 @@
 * sass --watch ./scss/main.scss ./css/main.css
 * Zielverzeichnis für css-Ausgabe ist variabel!
 
-### SSG AUfruf zum Kopilieren
+### SSG Aufruf zum Kopilieren
 php ../static-site-generator/generate.php .
 
 # cat-web
