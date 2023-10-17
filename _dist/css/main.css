@@ -1627,15 +1627,6 @@ h4.font-bg span {
   -webkit-box-decoration-break: clone;
 }
 
-a.font-bg span {
-  padding-top: 0.1rem;
-  box-shadow: none;
-  transition: all 0.5s;
-}
-a.font-bg span:hover {
-  box-shadow: inset 300px 0 0 #444444;
-}
-
 .card .font-bg {
   width: 300px;
 }

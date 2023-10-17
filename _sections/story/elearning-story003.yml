@@ -2,7 +2,7 @@ template: sections/story/story_body.html
 ---
 department: cs-learning
 banner_slides:
-  - image: ../images/videomaking001.jpg
+  - image: 
 subtitle: CaT Story
 title: e-Learning Produktion
 subline: Filmdreh und Film 
