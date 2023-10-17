@@ -1627,10 +1627,6 @@ h4.font-bg span {
   -webkit-box-decoration-break: clone;
 }
 
-a.font-bg span {
-  padding-top: 0.1rem;
-}
-
 .card .font-bg {
   width: 300px;
 }
@@ -2499,6 +2495,15 @@ h5.font-bg span {
   font-family: "cat-icons";
   font-size: 1.6rem;
   padding-right: 5px;
+}
+
+link.font-bg span {
+  padding-top: 0.1rem;
+  box-shadow: none;
+  transition: all 0.5s;
+}
+link.font-bg span:hover {
+  box-shadow: inset 300px 0 0 #444444;
 }
 
 .media-collection {
