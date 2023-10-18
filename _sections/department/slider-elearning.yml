@@ -3,25 +3,25 @@ template: sections/department/department_slider.html
 stories:
   - subline: Das Studioformat
     headline: Digitale Trainings als Fernsehshow
-    target: elearning-story001.html
-    image: images/studio001.jpg
+    target: storys/elearning/studio-format-elearning001.html
+    image: ./images/studio001.jpg
   - subline: Erklärfilme
     headline: Die Kunst der Vereinfachung
-    target: elearning-story002.html
-    image: images/content002.png
+    target: storys/elearning/explanatory-films-elearning002.html
+    image: ./images/content002.png
   - subline: Filmdreh und Film 
     headline: Die ganze Bandbreite
-    target: elearning-story003.html
-    image: images/videomaking001.jpg
+    target: storys/elearning/videoshot-elearning003.html
+    image: ./images/videomaking001.jpg
   - subline: Illustrationen
     headline: Die DNA der Contenterstellung
-    target: elearning-story004.html
-    image: images/content004.png
+    target: storys/elearning/illustration-elearning004.html
+    image: ./images/content004.png
   - subline: Storys, die bewegen
     headline: Das Drehbuch
-    target: elearning-story005.html
-    image: images/content005.png
+    target: storys/elearning/storytelling-elearning005.html
+    image: ./images/content005.png
   - subline: Stay tuned ...
     headline: Hier folgen bald weitere Storys
-    target: 
-    image: images/content006.png
+    target: storys/elearning/
+    image: ./images/content006.png

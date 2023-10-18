@@ -2,12 +2,12 @@ template: sections/story/story_body.html
 ---
 department: cs-lms
 banner_slides:
-  - image: images/lms/lms003.png
+  - image: 
 subtitle: CaT Story
 title: Lernmanagement
 subline: Die Implementierung von cate – 
 headline: Wenn das Lernmanagementsystem wirklich kommt
-image_above_text:
+image_above_text: images/lms/lms003.png
 image_below_text: 
 col1: |
   Ein neues Unternehmen hat sich für das Lernmanagementsystem cate entschieden, beide Seiten freuen sich, denn das Produkt und die Anforderungen des Unternehmens an das System passen gut zusammen.  

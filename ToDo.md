@@ -1,7 +1,4 @@
 # ToDo
 
-### media header
-* twig template für DOM-Struktur
-
-### Card Slider
-* twig template für die DOM-Struktur
+* strategy004/text/liste stylen
+* padding-top/font-bg-links

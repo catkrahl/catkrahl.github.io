@@ -1,0 +1,26 @@
+template: sections/story/story_body.html
+---
+department: cs-learning
+banner_slides:
+  - image: ../images/illustration002.png
+subtitle: CaT Story
+title: e-Learning Produktion
+subline: Illustrationen 
+headline: Die DNA der Contenterstellung
+image_above_text: 
+image_below_text: 
+col1: |
+  Ob digitales Training, eine professionell gestaltete PowerPoint-Präsentation oder ein Erklärfilm, ohne sie geht nichts: Illustrationen. Schon wer etwa drei Rechtecke mit einem Wort darin auf einer Seite platziert, der illustriert. Doch Bedeutung, Auseinandersetzung und bleibende Eindrücke entstehen erst, wenn sie unterschiedliche Farben und Formen erhalten, wenn sie mal größer, mal kleiner werden, wenn Pfeile und Verknüpfungen ihnen eine bestimmte Reihenfolge verleihen.  
+
+  Illustrationen haben aus diesem Grund einen hohen Stellenwert in unserem Unternehmen, sie gehören sozusagen zur DNA der Contenterstellung. Sie sind kleine Kunstwerke, die gerne angesehen und manchmal bewundert werden, die eine hohe Identifikation schaffen, ein Training sehenswert und interessant machen und für visuelle Lerntypen noch mal eine weitere Ebene, ergänzend zum Text, anbieten.  
+
+  Unsere Illustrationen werden gezeichnet und dann in gut verschlagworteten Katalogen verwaltet, um die Aufwände für unsere Kunden überschaubar zu halten. Für Erklärfilme erschaffen wir ganze Welten und Szenerien, für unsere digitalen Trainings aber genauso auch technische Darstellungen, Info- oder Splittergrafiken, die wir bei Bedarf animieren.  
+
+col2: |
+  Für unsere Kunden entwickeln wir illustrative Bausätze, die sich alle miteinander kombinieren lassen: Verschiedene Personen, Vordergründe, Hintergründe, Büros, Werkstätten, Autos, kleine und große Dinge können individuell auf einer Seite Platz finden, an Inhalt, Bildausschnitt und Seitengestaltung flexibel angepasst werden. Sie können einen individuellen Stil erhalten oder sich nahtlos in den bestehenden Stil unserer Kunden eingliedern – sie können hoch-realistisch oder kreativ minimalistisch sein.  
+
+  Auf Wunsch stellen wir die Bausätze als Bibliothek zur Verfügung, um Begleitmaterialien etwa innerhalb einer Blended-Learning-Reihe mit dem gleichen Look and Feel auszustatten, wie das digitale Training.
+  
+link_target: elearning.html#slider-anchor
+link_label: mehr Content-Storys lesen
+

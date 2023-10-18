@@ -3,17 +3,17 @@ template: sections/department/department_slider.html
 stories:
   - subline: Digitales Training
     headline: Wege zum richtigen Konzept
-    target: strategy/digital-training-strategy001.html
+    target: storys/strategy/digital-training-strategy001.html
     image: 
   - subline: IT Security
     headline: Höchste Transparenz und viele To-dos!
-    target: strategy/it-security-strategy002.html
-    image: 
+    target: storys/strategy/it-security-strategy002.html
+    image: ./images/itsecurity001.jpg
   - subline: Strategieworkshop
     headline: Was muss mein Lernmangementsystem können?
-    target: strategy/strategy-workshop-strategy003.html
+    target: storys/strategy/strategy-workshop-strategy003.html
     image: 
   - subline: Suchkonzepte in cate
     headline: Ordnen, clustern, filtern
-    target: strategy/search-concepts-cate-strategy004.html
+    target: storys/strategy/search-concepts-cate-strategy004.html
     image: 
