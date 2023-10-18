@@ -1658,16 +1658,6 @@ h4.font-bg span {
   top: -6rem;
 }
 
-/*
-.story-content-head:before {
-  content: url("../images/icons/icon_chat.svg");
-  transform: scaleX(-1) scale(0.35);
-  opacity: .1;
-  position: absolute;
-  left: 13rem;
-  top: -6rem;
-}
-*/
 html,
 body {
   color: #444444;
@@ -2497,13 +2487,13 @@ h5.font-bg span {
   padding-right: 5px;
 }
 
-link.font-bg span {
+.link.font-bg span {
   padding-top: 0.1rem;
   box-shadow: none;
   transition: all 0.5s;
 }
-link.font-bg span:hover {
-  box-shadow: inset 300px 0 0 #444444;
+.link.font-bg span:hover {
+  box-shadow: inset 400px 0 0 #444444;
 }
 
 .media-collection {

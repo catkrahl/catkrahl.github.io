@@ -66,11 +66,11 @@
   padding-right: 5px;
 }
 
-link.font-bg span {
+.link.font-bg span {
   padding-top: 0.1rem;
   box-shadow: none;
   transition: all 0.5s;
   &:hover {
-    box-shadow: inset 300px 0 0 $darkgray
+    box-shadow: inset 400px 0 0 $darkgray
   }
 }
