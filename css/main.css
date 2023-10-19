@@ -30,8 +30,8 @@
   height: 6.25rem;
 }
 
-.mb-md {
-  margin-bottom: 1.25rem;
+.mtb-lg {
+  margin: 2.5rem 0;
 }
 
 .mtb-md {
@@ -42,8 +42,8 @@
   margin-bottom: 2.5rem;
 }
 
-.mtb-lg {
-  margin: 2.5rem 0;
+.mb-md {
+  margin-bottom: 1.25rem;
 }
 
 img {

@@ -8,7 +8,7 @@ stories:
   - subline: IT Security
     headline: Höchste Transparenz und viele To-dos!
     target: storys/strategy/it-security-strategy002.html
-    image: ./images/itsecurity001.jpg
+    image: ./images/cards/card-itsecurity001.png
   - subline: Strategieworkshop
     headline: Was muss mein Lernmangementsystem können?
     target: storys/strategy/strategy-workshop-strategy003.html

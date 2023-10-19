@@ -17,9 +17,8 @@ $spacer-xxl: 6.25rem;
 .spacer-xl {height: $spacer-xl;}
 .spacer-xxl {height: $spacer-xxl;}
 
-
-.mb-md {
-    margin-bottom: $spacer-md;
+.mtb-lg {
+    margin: $spacer-lg 0;
 }
 
 .mtb-md {
@@ -30,6 +29,7 @@ $spacer-xxl: 6.25rem;
     margin-bottom: $spacer-lg;
 }
 
-.mtb-lg {
-    margin: $spacer-lg 0;
+.mb-md {
+    margin-bottom: $spacer-md;
 }
+
