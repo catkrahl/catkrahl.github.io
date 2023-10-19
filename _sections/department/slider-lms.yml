@@ -21,7 +21,7 @@ stories:
     headline: Keine wie die andere
     target: learning-management-story005.html
     image: 
-  - subline: Stay tuned ...
-    headline: Hier folgen bald weitere Storys
-    target: 
-    image: 
+  - subline: mehr Storys?
+    headline: Stay tuned ...
+    target: storys/stay-tuned000.html
+    image: ./images/cards/card-staytuned001.png

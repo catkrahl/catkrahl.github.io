@@ -1,0 +1,25 @@
+template: sections/story/story_body.html
+---
+department: cs-learning
+banner_slides:
+  - image: 
+subtitle: CaT Story
+title: stay tuned ...
+subline: CaT Concepts and Training 
+headline: Kommen Sie zu uns, wir können alles und besser als alle anderen ...
+image_above_text: 
+image_below_text: 
+col1: |
+  Ein wenig überspitzt – aber so oder so ähnlich tönt es häufig im digitalen Marketing!   
+
+  Wir können definitiv eine Menge Dinge sehr gut und ganz speziell in unserem Kerngeschäft, wenn es um Lernmanagement, E-Learning-Content und strategische Beratung im digitalen Bildungsmanagement geht. Wir haben aber ganz bewußt darauf verzichtet, nur einen nett gestalteten Leistungskatalog online zu stellen, sondern möchten Einblicke in unseren Arbeitsalltag mit seinen - zum Teil - sehr speziellen Herausforderungen geben..    
+
+col2: |  
+  Auch wir bei CaT sind alle eben auch User*innen und schätzen es, wenn man mit seinem Problemen ernst genommen wird. Lösungen zu finden bedeutet zu aller erst zuzuhören, was es für Probleme und Aufgaben zu lösen gilt. Aus diesem Grund sollen auch die Storys, die wir hier weiter ergänzen werden, zeigen, welche Herausforderugen wir bereits mit konkreten Lösungen gemeistert haben.  
+  
+  Das bedeutet aber eben nicht, dass wir alles können! Wir lernen auch jeden Tag dazu und finden, dass das auch so bleiben soll!  
+
+  In diesem Sinne, stay tuned ...
+
+link_target:
+link_label: 

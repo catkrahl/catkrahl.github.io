@@ -12,8 +12,12 @@ stories:
   - subline: Strategieworkshop
     headline: Was muss mein Lernmangementsystem können?
     target: storys/strategy/strategy-workshop-strategy003.html
-    image: 
+    image: ./images/cards/card-strategy003.png
   - subline: Suchkonzepte in cate
     headline: Ordnen, clustern, filtern
     target: storys/strategy/search-concepts-cate-strategy004.html
     image: 
+  - subline: mehr Storys?
+    headline: Stay tuned ...
+    target: storys/stay-tuned000.html
+    image: ./images/cards/card-staytuned001.png

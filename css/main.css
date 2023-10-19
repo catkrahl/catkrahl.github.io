@@ -2363,7 +2363,7 @@ nav.nav-collapse ul li:last-child:hover a {
   box-shadow: inset 0 0 80px 30px rgba(0, 0, 0, 0.3);
   height: 100%;
   position: absolute;
-  filter: saturate(0.7) opacity(0.8);
+  filter: saturate(0.5) opacity(0.8);
   transform: scale(1);
   width: 100%;
   z-index: 1;
@@ -2497,6 +2497,9 @@ h5.font-bg span {
 }
 .link.font-bg span:hover {
   box-shadow: inset 400px 0 0 #444444;
+}
+.link.font-bg span:empty {
+  display: none;
 }
 
 .media-collection {

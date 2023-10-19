@@ -4,12 +4,9 @@
 * r77: Name der doil-Instanz (sollte leer sein!)
 * wert in _settings.yml "base-target" muss auf doil instanz zeigen!
 
-# Bash-Script zum Kopieren _dist-Dateien ins www-webserver-Verzeichnis
-* sudo ~/projects/scripts/copychown
-* das Script macht:
-  * führt den SSG aus, der alle Dateien kompiliert
-  * kopiert alle Dateien aus dem _dist-Verzeichnis ins www-Verzeichnis des Webserver und 
-  * ändert die Rechte zu www-data
+# Bash-Script zum init von git und push auf github-pages
+* cd doil-instance ./volumes/ilias
+* bash ghpages.sh
 
 # SCSS (auto-)kompilieren and watch
 * sass --watch ./scss/main.scss ./css/main.css

@@ -73,4 +73,7 @@
   &:hover {
     box-shadow: inset 400px 0 0 $darkgray
   }
+  &:empty {
+    display: none;
+  }
 }

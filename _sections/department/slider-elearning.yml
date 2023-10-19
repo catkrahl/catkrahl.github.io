@@ -23,5 +23,5 @@ stories:
     image: ./images/studio001.jpg
   - subline: mehr Storys?
     headline: Stay tuned ...
-    target: storys/elearning/
+    target: storys/stay-tuned000.html
     image: ./images/cards/card-staytuned001.png
