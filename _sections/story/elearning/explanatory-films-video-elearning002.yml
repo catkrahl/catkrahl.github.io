@@ -1,0 +1,4 @@
+template: sections/story/story_video.html
+---
+video: |
+  https://iframe.mediadelivery.net/embed/164704/ba0e9310-98e8-4f15-9356-9daeb819d056?autoplay=true&loop=true
