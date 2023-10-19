@@ -34,6 +34,7 @@
   }
 }
 
+.fullHD,
 .cinescope {
   height: 81vh;
   min-height: 100%;
@@ -51,8 +52,8 @@
   }
 }
 
-.cinescope.narrow {
-  height: 35vh;
+.fullHD {
+  height: 95vh;
 }
 
 .video-wrapper,

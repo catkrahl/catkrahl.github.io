@@ -1838,6 +1838,7 @@ footer {
   top: 90px;
 }
 
+.fullHD,
 .cinescope {
   height: 81vh;
   min-height: 100%;
@@ -1847,18 +1848,20 @@ footer {
   position: relative;
 }
 @media (max-width: 1200px) {
+  .fullHD,
   .cinescope {
     height: 57vh;
   }
 }
 @media (max-width: 767px) {
+  .fullHD,
   .cinescope {
     height: 45vh;
   }
 }
 
-.cinescope.narrow {
-  height: 35vh;
+.fullHD {
+  height: 95vh;
 }
 
 .video-wrapper,
@@ -2336,14 +2339,8 @@ nav.nav-collapse ul li:last-child:hover a {
   transform: rotate(90deg);
 }
 
-.card-wrapper:hover .card-bg {
-  transform: scale(1.03);
-  transition: all 0.3s;
-  filter: saturate(1);
-}
-
 .card {
-  background-color: #ffffff;
+  background-color: #444444;
   background-size: cover;
   border-radius: 8px;
   height: 490px;
@@ -2363,13 +2360,19 @@ nav.nav-collapse ul li:last-child:hover a {
   background-color: #ffffff;
   background-position-x: center;
   background-size: cover;
-  box-shadow: inset 0 0 100px 70px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 80px 30px rgba(0, 0, 0, 0.3);
   height: 100%;
   position: absolute;
-  filter: saturate(0.7) blur(2px);
-  transform: scale(1.2);
+  filter: saturate(0.7) opacity(0.8);
+  transform: scale(1);
   width: 100%;
   z-index: 1;
+}
+
+.card-wrapper:hover .card-bg {
+  transform: scale(1.05);
+  transition: all 0.3s;
+  filter: saturate(1);
 }
 
 .card.shadow {

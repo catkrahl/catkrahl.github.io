@@ -2,7 +2,10 @@ template: sections/story/story_body.html
 ---
 department: cs-learning
 banner_slides:
-  - image: ../images/illustration002.png
+  - image: ./images/content001.png
+  - image: ./images/content002.png
+  - image: ./images/content003.png
+  - image: ./images/content004.png
 subtitle: CaT Story
 title: e-Learning Produktion
 subline: Illustrationen 
