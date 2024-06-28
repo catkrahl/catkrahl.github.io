@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="134.86"
+   height="116.79"
+   viewBox="0 0 134.86 116.79"
+   version="1.1"
+   id="svg21"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs7">
+    <style
+       id="style2">.cls-1{fill:none;}.cls-2{fill:#c78b00;}.cls-3{opacity:0.15;}.cls-4{clip-path:url(#clip-path);}.cls-5{fill:#fff;}</style>
+    <clipPath
+       id="clip-path">
+      <polygon
+         class="cls-1"
+         points="0,58.4 33.72,116.79 101.15,116.79 134.86,58.4 101.15,0 33.72,0 "
+         id="polygon4" />
+    </clipPath>
+  </defs>
+  <g
+     id="Ebene_2"
+     data-name="Ebene 2">
+    <g
+       id="Ebene_1-2"
+       data-name="Ebene 1">
+      <polygon
+         class="cls-2"
+         points="0,58.4 33.72,116.79 101.15,116.79 134.86,58.4 101.15,0 33.72,0 "
+         id="polygon9" />
+      <polygon
+         class="cls-3"
+         points="80.63,83.58 64.79,51.65 67.28,34.37 94,61.09 "
+         id="polygon11" />
+      <g
+         class="cls-4"
+         clip-path="url(#clip-path)"
+         id="g15">
+        <polygon
+           class="cls-3"
+           points="136.19,83.18 97.14,44.14 43.1,82.28 94.28,133.46 "
+           id="polygon13" />
+      </g>
+      <path
+         class="cls-5"
+         d="M 92.19,82.42 H 42.67 L 37.72,44 55.05,56 67.43,34.37 79.81,56 97.14,44 Z"
+         id="path17" />
+    </g>
+  </g>
+</svg>

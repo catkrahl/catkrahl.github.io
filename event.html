@@ -1,0 +1,211 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Das Lernmanagementsystem cate</title>
+    <link rel="shortcut icon" type="image/jpg" href="./favicon.ico"/>
+    <meta name="description" content="cate – Alles in einem System. Die Lösung zur Bereitstellung, Organisation und Durchführung aller Qualifizierungs- und Bildungsaktivitäten in einem System." />
+    <meta name="keyword" content="cate, Produkttrailer, Lernmangement, Lernplattform, Bildungsmanagement, LMS, TMS, SCORM, Trainingsorganisation, Trainingsangebot, Blended Learning, E-Learning, Seminarmanagement, ILIAS, Compliance, Pflichtunterweisung, Bildungsorganisation" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta name="google-site-verification" content="PkHbooXIB-j9mLq2cgN8D1eifwaZsqRzJUsXReWATtM" />
+    <link rel="canonical" href="https://www.cate-tms.de/de" />
+    <link href="./css/grid.css" type="text/css" rel="stylesheet">
+    <link href="./css/style.css" type="text/css" rel="stylesheet">
+    <link href="./css/menu.css" type="text/css" rel="stylesheet">
+    <link href="./css/jquery.bxslider.css" type="text/css" rel="stylesheet">
+    <link href="./css/swiper-bundle.min.css" type="text/css" rel="stylesheet">
+    <link href="./css/responsive.css" type="text/css" rel="stylesheet">
+    <link href="./css/animate.css" type="text/css" rel="stylesheet">
+    <link href="./css/lightbox.css" type="text/css" rel="stylesheet">
+    <link href='./css/cate.css' rel='stylesheet' type='text/css'>
+    <link href='./css/cate-responsive.css' rel='stylesheet' type='text/css'>
+    <script src="js/swiper-bundle.min.js"></script>
+</head>
+
+
+<section class="scroll-area">
+
+
+
+<section id="header" class="banner connect">
+    <div class="container">
+
+<div class="row">
+    <div class="col-sm-2 col-md-2 col-lg-2 right">
+        <div class="os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.4s">
+            <img class="cat-logo" src="./images/cat-logo-typo.svg">
+        </div>
+    </div>
+
+    <div class="col-sm-5 col-md-5 col-lg-10 left">
+        <div class="os-animation" data-os-animation="zoomIn" data-os-animation-delay="0.4s">
+            <h3>Vielen Dank für Ihr Interesse am Vortrag<br> „Aufwände für Pflichtschulungen radikal minimieren“.</h3>
+
+        </div>
+    </div>
+
+</div>
+    </div>
+</section>
+
+
+<section id="kontakt" class="bg innerspace">
+    <div class="container">
+
+
+<div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-6">
+        <div id="contact" class="anchor-target"></div>
+        <h3>CaT Concepts and Training GmbH</h3>
+        <h5><p>Vorgebirgstraße 338<br>
+50969 Köln</p>
+</h5>
+        <p><img class="contact-icon" title="cate_kontakt_telefon" alt="cate_kontakt_telefon" src="./images/cate_kontakt_telefon.png" /><a href="tel:+49 221 467576-00" class="contact-link">+49 221 467576-00</a><br>
+        <img class="contact-icon" title="cate_kontakt_mail" alt="cate_kontakt_mail" src="./images/cate_kontakt_mail.png" /><a href='mailto:info@concepts-and-training.de' class="contact-link">info@concepts-and-training.de</a></p>
+        <p>&nbsp;</p>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+        <form id="callback" method="post" action="request-event.php">
+            <div>
+                <p>Die Hinweise zum Datenschutz der CaT Concepts and Training GmbH finden Sie
+<a href="https://www.concepts-and-training.de/de/legal/datenschutz">hier</a>.</p>
+
+            </div>
+            <p>Melden Sie sich mit den untenstehenden Angaben zum Vortrag an: 
+</p>
+            <input required type="name" name="name" alt="Ihr Name / Unternehmen" value="" maxlength="50" minlength="5" size="22" placeholder="Ihr Name / Unternehmen" />
+            <input required type="email" name="email" alt="Ihre E-Mail-Adresse" value=""  minlength="5" maxlength="50" size="22" placeholder="Ihre E-Mail-Adresse"/>
+            <input type="tel" name="number" alt="Ihre Telefonnummer (optional)" value="" maxlength="22" size="22" placeholder="Ihre Telefonnummer (optional)" />
+            <input class="btn btn-primary" type="submit" value="Anmelden" />
+            <!-- callback form feedbacks -->
+            <div class="fb-requesting">Ihre Anfrage wird gesendet...</div>
+            <div class="fb-successful">Vielen Dank für Ihre Anmeldung!</div>
+            <div class="fb-failed"><input class="btn btn-failed" type="submit" dirname="failed" value="Erneut absenden" /></div>
+            
+        </form>
+        <script>
+            document.getElementById("callback").addEventListener("submit", function(ev) {
+                ev.preventDefault();
+
+                var form = ev.target;
+                form.className = "requesting";
+
+                var requestIt = function() {
+                    fetch(form.action, {
+                        method: form.method,
+                        body: new FormData(form)
+                    })
+                    .then(function(result) {
+                        return result.text();
+                    })
+                    .then(function(content) {
+                        if (content === "ok") {
+                            form.className = "successful";
+                        }
+                        else {
+                            window.setTimeout(requestIt, 2000);
+                        }
+                    })
+                    .catch(function(err) {
+                        form.reset();
+                        form.className = "failed";
+                    });
+                };
+                requestIt();
+            });
+        </script>
+    </div>
+</div>
+    </div>
+</section>
+
+
+
+</section>
+
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery.bxslider.js"></script>
+    <script src="./js/fixed-responsive-nav.js"></script>
+    <script src="./js/waypoints.min.js"></script>
+    <script>
+       document.querySelectorAll(".os-animation").forEach(function(el) {
+            var osAnimationClass = el.getAttribute('data-os-animation');
+            var osAnimationDelay = el.getAttribute('data-os-animation-delay');
+
+            el.style.webkitAnimationDelay = osAnimationDelay;
+            el.style.mozAnimationDelay = osAnimationDelay;
+            el.style.animationDelay = osAnimationDelay;
+
+            el.classList.add("animated");
+            el.classList.add(osAnimationClass);
+        });
+        $('.bxslider').bxSlider();
+    </script>
+    <script>
+        /* logo swiper configuration */
+        var swiper = new Swiper(".logoSwiper", {
+            slidesPerView: 1,
+            centeredSlides: false,
+            spaceBetween: 20,
+            slidesPerGroupSkip: 1,
+            loop: true,
+            keyboard: {
+                enabled: true,
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                769: {
+                slidesPerView: 2,
+                slidesPerGroup: 1,
+                },
+                990: {
+                slidesPerView: 3,
+                slidesPerGroup: 1,
+                },
+            },
+        });
+    </script>
+
+    <script>
+        // toogle lang-dropdown
+        function langSelect() {
+            var element = document.getElementById("droplist");
+            element.classList.toggle("show");
+        }
+  
+        // Close the dropdown-lang menu if the user clicks outside
+        window.onclick = function(event) {
+            if (!event.target.matches('.drop-btn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-lang");
+                var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+
+<script src="https://conceptsandtraining.zammad.com/assets/chat/chat.min.js"></script>
+<script>
+$(function() {
+    new ZammadChat ({
+        background: '#333333',
+        debug: true,
+        fontSize: '14px',
+        flat: true,
+        chatId: 1
+    });
+});
+</script>
+</body>
+</html>
+
