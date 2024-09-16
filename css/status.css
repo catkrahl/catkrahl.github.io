@@ -1,0 +1,197 @@
+/* statusmonitor styles */
+.status-block {
+    margin-bottom: 2px;
+    background: var(--bg-color);
+    border-radius: var(--border-radius-sm);
+    padding: 30px;
+}
+.status-date {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.status h3 {
+    margin-bottom: 1em;
+}
+.status h4 {
+    background: var(--color-2);
+    border-radius: var(--border-radius-xl);
+    color: white;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 0.9em;
+    padding: 3px 40px;
+}
+.status-table {
+    display: table;
+    border-spacing: 5px 3px;
+}
+.status-row {
+    display: table-row;
+}
+.status .key {
+    font-weight: 300;
+    font-size: .85em;
+    color: #555;
+    display: table-cell;
+    text-align: right;
+    width: 220px;
+}
+.status .value {
+    background: #eee;
+    margin-bottom: 0;
+    padding: 0 15px;
+    border-radius: 20px;
+    font-size: 80%;
+    display: table-cell;
+}
+.status .tag {
+    font-weight: 400;
+}
+.status ul {
+    list-style: none;
+    padding-inline-start: 0;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.status li {
+    list-style: none;
+}
+.status-block dt {
+    font-weight: 300;
+}
+.status.tab-content {
+    opacity: 0;
+    max-height: 0;
+    transition: all .3s;
+}
+ 
+/* accordion */
+input[type="checkbox"] {
+    display: none;
+}
+
+input:checked ~ .status.tab-content {
+    max-height: 100%;
+    opacity: 100%;
+}
+
+.status.tab {
+    background: transparent;
+    box-shadow: none;
+    margin-bottom: 5px;
+}
+
+.status.tab-label {
+    background: #fff;
+    border-radius: var(--border-radius-sm);
+    color: var(--text-color);
+    padding: 0 3em 0 1.4em;
+    align-items: center;
+    flex-direction: row;
+    justify-content: start;
+
+    &:hover {
+        box-shadow: inset 900px 0 0 var(--color-3);
+        color: var(--text-color-invert);
+    }
+
+    &:after {
+        content: url(https://www.cate-tms.de/images/icons/arrow-right.svg);
+        filter: invert(.85);
+        height: auto;
+        transform: rotate(0deg);
+        top: 31%;
+        width: auto;
+    }
+    
+    a {
+        display: flex;
+        color: var(--text-color-light);
+        &:hover {
+            color: var(--text-color-invert);
+        }
+      }
+
+      &:hover {
+        color: var(--text-color);
+      }
+
+      &:hover a {
+        color: var(--text-color-invert);
+    }
+
+    h3 {
+        display: flex;
+        font-size: .8em;
+        margin: 0 1em 0 0;
+        align-items: center;
+    }
+}
+
+.status.tab-label__icon {
+    margin-right:20px;
+    width:55px;
+}
+
+.status .value.branch {
+    font-size: .6em
+}
+
+.status.tab-label ~ .status > .status-block:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+input:checked + .status.tab-label {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    color: var(--text-color);
+    h3 {
+        color: var(--text-color-invert);
+    }
+}
+
+.status.tab-label:hover:after,
+input:checked + .status.tab-label:after {
+    transform: rotate(90deg);
+}
+
+input:checked ~ .status.tab-content .status.tab-label:after {
+    filter: invert(1);
+}
+
+.status.tab-content {
+    background: transparent;
+    color: inherit;
+    padding: 0
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+    .status.tab-label {
+        flex-direction: column;
+        align-items: start;
+        padding:.5em 3em 0 1.4em;
+    }
+
+    .status .value.branch {
+        margin: 1em 0;
+    }
+    
+    .status-table .key {
+        display: block;
+        text-align: left;
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .status-table .key {
+        width: 210px;
+    }
+
+}

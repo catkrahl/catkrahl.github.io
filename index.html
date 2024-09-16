@@ -1,0 +1,154 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Refresh" content="16; url='ilias.html'" />
+    <title>Das Lernmanagementsystem cate</title>
+    <link rel="shortcut icon" type="image/jpg" href="./favicon.ico"/>
+    <meta name="description" content="cate – Alles in einem System. Die Lösung zur Bereitstellung, Organisation und Durchführung aller Qualifizierungs- und Bildungsaktivitäten in einem System." />
+    <meta name="keyword" content="cate, Produkttrailer, Lernmangement, Lernplattform, Bildungsmanagement, LMS, TMS, SCORM, Trainingsorganisation, Trainingsangebot, Blended Learning, E-Learning, Seminarmanagement, ILIAS, Compliance, Pflichtunterweisung, Bildungsorganisation" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta name="google-site-verification" content="PkHbooXIB-j9mLq2cgN8D1eifwaZsqRzJUsXReWATtM" />
+    <link rel="canonical" href="https://www.cate-tms.de/de" />
+    <link href="./css/grid.css" type="text/css" rel="stylesheet">
+    <link href="./css/style.css" type="text/css" rel="stylesheet">
+    <link href="./css/menu.css" type="text/css" rel="stylesheet">
+    <link href="./css/jquery.bxslider.css" type="text/css" rel="stylesheet">
+    <link href="./css/swiper-bundle.min.css" type="text/css" rel="stylesheet">
+    <link href="./css/responsive.css" type="text/css" rel="stylesheet">
+    <link href="./css/animate.css" type="text/css" rel="stylesheet">
+    <link href="./css/lightbox.css" type="text/css" rel="stylesheet">
+    <link href='./css/cate.css' rel='stylesheet' type='text/css'>
+    <link href='./css/cate-responsive.css' rel='stylesheet' type='text/css'>
+    <link href='./css/cate_en.css' rel='stylesheet' type='text/css'>
+    <link href='./css/ilias.css' rel='stylesheet' type='text/css'>
+</head>
+
+
+<section id="header" class="banner ilias intro">
+    <div class="container intro-text flex-col" style="justify-content:center;">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                <svg width="100%" height="100%" xmlns="w3.org/2000/svg"; xmlns:xlink="w3.org/1999/xlink"; version="1.1"> 
+                    <path id="path" d="m0,110 h1100"/> 
+                        
+                    <text font-size="24" font-family="Nunito, arial" fill="#ffffff"> 
+                        <textPath xlink:href="#path">
+                            <tspan fill-opacity="0"><animate id="animation1" begin="0s" attributeName="fill-opacity" dur="4s" values="0;1;1;0" keyTimes="0;0.2;0.96;1"/>Stellen Sie sich vor:</tspan>
+                        </textPath> 
+                    </text> 
+                    <text font-size="24" font-family="Nunito, arial" fill="#ffffff"> 
+                        <textPath xlink:href="#path"><tspan fill-opacity="0"><animate id="animation2" begin="animation1.end" attributeName="fill-opacity" dur="4s" values="0;1;1;0" keyTimes="0;0.2;0.96;1"/>Die Beste von ILIAS </tspan>
+                        </textPath> 
+                    </text> 
+
+                    <text font-size="24" font-family="Nunito, arial" fill="#ffffff"> 
+                        <textPath xlink:href="#path"><tspan fill-opacity="0"><animate id="animation3" begin="animation2.end" attributeName="fill-opacity" dur="4s" values="0;1;1;0" keyTimes="0;0.2;0.96;1"/>mit garantiertem Service,</tspan>
+                        </textPath> 
+                    </text> 
+
+                    <text font-size="24" font-family="Nunito, arial" fill="#ffffff"> 
+                        <textPath xlink:href="#path"><tspan fill-opacity="0"><animate id="animation4" begin="animation3.end" attributeName="fill-opacity" dur="4s" values="0;1;1;0" keyTimes="0;0.2;0.96;1"/>zu transparenten Preisen!</tspan>
+                        </textPath> 
+                    </text> 
+                </svg>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery.bxslider.js"></script>
+    <script src="./js/fixed-responsive-nav.js"></script>
+    <script src="./js/waypoints.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script>
+       document.querySelectorAll(".os-animation").forEach(function(el) {
+            var osAnimationClass = el.getAttribute('data-os-animation');
+            var osAnimationDelay = el.getAttribute('data-os-animation-delay');
+
+            el.style.webkitAnimationDelay = osAnimationDelay;
+            el.style.mozAnimationDelay = osAnimationDelay;
+            el.style.animationDelay = osAnimationDelay;
+
+            el.classList.add("animated");
+            el.classList.add(osAnimationClass);
+        });
+        $('.bxslider').bxSlider();
+    </script>
+    <script>
+        /* logo swiper configuration */
+        var swiper = new Swiper(".logoSwiper", {
+            slidesPerView: 1,
+            centeredSlides: false,
+            spaceBetween: 20,
+            slidesPerGroupSkip: 1,
+            loop: true,
+            keyboard: {
+                enabled: true,
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                769: {
+                slidesPerView: 2,
+                slidesPerGroup: 1,
+                },
+                990: {
+                slidesPerView: 3,
+                slidesPerGroup: 1,
+                },
+            },
+        });
+    </script>
+
+    <script>
+        // toogle lang-dropdown
+        function langSelect() {
+            var element = document.getElementById("droplist");
+            element.classList.toggle("show");
+        }
+  
+        // Close the dropdown-lang menu if the user clicks outside
+        window.onclick = function(event) {
+            if (!event.target.matches('.drop-btn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-lang");
+                var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+
+<!-- fadeout Intro Container -->
+<script>
+    $(window).scroll(function(){
+        $(".intro-text").css("opacity", 1 - $(window).scrollTop() / 500);
+    });
+</script>
+
+<script src="https://conceptsandtraining.zammad.com/assets/chat/chat.min.js"></script>
+<script>
+$(function() {
+    new ZammadChat ({
+        background: '#333333',
+        debug: true,
+        fontSize: '14px',
+        flat: true,
+        chatId: 1
+    });
+});
+</script>
+</body>
+</html>
+
+
+
